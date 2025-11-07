@@ -42,9 +42,6 @@ AutoCaps selected value="${request_headers.query.subscriber_contact || ""}">
 <option value="">Type</option>
 <option value="E-Mail"${(request_headers.query.subscriber_contact_method === "E-Mail") ? " selected" : ""}>E-Mail</option>
 <option value="Discord"${(request_headers.query.subscriber_contact_method === "Discord") ? " selected" : ""}>Discord</option>
-<option value="Twitter"${(request_headers.query.subscriber_contact_method === "Twitter") ? " selected" : ""}>Twitter</option>
-<option value="Telegram"${(request_headers.query.subscriber_contact_method === "Telegram") ? " selected" : ""}>Telegram</option>
-<option value="Instagram"${(request_headers.query.subscriber_contact_method === "Instagram") ? " selected" : ""}>Instagram</option>
 </select>
 `;
     const form_data = `<shadow>

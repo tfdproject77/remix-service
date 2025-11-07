@@ -5,11 +5,11 @@ Content-Type: text/html`
 
 data = `<html>
 <head>
-<title>zefie minisrv v${minisrv_config.version}</title>
+<title>coltonsr77 minisrv v${minisrv_config.version}</title>
 </head>
 <body bgcolor="#000000" text="#449944">
 <p>
-Welcome to the zefie minisrv v${minisrv_config.version} PC Services
+Welcome to the coltonsr77 minisrv v${minisrv_config.version} PC Services
 </p>
 <hr>
 <a href="/viewergen/">WebTV Viewer Generator</a><br>

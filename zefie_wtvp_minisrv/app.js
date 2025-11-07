@@ -2404,7 +2404,7 @@ function reloadConfig() {
 
 // SERVER START
 const git_commit = getGitRevision()
-let z_title = "zefie's wtv minisrv v" + require('./package.json').version;
+let z_title = "coltonsr77's wtv minisrv v" + require('./package.json').version;
 const z_cgiver = "minisrv/" + require('./package.json').version;
 if (git_commit) z_title += " (git " + git_commit + ")";
 console.log("**** Welcome to " + z_title + "  ****");

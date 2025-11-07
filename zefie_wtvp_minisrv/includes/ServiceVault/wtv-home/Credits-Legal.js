@@ -50,13 +50,13 @@ ${minisrv_config.config.service_name} Terms of Service
 <font size="+2" color="E7CE4A"><blackface><shadow>
 <font size="+1">
 <CENTER><B>${minisrv_config.config.service_name} Terms of Service</B></font><br>
-<B><font size="-1">(Release date October 31, 2025)</B></CENTER></font>
+<B><font size="-1">(Release date November 07, 2025)</B></CENTER></font>
 <td abswidth=20>
 <tr>
 <td>
 <td valign=top align=left>
 <p><b>General</b><br>
-<p>This is a Work-in-Progress remaster of the WebTV service, originally hosted by WebTV Networks, Inc.
+<p>This is a WIP remaster of the WebTV service, originally hosted by WebTV Networks, Inc.
 This server has no affiliation with WebTV Networks, and many original assets and pages belong to them.</p>
   <p><b>Rules</b><br>
 <p>You must follow these rules, or your privilege to access this service may be revoked.</p>

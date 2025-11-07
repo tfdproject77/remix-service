@@ -232,7 +232,7 @@ data += `
 <table border=0 cellspacing=0 cellpadding=0 width="100%">
 <tr>
 <td background="images/proto3/HomeColumn3Header.gif" abswidth="6">
-<td  colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; Welcome to zefie's minisrv ${minisrv_version_string.split(" ")[3]}</b></font>
+<td  colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; Welcome to coltonsr77's minisrv ${minisrv_version_string.split(" ")[3]}</b></font>
 <tr>
 <td absheight="6">
 <tr>
@@ -261,10 +261,10 @@ data += `
 <td absheight="6">
 <tr>
 <td valign="top" colspan=4 absheight=80 >
-&#149;&nbsp; Updated cSetup from 3.0-minisrv to 3.1-Remix<br>
+&#149;&nbsp; Updated cSetup to 3.1-Remix<br>
 &#149;&nbsp; Updated register<br>
-&#149;&nbsp; Updated "Help zefie" on the home screen<br>
-&#149;&nbsp; For now we only have a beta server<br>
+&#149;&nbsp; Updated "Help zefie"<br>
+&#149;&nbsp; Updated PC services<br>
 </table>
 </table>
 

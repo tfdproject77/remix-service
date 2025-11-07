@@ -52,8 +52,8 @@ data = `<html><head>
                 </tr>
                 <tr>
                     <td width="100"></td>
-                    <td bgcolor="#000033"><font color="#dedede" size="3">For example, if the username is </font><font color="darkOrange" size="3">zefie</font><font color="#dedede" size="3">, then the address is:</font> <blockquote>
-                        <p><font color="#dedede" size="3">http://${site}/</font><font color="darkOrange" size="3">zefie</font></p></blockquote>
+                    <td bgcolor="#000033"><font color="#dedede" size="3">For example, if the username is </font><font color="darkOrange" size="3">coltonsr77</font><font color="#dedede" size="3">, then the address is:</font> <blockquote>
+                        <p><font color="#dedede" size="3">http://${site}/</font><font color="darkOrange" size="3">coltonsr77</font></p></blockquote>
                     </td>
                 </tr>
                 <tr>

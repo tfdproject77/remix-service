@@ -28,8 +28,8 @@
     "service_owner": "coltonsr77", // Set this to your name or screenname
     "service_description": null, // Set to a string to have your description added to the default homepage. May be used in other places in the future. HTML is allowed here.
     "service_owner_account": "coltonsr77", // Set this to your account name on your minisrv
-    "service_owner_contact": "someone", // Set this to your contact (eg email address, twitter handle, etc)
-    "service_owner_contact_method": "something", // Set this to the contact method (eg email, twitter, etc)
+    "service_owner_contact": "teamcolton7", // Set this to your contact (eg email address, twitter handle, etc)
+    "service_owner_contact_method": "Discord", // Set this to the contact method (eg email, twitter, etc)
     "service_name": "WebTV Remix", // What you want your service to be called
     "service_logo": "minisrv.gif", // The logo shown on most service pages and error alerts. Can be absolute path or the name of a file in the SharedROMCache.
     "service_splash_logo": "splash_minisrv.gif", // The logo shown on the splash screen. Can be absolute path or the name of a file in the SharedROMCache.
