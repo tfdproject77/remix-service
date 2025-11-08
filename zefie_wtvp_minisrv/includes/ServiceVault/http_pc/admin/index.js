@@ -20,7 +20,7 @@ Content-Type: text/html`
 
         data = `<html>
 <head>
-<title>zefie minisrv v${minisrv_config.version} account administration</title>
+<title>coltonsr77 minisrv v${minisrv_config.version} account administration</title>
 </head>
 <body bgcolor="#000000" text="#449944" link="gold" alink="gold" vlink="gold">
 <p>

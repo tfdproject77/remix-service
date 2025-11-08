@@ -691,7 +691,7 @@ class WTVShared {
             "70": "Samsung",
             "80": "EchoStar",
             "90": "RCA",
-            "AE": "zefie & MattMan69"
+            "AE": "coltonsr77"
         };
 
         const ssid_obj = {
