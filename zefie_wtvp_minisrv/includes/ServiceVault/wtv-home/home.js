@@ -232,7 +232,7 @@ data += `
 <table border=0 cellspacing=0 cellpadding=0 width="100%">
 <tr>
 <td background="images/proto3/HomeColumn3Header.gif" abswidth="6">
-<td  colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; Welcome to coltonsr77's minisrv ${minisrv_version_string.split(" ")[3]}</b></font>
+<td  colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; Welcome to WebTV Remix ${minisrv_version_string.split(" ")[3]}</b></font>
 <tr>
 <td absheight="6">
 <tr>
@@ -256,7 +256,7 @@ data += `
 <tr>
 <td height=6>	<tr>
 <td background="images/proto3/HomeColumn3Header.gif" abswidth="6">
-<td colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; minisrv Latest Updates</b></font>
+<td colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; WTV Remix Latest Updates</b></font>
 <tr>
 <td absheight="6">
 <tr>
@@ -264,7 +264,7 @@ data += `
 &#149;&nbsp; Updated cSetup to 3.1-Remix<br>
 &#149;&nbsp; Updated register<br>
 &#149;&nbsp; Updated "Help zefie"<br>
-&#149;&nbsp; Updated PC services<br>
+&#149;&nbsp; Updated<br>
 </table>
 </table>
 
@@ -281,7 +281,7 @@ data += `
 
 <td background="images/proto3/HomeColumn3Header.gif" abswidth="6">
 
-<td abswidth=125 colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24" valign="top"><font size=2 color="#EEEEEE"><b>&#187; Tools &#171;</b></font>
+<td abswidth=125 colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24" valign="top"><font size=2 color="#EEEEEE"><b>&#187; WTV Tools &#171;</b></font>
 <tr>
 <td colspan=3 height=6>
 <tr>
@@ -333,7 +333,7 @@ data += `
 <td absheight="4">
 <tr>
 <td abswidth="6">
-<td href="${supportZefieAlert}" height="21" valign="middle" bgcolor="#BBAEC8"><font color="#454C73">&#128;&nbsp;</font><font color="#000000">Help zefie</font>
+<td href="${supportZefieAlert}" height="21" valign="middle" bgcolor="#BBAEC8"><font color="#454C73">&#128;&nbsp;</font><font color="#000000">Help remix</font>
 <td abswidth="15">
 <tr>
 <td absheight="3">

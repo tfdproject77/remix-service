@@ -9,7 +9,7 @@ Content-Type: text/html`
 data = `<html>
 <head>
 <display hideoptions nostatus showwhencomplete skipback clearback fontsize=medium>
-<title>Engaging coltonsr77...</title>
+<title>Engaging WebTV...</title>
 <meta http-equiv=Refresh content="${(wtvshared.parseBool(session_data.getSessionData("fast_splash"))) ? "0" : "4"}; url=wtv-home:/home?">
 </head>
 <body bgcolor="#000000" text="#449944">
