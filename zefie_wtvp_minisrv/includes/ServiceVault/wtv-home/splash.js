@@ -24,9 +24,9 @@ data = `<html>
 if (minisrv_config.config.show_detailed_splash) {
     data += `<table border>
 <tr><td>
-${minisrv_config.config.service_name} Mini Service hosted by ${minisrv_config.config.service_owner}
+${minisrv_config.config.service_name} hosted by ${minisrv_config.config.service_owner}
 <tr><td>
-minisrv v${minisrv_config.version} ${(minisrv_config.config.git_commit) ? '(git ' + minisrv_config.config.git_commit + ')' : ''}
+minisrv v${minisrv_config.version}
 <tr><td>Connected: &rate;
 </table>`;
 }

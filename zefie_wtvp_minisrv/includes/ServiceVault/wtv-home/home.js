@@ -263,8 +263,8 @@ data += `
 <td valign="top" colspan=4 absheight=80 >
 &#149;&nbsp; Updated cSetup to 3.1-Remix<br>
 &#149;&nbsp; Updated register<br>
-&#149;&nbsp; Updated "Help zefie"<br>
-&#149;&nbsp; Updated<br>
+&#149;&nbsp; Updated "Help zefie" to "Help remix"<br>
+&#149;&nbsp; Updated credits<br>
 </table>
 </table>
 
