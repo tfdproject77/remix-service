@@ -63,10 +63,10 @@ This server has no affiliation with WebTV Networks, and many original assets and
 <ul>
     <li>Do not harass other users</li>
     <li>Do not impersonate others on the network</li>
-	<li>Do not send spam e-mail</li>
+	  <li>Do not send spam e-mail</li>
     <li>Do not attempt to access unauthorized areas of the network</li>
     <li>Do not attempt to disrupt or otherwise negatively impact the service for others</li>
-	<li>All users must be over 13 years of age, or be accompanied by a parent or guardian at all times</li>
+	  <li>All users must be over 13 years of age, or be accompanied by a parent or guardian at all times</li>
   </ul> 
   <p>Failure to abide by one or more of these rules may require your access to be terminated.</p>
   <p><b>Service Termination</b><br>
