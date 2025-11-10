@@ -13,7 +13,7 @@ let form_data = `<input type=button action="ValidateAgreement?registering=true&s
 const main_data = `<form action="ValidateAgreement"
 ENCTYPE="x-www-form-encoded" METHOD="POST">
 <input type=hidden name=registering value="true">
-Welcome to the ${minisrv_config.config.service_name} Mini Service, operated by ${minisrv_config.config.service_owner}.
+Welcome to ${minisrv_config.config.service_name} operated by ${minisrv_config.config.service_owner}.
 The next screens will lead you through a quick setup process for using WebTV Remix.<p> Press the "Continue" button below to begin setup.<p>`;
 
 form_data += `<input type=submit Value=Continue name="Continue" text="#dddddd" borderimage="file://ROM/Borders/ButtonBorder2.bif" width=110 selected>

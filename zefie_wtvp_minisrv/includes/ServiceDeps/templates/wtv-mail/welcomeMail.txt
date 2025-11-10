@@ -1,13 +1,13 @@
-From: zefie <zefie@zefie.net>
-Subject: Welcome to minisrv!
+From: coltonsr77 <coltonsr77@gmail.com>
+Subject: Welcome to WebTV Remix!
 
-Thank you for test driving minisrv! 
+Thank you for test driving WebTV Remix! 
 
-minisrv aims to provide a simular experience as the production WebTV Services.
+WebTV Remix aims to provide a simular experience as the production WebTV Services. We have used "minisrv" as a base for WTVR.
 You can enjoy fun features as they are released, such as WebTV Mail, WebTV Chat, Usenet, customing your <a href="wtv-setup:/mail-signature">signature settings</a> which also support custom HTML abilities. 
 
 You can use Mail to send internal email to others by emailing <b>theirusername@${service_name}</b>, replacing "theirusername" with the user's actual username.
-Others within the same minisrv network can also email you by sending a message to <b>${user_address}</b>
+Others within the same WTVR network can also email you by sending a message to <b>${user_address}</b>
 
 You can also save webpages to your <a href="wtv-favorite:/favorite">Favorites</a>, as well as join <a href="wtv-news:/lobby">discussion groups on usenet</a>!
 

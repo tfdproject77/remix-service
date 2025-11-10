@@ -50,7 +50,7 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <font size="+2" color="E7CE4A"><blackface><shadow>
 <font size="+1">
 <CENTER><B>${minisrv_config.config.service_name} Service Privacy Statement</B></font><br>
-<B><font size="-1">(Release date November 09, 2025)</B></CENTER></font>
+<B><font size="-1">(Release date November 12, 2025)</B></CENTER></font>
 <td abswidth=20>
 <tr>
 <td>

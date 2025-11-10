@@ -77,45 +77,17 @@ Content-Type: text/html`
 	  function updateService() {
 		srv = document.connect.preset[document.connect.preset.selectedIndex].value;
 		switch (srv) {
-				case "mattman69":
-                    document.runBy.runByName.value=" MattMan69"
+				case "WTVR-Public":
+                    document.runBy.runByName.value=" coltonsr77"
 					document.connect.machine.value="71.244.121.234"
                     document.connect.port.value="1615"
-                    document.message.msg.value="This is MattMan69's Public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Offers a custom experience."
+                    document.message.msg.value="This is coltonsr77's Public WebTV Remix, all are welcome to connect and enjoy the wonders of WebTV. Offers a custom experience."
 					break;
-				case "mm69bak":
-                    document.runBy.runByName.value=" MattMan69"
+				case "WTVR-Beta":
+                    document.runBy.runByName.value=" coltonsr77"
 					document.connect.machine.value="71.244.121.234"
-                    document.connect.port.value="1415"
-                    document.message.msg.value="This is the public HackTV minisrv backup, only available when the main HackTV server is down."
-					break;
-				case "mm69pri":
-                    document.runBy.runByName.value=" MattMan69"
-					document.connect.machine.value="71.244.121.234"
-                    document.connect.port.value="1515"
-                    document.message.msg.value="This is MattMan's normally private WebTV server. It's the real deal, not minisrv! May be up from time to time."
-					break;
-				case "zefie":
-                    document.runBy.runByName.value="   zefie"
-					document.connect.machine.value="204.11.163.156"
-					document.connect.port.value="1615"
-                    document.message.msg.value="This is zefie's public minisrv, for those who want the vanilla minisrv experience."
-					break;
-				case "local":
-                    document.runBy.runByName.value="     You"
-					document.connect.machine.value="127.0.0.1"
-					document.connect.port.value="1615"
-					document.message.msg.value="Connect to your server via localhost. Localhost refers to the computer that you are on that is running your server."
-					break;
-				case "jarhead":
-                    document.runBy.runByName.value="   HIDEN"
-					document.connect.machine.value="31.97.129.116"
-					document.connect.port.value="1615"
-					document.message.msg.value="WebTV Redialed, for those who want a more original WebTV experience."
-                    break;
-				case "other":
-                    document.runBy.runByName.value="     ???"
-					document.message.msg.value="Your custom service."
+                    document.connect.port.value="1615"
+                    document.message.msg.value="This is the beta WebTV Remix server."
 
 		}
 	  }
@@ -130,13 +102,8 @@ Content-Type: text/html`
             <td>
                 <spacer W="24" type="block">
                 <select width="440" name="preset" onchange="updateService()" selected>
-                    <option value="mattman69" selected>MattMan's (HTV) MiniSrv - Public</option>
-                    <option value="mm69bak">MattMan's (HTV) MiniSrv - Backup</option>
-                    <option value="mm69pri">MattMan's Revival Server</option>
-                    <option value="zefie">Zefie's MiniSrv - Public</option>
-                    <option value="jarhead">WebTV Redialed - Public</option>
-                    <option value="local">Localhost - Your Server</option>
-                    <option value="other">Other</option>
+                    <option value="WTVR-Public" selected>WebTV Remix - Public</option>
+                    <option value="WTVR-Beta">WebTV Remix - Beta</option>
                 </select>
             </td>
         </tr>
@@ -183,7 +150,7 @@ Content-Type: text/html`
                           <shadow>Description:</shadow>
                         </font><br><br>
                         <form name=message>
-                          <textarea rows=4 size=46 text=#cbcbcb id=msg name=msg border="0" bgcolor=#3C2F47 value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect>
+                          <textarea rows=4 size=46 text=#cbcbcb id=msg name=msg border="0" bgcolor=#3C2F47 value='This is the public WebTV Remix, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect>
                    </textarea>
                         </form>
                       <td>
@@ -207,7 +174,7 @@ Content-Type: text/html`
 				 
 				 <tr>
                  <td align=left>
-                 <b><input name=runByName text="#BBAEC8" size=11 border=0 nobackground nohighlight noselect value=&nbsp;MattMan69></b>
+                 <b><input name=runByName text="#BBAEC8" size=11 border=0 nobackground nohighlight noselect value=&nbsp;coltonsr77></b>
                 </form>
              <tr>
            </td>

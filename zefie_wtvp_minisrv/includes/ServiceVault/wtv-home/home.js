@@ -38,7 +38,7 @@ const ownMinisrv = new clientShowAlert({
 
 const supportZefieAlert = new clientShowAlert({
 	'image': minisrv_config.config.service_logo,
-	'message': "If you would like to support coltonsr77 or WebTV Remix, please visit the following link on your PC:<br><br><font size=-1><strong>https://github.com/DevTools77/remix-service</strong></font>",
+	'message': "If you would like to see the source code of WebTV Remix, please visit the following link on your PC:<br><br><font size=-1><strong>https://github.com/DevTools77/remix-service</strong></font>",
 	'buttonlabel1': "Okay",
 	'buttonaction1': "client:donothing",
 	'noback': true,
@@ -261,10 +261,10 @@ data += `
 <td absheight="6">
 <tr>
 <td valign="top" colspan=4 absheight=80 >
-&#149;&nbsp; Updated cSetup to 3.1-Remix<br>
+&#149;&nbsp; Updated cSetup to 3.1-WTVR<br>
 &#149;&nbsp; Updated register<br>
-&#149;&nbsp; Updated "Help zefie" to "Help remix"<br>
-&#149;&nbsp; Updated credits<br>
+&#149;&nbsp; Updated "Help zefie" to "Source"<br>
+&#149;&nbsp; Updated 2 other WTV Tricks<br>
 </table>
 </table>
 
@@ -333,7 +333,7 @@ data += `
 <td absheight="4">
 <tr>
 <td abswidth="6">
-<td href="${supportZefieAlert}" height="21" valign="middle" bgcolor="#BBAEC8"><font color="#454C73">&#128;&nbsp;</font><font color="#000000">Help remix</font>
+<td href="${supportZefieAlert}" height="21" valign="middle" bgcolor="#BBAEC8"><font color="#454C73">&#128;&nbsp;</font><font color="#000000">Source</font>
 <td abswidth="15">
 <tr>
 <td absheight="3">

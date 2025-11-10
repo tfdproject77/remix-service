@@ -156,8 +156,8 @@
           "description": "Not advertiser friendly"
         },
         {
-          "name": "minisrv",
-          "group": "minisrv.users",
+          "name": "WebTV Remix",
+          "group": "remix.users",
           "description": "The server behind it all"
         },
         {

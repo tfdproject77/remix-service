@@ -24,7 +24,7 @@ if (!session_data.getSessionData("registered")) {
     } else {
         redirect = [10, "client:goback?"];
         message = "There was an error deleting your account data. Please try again later. If the problem persists, please contact " + minisrv_config.config.service_owner + " to request manual deletion.";
-        message += "SSID verifcation may be required to perform a manual deletion.<br><br>Returning from whence you came...<br><br>";
+        message += "SSID verifcation may be required to perform a manual deletion.<br><br>Returning from where you came...<br><br>";
         message += `<a href="${redirect[1]}">Click here if you are not automatically redirected.</a>`;
         }
 } else {
