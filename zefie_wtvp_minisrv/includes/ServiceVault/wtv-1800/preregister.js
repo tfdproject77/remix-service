@@ -34,7 +34,7 @@ if (session_data) {
 	session_data.data_store.wtvsec_login.IssueChallenge();
 	if (request_headers["wtv-incarnation"]) session_data.data_store.wtvsec_login.set_incarnation(request_headers["wtv-incarnation"]);
 } else {
-	console.log(" * Something bad happened (we don't know the client ssid???)");
+	console.log(" * Something bad happened (we don't know the client SSID???)");
 	const errpage = wtvshared.doErrorPage(400)
 	headers = errpage[0];
 	data = errpage[1];

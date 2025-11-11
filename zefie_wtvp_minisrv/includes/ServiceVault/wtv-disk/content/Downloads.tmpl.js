@@ -5,7 +5,7 @@ Content-Type: text/html`;
 
 data = `<html><head></head><body vspace="0" vlink="36d5ff" text="#44cc55" link="36d5ff" bgcolor="#191919">
 <title>
-Download-O-Rama
+Download-O-Rama!
 </title>
 <br><br>
 <h1>

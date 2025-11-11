@@ -5,7 +5,7 @@ Content-Type: text/html`
 
 data = `<html>
 <head>
-<title>coltonsr77 minisrv v${minisrv_config.version}</title>
+<title>WebTV Remix v${minisrv_config.version}</title>
 </head>
 <body bgcolor="#000000" text="#449944">
 <p>

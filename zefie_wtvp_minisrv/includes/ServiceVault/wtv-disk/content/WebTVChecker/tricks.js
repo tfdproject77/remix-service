@@ -1,7 +1,7 @@
 const minisrv_service_file = true;
 const notAdminAlert = new clientShowAlert({
 	'image': minisrv_config.config.service_logo,
-	'message': "Sorry, you are not configured as an admin on this server.",
+	'message': "Sorry, you are not configured as an admin on this server.<br><br>If you are the server operator, please<br> see <strong>user_config.example.json</strong><br> for an example on how to configure yourself as an administrator.",
 	'buttonlabel1': "Ugh, fine.",
 	'buttonaction1': "client:donothing",
 	'noback': true,
@@ -17,7 +17,6 @@ const tricks = [
 	["wtv-tricks:/blastbacklist?return_to=wtv-tricks%3A%2Ftricks", "Blast Backlist"],
 	["client:ResetNVAndPowerOff", "Blast NVRAM"],
 	["wtv-tricks:/charmap", "Character Map"],
-	["wtv-tricks:/cSetup", "Switch Servers"],
 	["wtv-tricks:/check-cSetup", "Switch WTVR Servers"],
 	["wtv-disk:/content/Downloads.tmpl", "Download-O-Rama"],
 	["wtv-tricks:/benchmark", "Speed Test"],

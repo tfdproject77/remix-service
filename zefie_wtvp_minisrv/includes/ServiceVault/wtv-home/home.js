@@ -30,7 +30,7 @@ const notImplementedAlert = new clientShowAlert({
 
 const ownMinisrv = new clientShowAlert({
 	'image': minisrv_config.config.service_logo,
-	'message': "To run your own minisrv, please visit the following link on your PC:<br><br><strong>https://zef.pw/minisrv</strong>",
+	'message': "To run your own WebTV Server, please visit the following link on your PC:<br><br><strong>https://zef.pw/minisrv</strong>",
 	'buttonlabel1': "Okay",
 	'buttonaction1': "client:donothing",
 	'noback': true,
@@ -232,7 +232,7 @@ data += `
 <table border=0 cellspacing=0 cellpadding=0 width="100%">
 <tr>
 <td background="images/proto3/HomeColumn3Header.gif" abswidth="6">
-<td  colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; Welcome to WebTV Remix ${minisrv_version_string.split(" ")[3]}</b></font>
+<td  colspan=2 background="images/proto3/HomeColumn3Header.gif" valign="middle" absheight="24"><font color="#EEEEEE"><spacer type=block height=3 width=100%><b> &#128; Welcome to WebTV Remix</b></font>
 <tr>
 <td absheight="6">
 <tr>
@@ -261,10 +261,10 @@ data += `
 <td absheight="6">
 <tr>
 <td valign="top" colspan=4 absheight=80 >
-&#149;&nbsp; Updated cSetup to 3.1-WTVR<br>
+&#149;&nbsp; Updated cSetup to 3.0-WTVR<br>
 &#149;&nbsp; Updated register<br>
 &#149;&nbsp; Updated "Help zefie" to "Source"<br>
-&#149;&nbsp; Updated 2 other WTV Tricks<br>
+&#149;&nbsp; Added a WTVR Trick<br>
 </table>
 </table>
 

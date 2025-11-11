@@ -62,7 +62,7 @@ This server has no affiliation with WebTV Networks, and many original assets and
 <p>You must follow these rules, or your privilege to access this service may be revoked.</p>
 <ul>
     <li>Do not harass other users</li>
-    <li>Do not impersonate others on the network</li>
+    <li>Do not impersonate others on the server</li>
 	  <li>Do not send spam e-mail</li>
     <li>Do not attempt to access unauthorized areas of the network</li>
     <li>Do not attempt to disrupt or otherwise negatively impact the service for others</li>
