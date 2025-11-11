@@ -1,6 +1,6 @@
-# wtv minisrv node.js
+# WebTV Remix
 
-The ***wtv minisrv***, or "***zefie_wtvp_minisrv***" project is a WebTV Server written in node.js.
+The ***WebTV Remix*** project is a WebTV Server written in node.js.
 The project aims to provides an easy-to-use WebTV Server, with full WTVP (WebTV Protocol) support.
 This open source server is in beta status. Use at your own risk.
 
