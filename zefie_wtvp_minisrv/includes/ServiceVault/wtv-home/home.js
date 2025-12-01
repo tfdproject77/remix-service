@@ -264,7 +264,7 @@ data += `
 &#149;&nbsp; Updated cSetup to 3.0-WTVR<br>
 &#149;&nbsp; Updated register<br>
 &#149;&nbsp; Updated "Help zefie" to "Source"<br>
-&#149;&nbsp; Added a WTVR Trick<br>
+&#149;&nbsp; Making a website for this project<br>
 </table>
 </table>
 
