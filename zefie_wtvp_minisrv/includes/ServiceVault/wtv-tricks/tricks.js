@@ -18,7 +18,7 @@ const tricks = [
 	["client:ResetNVAndPowerOff", "Blast NVRAM"],
 	["wtv-tricks:/charmap", "Character Map"],
 	["wtv-tricks:/cSetup", "Switch Servers"],
-	["wtv-tricks:/check-cSetup", "Switch WTVR Servers"],
+	["wtv-tricks:/remix-cSetup", "Switch WTVR Servers"],
 	["wtv-disk:/content/Downloads.tmpl", "Download-O-Rama"],
 	["wtv-tricks:/benchmark", "Speed Test"],
 	["wtv-flashrom:/big-willie", "Big Willie"],

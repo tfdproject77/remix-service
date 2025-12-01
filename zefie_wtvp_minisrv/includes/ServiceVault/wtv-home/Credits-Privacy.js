@@ -50,12 +50,12 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <font size="+2" color="E7CE4A"><blackface><shadow>
 <font size="+1">
 <CENTER><B>${minisrv_config.config.service_name} Service Privacy Statement</B></font><br>
-<B><font size="-1">(Release date November 12, 2025)</B></CENTER></font>
+<B><font size="-1">(Release date November 13, 2025)</B></CENTER></font>
 <td abswidth=20>
 <tr>
 <td>
 <td valign=top align=left>
-<p>The purpose of this WebTV server is to allow hobbyists and enthusiasts to have a way to use their WebTV units in modern times. There will be inaccuracies in some areas, and many features are still unimplemented.</p>
+<p>The purpose of this WebTV server is to allow hobbyists and enthusiasts to have a way to use their WebTV units in modern times. There will be inaccuracies in some areas, and some features are still unimplemented.</p>
 <p><b>With Whom Personal Information Is Shared and What Is Collected</b><br>
 <p>When you register with a WebTV account on this server, you are sharing the following:</p>
 <ul>

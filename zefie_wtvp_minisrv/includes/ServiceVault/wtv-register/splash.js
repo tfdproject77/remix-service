@@ -25,7 +25,7 @@ data = `<html>
 <tr><td width=150>
 Mini service
 <tr><td>
-zefie minisrv v${minisrv_config.version}`;
+minisrv v${minisrv_config.version}`;
 data += `
 <tr><td>&rate;
 </table>

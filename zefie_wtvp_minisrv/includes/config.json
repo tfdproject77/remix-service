@@ -30,7 +30,7 @@
     "service_owner_account": "coltonsr77", // Set this to your account name on your minisrv
     "service_owner_contact": "teamcolton7", // Set this to your contact (eg email address, twitter handle, etc)
     "service_owner_contact_method": "Discord", // Set this to the contact method (eg email, twitter, etc)
-    "service_name": "WebTV Remix", // What you want your service to be called
+    "service_name": "WebTV", // What you want your service to be called
     "service_logo": "minisrv.gif", // The logo shown on most service pages and error alerts. Can be absolute path or the name of a file in the SharedROMCache.
     "service_splash_logo": "splash_minisrv.gif", // The logo shown on the splash screen. Can be absolute path or the name of a file in the SharedROMCache.
     "hide_ssid_in_logs": true, // Filter SSIDs with asterisks to prevent accidently leaking user SSIDs when debugging.
@@ -76,7 +76,7 @@
     },
     "passwords": {
       // password configuration
-      "enabled": true, // allow users to password protect their account
+      "enabled": false, // allow users to password protect their account
       "min_length": 5, // minimum length of user passwords
       "max_length": 32, // max length of user passwords
       "form_size": 16 // width of the form on the password prompt screen
@@ -86,7 +86,7 @@
       "400": "${service_name} ran into a technical problem. Please try again.",
       "401": "Authorization Required.",
       "403": "The publisher of that page has not authorized you to view it.",
-      "404": "The service could not find the requested page.",
+      "404": "The server could not find the requested page.",
       "500": "${service_name} ran into a technical problem. Please try again."
     },
     "lockdownWhitelist": [
@@ -254,7 +254,7 @@
       "connections": 1
     },
     "wtv-guide": {
-      // wtv-guide (not yet complete)
+      // wtv-guide (not complete)
       "port": 1621,
       "connections": 3,
       "modules": [
