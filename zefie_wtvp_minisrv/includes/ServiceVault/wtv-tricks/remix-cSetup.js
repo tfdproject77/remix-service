@@ -81,7 +81,7 @@ Content-Type: text/html`
                     document.runBy.runByName.value=" coltonsr77"
 					document.connect.machine.value="71.244.121.234"
                     document.connect.port.value="1615"
-                    document.message.msg.value="This is coltonsr77's Public WebTV Remix, all are welcome to connect and enjoy the wonders of WebTV. Offers a custom experience."
+                    document.message.msg.value="This is the Public WebTV Remix server, all are welcome to connect and enjoy the wonders of WebTV. Offers a custom experience."
 					break;
 				case "WTVR-Beta":
                     document.runBy.runByName.value=" coltonsr77"
@@ -150,7 +150,7 @@ Content-Type: text/html`
                           <shadow>Description:</shadow>
                         </font><br><br>
                         <form name=message>
-                          <textarea rows=4 size=46 text=#cbcbcb id=msg name=msg border="0" bgcolor=#3C2F47 value='This is the public WebTV Remix, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect>
+                          <textarea rows=4 size=46 text=#cbcbcb id=msg name=msg border="0" bgcolor=#3C2F47 value='This is the public WebTV Remix server, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect>
                    </textarea>
                         </form>
                       <td>
