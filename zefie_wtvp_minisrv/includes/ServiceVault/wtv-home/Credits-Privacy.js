@@ -61,7 +61,7 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <ul>
     <li>Your WebTV SSID (Silicon Serial ID)</li>
     <li>Your name</li>
-	  <li>Your ZIP Code</li>
+	<li>Your ZIP Code</li>
     <li>Pages you access</li>
   </ul> 
   <p>This information is shared with the server operators.</p>

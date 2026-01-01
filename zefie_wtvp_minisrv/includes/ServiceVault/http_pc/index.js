@@ -9,7 +9,7 @@ data = `<html>
 </head>
 <body bgcolor="#000000" text="#449944">
 <p>
-Welcome to the coltonsr77 minisrv v${minisrv_config.version} PC Services
+Welcome to the WebTV Remix v${minisrv_config.version} PC Services
 </p>
 <hr>
 <a href="/viewergen/">WebTV Viewer Generator</a><br>

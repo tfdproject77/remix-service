@@ -38,7 +38,7 @@ const ownMinisrv = new clientShowAlert({
 
 const supportZefieAlert = new clientShowAlert({
 	'image': minisrv_config.config.service_logo,
-	'message': "If you would like to see the source code of WebTV Remix, please visit the following link on your PC:<br><br><font size=-1><strong>https://github.com/DevTools77/remix-service</strong></font>",
+	'message': "If you would like to visit the WebTV Remix website, please visit the following link on your PC:<br><br><font size=-1><strong>https://coltonsr77.net/WebTV</strong></font>",
 	'buttonlabel1': "Okay",
 	'buttonaction1': "client:donothing",
 	'noback': true,
@@ -263,8 +263,8 @@ data += `
 <td valign="top" colspan=4 absheight=80 >
 &#149;&nbsp; Updated cSetup to 3.0-WTVR<br>
 &#149;&nbsp; Updated register<br>
-&#149;&nbsp; Updated "Help zefie" to "Source"<br>
-&#149;&nbsp; Added "Switch WTVR Servers"<br>
+&#149;&nbsp; Updated "Source" to "Website"<br>
+&#149;&nbsp; Added a new WTV trick<br>
 </table>
 </table>
 

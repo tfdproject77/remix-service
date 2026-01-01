@@ -20,11 +20,11 @@ Content-Type: text/html`
 
         data = `<html>
 <head>
-<title>coltonsr77 minisrv v${minisrv_config.version} account administration</title>
+<title>WebTV Remix v${minisrv_config.version} account administration</title>
 </head>
 <body bgcolor="#000000" text="#449944" link="gold" alink="gold" vlink="gold">
 <p>
-Welcome to the zefie minisrv v${minisrv_config.version} Account Administration
+Welcome to the WebTV Remix v${minisrv_config.version} Account Administration
 </p>
 `;
         data += `Please select an option to get started:

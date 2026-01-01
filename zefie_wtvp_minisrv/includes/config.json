@@ -48,7 +48,7 @@
     "show_diskmap": false, // Useful for debugging custom Diskmaps
     "unauthorized_url": "wtv-1800:/unauthorized?", // Where to send unauthorized users
     "enable_port_isolation": true, // Only respond to services on their correct ports
-    "domain_name": "wtv.zefie.com", // For usenet and future stuff, no need to change just yet,
+    "domain_name": "server.coltonsr77.net", // For usenet and future stuff, no need to change just yet,
     "max_post_length": 20, // in megabytes
     "require_valid_ssid": false, // require a valid SSID (with valid CRC)
     "user_accounts": { // user account settings
@@ -161,9 +161,9 @@
           "description": "The server behind it all"
         },
         {
-          "name": "MIDIs",
-          "group": "alt.discuss.midis",
-          "description": "Explore the sounds of Beatnik with your WebTV"
+          "name": "Coding",
+          "group": "alt.discuss.coding",
+          "description": "Check out coding projects by WebTV Remix users"
         }
       ],
       "groupMetaRefreshInterval": 86400 // not yet used

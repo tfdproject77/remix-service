@@ -23,7 +23,7 @@ data = `<html>
 <p><br>
 <table border>
 <tr><td width=150>
-Mini service
+WebTV Remix "https://coltonsr77.net/WebTV"
 <tr><td>
 minisrv v${minisrv_config.version}`;
 data += `
