@@ -35,7 +35,7 @@
     "crypto-js": "^4.2.0",
     "easy-crc": "0.0.2",
     "endianness": "^8.0.2",
-    "express": "^4.21.2",
+    "express": "^4.22.1",
     "follow-redirects": "^1.15.6",
     "ftp": "^0.3.10",
     "html-entities": "^2.5.2",
