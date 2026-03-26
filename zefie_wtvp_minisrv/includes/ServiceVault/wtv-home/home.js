@@ -38,7 +38,7 @@ const ownMinisrv = new clientShowAlert({
 
 const supportZefieAlert = new clientShowAlert({
 	'image': minisrv_config.config.service_logo,
-	'message': "If you would like to visit the WebTV Remix website, please visit the following link on your PC:<br><br><font size=-1><strong>https://coltonsr77.net/WebTV</strong></font>",
+	'message': "If you would like to visit the WebTV Remix website, please visit the following link on your PC:<br><br><font size=-1><strong>http://webtv.coltonsr77.net/</strong></font>",
 	'buttonlabel1': "Okay",
 	'buttonaction1': "client:donothing",
 	'noback': true,
