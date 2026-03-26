@@ -55,6 +55,7 @@ This open source server is in beta status. Use at your own risk.
 - Enter `zefie_wtvp_minisrv` subdirectory
 - Verify you are in the same directory as `app.js`, then run `npm install`
 - Run `npm start`
+- Run `git fetch` if there is a new change to the repo.
 - Test with a WebTV Viewer, MAME, or connect with a real box
 
 ### Customization:
