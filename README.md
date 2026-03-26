@@ -51,11 +51,9 @@ This open source server is in beta status. Use at your own risk.
 - Install [node.js](https://nodejs.org/en/download/) v16 or newer. If on Windows, be sure to say `Yes` when asked about `Chocolatey`.
 - Install git (if on Windows, install from [Git for Windows](https://gitforwindows.org/)
 - Clone the repository
+- Enter `remix-service` subdirectory
 - Enter `zefie_wtvp_minisrv` subdirectory
-- Enter `zefie_wtvp_minisrv` subdirectory again (there are 2 after a git clone)
 - Verify you are in the same directory as `app.js`, then run `npm install`
-- Check any configuration. Create your override `user_config.json`. Especally `service_ip`. See [user_config_README.md](user_config_README.md) and [user_config.example.json](zefie_wtvp_minisrv/user_config.example.json) for more information.
-  - **Note:** The intended use is for all custom config to be in `user_config.json` and any custom service files to go in `UserServiceVault`.  If you do not care about potential issues with future `git pull`, and will manually add new upstream `config.json` entries, you could use the standard `ServiceVault` and `config.json`
 - Run `npm start`
 - Test with a WebTV Viewer, MAME, or connect with a real box
 
@@ -69,10 +67,10 @@ This open source server is in beta status. Use at your own risk.
 - Configuring firewalls and real boxes is outside the scope of this guide, but there are plenty of enthusiasts on the [WebTV Discord](https://zef.pw/wtvdiscord) that will likely help you.
 
 ### How to Support the Project
-- [Report Bugs](https://github.com/zefie/zefie_wtvp_minisrv/issues)
-- [Add a Feature and send a Pull Request](https://github.com/zefie/zefie_wtvp_minisrv/pulls)
+- [Report Bugs](https://github.com/DevTools77/remix-service/issues)
+- [Add a Feature and send a Pull Request](https://github.com/DevTools77/remix-service/pulls)
 - Write and submit better documentation than I created (see Pull Request above)
-- **Content Creators**: Shout out this project, and my YouTube Channel (https://www.youtube.com/zefievideo)
+- **Content Creators**: Shout out this project, and Zefie`s YouTube Channel (https://www.youtube.com/zefievideo)
 - Financially Support:
    - **Companies**: Reach out to biz@zefie.net to sponsor this project
    - [Subscribe on Patreon](https://www.patreon.com/zefie)
