@@ -263,7 +263,7 @@ data += `
 <td valign="top" colspan=4 absheight=80 >
 &#149;&nbsp; Updated cSetup to 3.0-WTVR<br>
 &#149;&nbsp; Updated register<br>
-&#149;&nbsp; Updated "Source"<br>
+&#149;&nbsp; Updated "Source" to show the WTVR website<br>
 &#149;&nbsp; Added a new WTV trick<br>
 </table>
 </table>
