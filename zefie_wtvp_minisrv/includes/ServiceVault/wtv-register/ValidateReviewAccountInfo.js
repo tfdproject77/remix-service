@@ -4,8 +4,6 @@ const minisrv_service_file = true;
 if (!request_headers.query.registering ||
     !request_headers.query.subscriber_name ||
     !request_headers.query.subscriber_username ||
-    !request_headers.query.subscriber_contact ||
-    !request_headers.query.subscriber_contact_method ||
     !session_data.session_store ||
     !session_data ||
     !socket.ssid
@@ -35,8 +33,6 @@ if (!request_headers.query.registering ||
         } else {
             session_data.setSessionData("subscriber_name", request_headers.query.subscriber_name);
             session_data.setSessionData("subscriber_username", request_headers.query.subscriber_username);
-            session_data.setSessionData("subscriber_contact", request_headers.query.subscriber_contact);
-            session_data.setSessionData("subscriber_contact_method", request_headers.query.subscriber_contact_method);
             session_data.setSessionData("subscriber_userid", 0);
             session_data.setSessionData("registered", true);
             let mailstore_exists = session_data.mailstore.mailstoreExists();
