@@ -50,7 +50,7 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <font size="+2" color="E7CE4A"><blackface><shadow>
 <font size="+1">
 <CENTER><B>${minisrv_config.config.service_name} Service Privacy Statement</B></font><br>
-<B><font size="-1">(Release date December 1, 2025)</B></CENTER></font>
+<B><font size="-1">(Release date March 27, 2026)</B></CENTER></font>
 <td abswidth=20>
 <tr>
 <td>
@@ -59,14 +59,11 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <p><b>With Whom Personal Information Is Shared and What Is Collected</b><br>
 <p>When you register with a WebTV account on this server, you are sharing the following:</p>
 <ul>
-    <li>Your WebTV SSID (Silicon Serial ID)</li>
     <li>Your name</li>
 	<li>Your ZIP Code</li>
     <li>Pages you access</li>
   </ul> 
   <p>This information is shared with the server operators.</p>
-  <p><b>Your Silicon Serial ID</b><br>
-<p>Your Silicon Serial ID (SSID) is used to identify you on the network. Anyone with your SSID can impersonate you on the network, so don't share it. This ID is stored on our servers when you sign up, however it will not be shared with anyone except the server operators.</p>
   <p><b>Your Name</b><br>
 <p>The name that you enter while signing up will be stored on our servers, however it will not be shared with anyone except the server operators.</p>
   <p><b>Your ZIP Code</b><br>
