@@ -29,19 +29,7 @@ VALUE="${request_headers.query.subscriber_username || ""}" TYPE="text" SIZE="19"
 MAXLENGTH="16"
 AutoCaps selected>
 <p>
-<font size="-2"><b>YOUR CONTACT INFO:</b></font><img src="ROMCache/spacer.gif" width="7">
-<INPUT NAME="subscriber_contact"
-ID="subscriber_contact"
-bgcolor=#444444 text=#ffdd33 cursor=#cc9933
-TYPE="text" SIZE="19"
-MAXLENGTH="64"
-AutoCaps selected value="${request_headers.query.subscriber_contact || ""}">
 <p>
-<font size="-2"><b>CONTACT INFO TYPE:</b></font><img src="ROMCache/spacer.gif" width="7">
-<img src="ROMCache/spacer.gif" width="3"><select usestyle id="subscriber_contact_method" name="subscriber_contact_method">
-<option value="">Type</option>
-<option value="E-Mail"${(request_headers.query.subscriber_contact_method === "E-Mail") ? " selected" : ""}>E-Mail</option>
-<option value="Discord"${(request_headers.query.subscriber_contact_method === "Discord") ? " selected" : ""}>Discord</option>
 </select>
 `;
     const form_data = `<shadow>
