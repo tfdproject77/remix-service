@@ -55,7 +55,7 @@ wtv-noback-all: wtv-admin:/polyzoot`;
 <display nosave nosend>
 <title>${minisrv_config.config.service_name} Admin Tricks</title>
 <sidebar width=20%>
-<img src="wtv-admin:/images/polyzoot.jpg">
+<img src="wtv-tricks:/images/Favorites_bg.jpg">
 </sidebar>
 <body bgcolor="#101010" text="#FF3455" link="#ff55ff" vlink="#ff55ff" vspace=0>
 <br>
