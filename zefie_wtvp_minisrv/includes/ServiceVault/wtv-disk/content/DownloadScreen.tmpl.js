@@ -30,7 +30,7 @@ let fail_url = request_headers.query.fail_url || diskmap_data.fail_url || null;
 if (success_url === null) success_url = new clientShowAlert({
 	'image': this.minisrv_config.config.service_logo,
 	'message': "Download successful!",
-	'buttonlabel1': "Okay",
+	'buttonlabel1': "Finally!",
 	'buttonaction1': "client:goback",
 	'noback': true,
 }).getURL();
@@ -38,7 +38,7 @@ if (success_url === null) success_url = new clientShowAlert({
 if (fail_url === null) fail_url = new clientShowAlert({
 	'image': this.minisrv_config.config.service_logo,
 	'message': "Download failed...",
-	'buttonlabel1': "Okay",
+	'buttonlabel1': "Okay.",
 	'buttonaction1': "client:goback",
 	'noback': true,
 }).getURL();
