@@ -11,7 +11,7 @@ wtv-boot-url: wtv-1800:/preregister
 `
 	data = `<html>
 <head>
-<title>Connect Setup v1.1-WTVR</title>
+<title>Connect Setup v1.1</title>
 <DISPLAY noscroll allowoffline notvaudio hideoptions switchtowebmode noreconnectalert>
 </head>
 <body bgcolor="#3C2F47" text="#cbcbcb" link="#aaaaaa"
@@ -39,7 +39,7 @@ Content-Type: text/html`
 
 	data = `<html>
 <head>
-<title>Connect Setup v1.1-WTVR</title>
+<title>Connect Setup v1.1</title>
 <DISPLAY noscroll notvaudio >
 </head>
 <body hspace=0 vspace=0 fontsize=medium onload=updateService() background=/ROMCache/bgpattern.gif bgcolor=#3C2F47 text=c6c6c6 link=0080ff vlink=0080ff>
@@ -55,7 +55,7 @@ Content-Type: text/html`
   </tr>
 </table>
 
-<h2>&nbsp;Connection Setup v1.1-WTVR </h2>
+<h2>&nbsp;Connection Setup v1.1 </h2>
 <hr>
 
 	  <script>
@@ -130,7 +130,7 @@ Content-Type: text/html`
             </td>
             <td>
                 Address:
-                <input size="16" ASCIIONLY name="machine" bgcolor="#444444" text="#cbcbcb" cursor="#cc9933" value="71.244.121.234" onkeypress="setOther()">
+                <input size="16" ASCIIONLY name="machine" bgcolor="#444444" text="#cbcbcb" cursor="#cc9933" value="127.0.0.1" onkeypress="setOther()">
                 &nbsp;&nbsp;&nbsp;Port:
                 <input size="5" ASCIIONLY NUMBERS name="port" bgcolor="#444444" text="#cbcbcb" cursor="#cc9933" value="1615" onkeypress="setOther()">
             </td>
