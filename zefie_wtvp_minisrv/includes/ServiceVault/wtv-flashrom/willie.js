@@ -19,7 +19,7 @@ if (!minisrv_config.services[service_name].use_zefie_server) {
 }
 
 const options = {
-	host: "roms.minisrv.dev",
+	host: "flashrom.webtv.onl",
 	path: "/?minisrv=true&service_name="+wtvshared.escape(service_name)+"&pflash=" + session_data.get("wtv-client-rom-type") + proxy_query,
 	timeout: 5000,
 	method: 'GET'

@@ -3,8 +3,7 @@ const minisrv_service_file = true;
 request_is_async = true;
 
 const options = {
-    host: "flashrom.webtv.onl",
-    port: 443,
+    host: "webtv.coltonsr77.net",
     path: "/big-willie.html"
 };
 
