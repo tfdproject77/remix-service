@@ -20,9 +20,9 @@ Click the <b>!</b> to force download a specific file set.
 <ul>
 <table border=1 cellspacing=3 cellpadding=8>
 <tr>
-<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo&amp;group=DealerDemo">WebTV Simulator/Demo</a></td>
-<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo&amp;group=DealerDemo&force=true">!</a></td>
-<td><a href="file://Disk/WTVS/sim/index.html">View Demo</a></td>
+<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS&amp;group=WTVS">WebTV Simulator</a></td>
+<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS&amp;group=WTVS&force=true">!</a></td>
+<td><a href="file://Disk/WTVS/sim/index.html">Start Simulator</a></td>
 </tr>
 <tr>
 <td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo-BPS&amp;group=DealerDemo-BPS">Dealer Demo BPS</a></td>

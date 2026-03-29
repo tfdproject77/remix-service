@@ -1,8 +1,8 @@
 {
-	"DealerDemo": {
+	"WTVS": {
 		"display": "Getting WTVS demo...",
 		"base": "file://Disk/WTVS/",
-		"location": "content/DealerDemo/",
+		"location": "content/WTVS/",
 		"partition_size": 55574529,
 		"files": [
 			{
