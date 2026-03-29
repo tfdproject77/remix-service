@@ -3,7 +3,7 @@
 		"display": "Getting WTVS demo...",
 		"base": "file://Disk/Demo/",
 		"location": "content/DealerDemo/",
-		"partition_size": 55574528,
+		"partition_size": 55574529,
 		"files": [
 			{
 				"file": "file://Disk/Demo/whats-in-itXXX.mpg",
@@ -161,7 +161,7 @@
 				"file": "file://Disk/Demo/sim/aroundtown/ROMCache/AT_Shadow.gif"
 			},
 			{
-				"file": "file://Disk/Demo/sim/aroundtown/ROMCache/WebTVLogoJewel.gif"
+				"file": "file://Disk/Demo/sim/aroundtown/images/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/community/index.html"
@@ -185,7 +185,7 @@
 				"file": "file://Disk/Demo/sim/community/ROMCache/SiteShowcase.gif"
 			},
 			{
-				"file": "file://Disk/Demo/sim/community/ROMCache/WebTVLogoJewel.gif"
+				"file": "file://Disk/Demo/sim/community/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/explore/art-n-sciences.html"
@@ -383,7 +383,7 @@
 				"file": "file://Disk/Demo/sim/explore/ROMCache/ShadowHStart.gif"
 			},
 			{
-				"file": "file://Disk/Demo/sim/explore/ROMCache/WebTVLogoJewel.gif"
+				"file": "file://Disk/Demo/sim/explore/images/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/explore/sports.html"
