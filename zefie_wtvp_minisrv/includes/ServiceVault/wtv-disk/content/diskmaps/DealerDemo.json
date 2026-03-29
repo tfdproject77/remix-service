@@ -161,6 +161,9 @@
 				"file": "file://Disk/Demo/sim/aroundtown/ROMCache/AT_Shadow.gif"
 			},
 			{
+				"file": "file://Disk/Demo/sim/aroundtown/ROMCache/WebTVLogoJewel.gif"
+			},
+			{
 				"file": "file://Disk/Demo/sim/community/index.html"
 			},
 			{
@@ -180,6 +183,9 @@
 			},
 			{
 				"file": "file://Disk/Demo/sim/community/ROMCache/SiteShowcase.gif"
+			},
+			{
+				"file": "file://Disk/Demo/sim/community/ROMCache/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/explore/art-n-sciences.html"
@@ -375,6 +381,9 @@
 			},
 			{
 				"file": "file://Disk/Demo/sim/explore/ROMCache/ShadowHStart.gif"
+			},
+			{
+				"file": "file://Disk/Demo/sim/explore/ROMCache/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/explore/sports.html"
@@ -602,6 +611,9 @@
 				"file": "file://Disk/Demo/sim/favorites/img/folder-tab.gif"
 			},
 			{
+				"file": "file://Disk/Demo/sim/favorites/img/WebTVLogoJewel.gif"
+			},
+			{
 				"file": "file://Disk/Demo/sim/favorites/index.html"
 			},
 			{
@@ -641,6 +653,9 @@
 				"file": "file://Disk/Demo/sim/mail/content/images/Shadow.gif"
 			},
 			{
+				"file": "file://Disk/Demo/sim/mail/content/images/WebTVLogoJewel.gif"
+			},
+			{
 				"file": "file://Disk/Demo/sim/mail/index.html"
 			},
 			{
@@ -677,6 +692,9 @@
 				"file": "file://Disk/Demo/sim/ROMCache/SiteShowcase.gif"
 			},
 			{
+			     "file": "file://Disk/Demo/sim/ROMCache/WebTVLogoJewel.gif"	
+			},
+			{
 				"file": "file://Disk/Demo/sim/search/img/ads/19997_excite0827_shopping.gif"
 			},
 			{
@@ -686,10 +704,16 @@
 				"file": "file://Disk/Demo/sim/search/img/webtv/SearchBanner.gif"
 			},
 			{
+				"file": "file://Disk/Demo/sim/search/img/WebTVLogoJewel.gif"
+			},
+			{
 				"file": "file://Disk/Demo/sim/search/index.html"
 			},
 			{
 				"file": "file://Disk/Demo/sim/setup/images/SetupBanner.gif"
+			},
+		    {
+				"file": "file://Disk/Demo/sim/setup/images/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/setup/index.html"
@@ -855,6 +879,9 @@
 			},
 			{
 				"file": "file://Disk/Demo/sim/using_webtv/ROMCache/UsingWebTVBanner.gif"
+			},
+			{
+				"file": "file://Disk/Demo/sim/using_webtv/ROMCache/WebTVLogoJewel.gif"
 			},
 			{
 				"file": "file://Disk/Demo/sim/weather-buffer.html"
