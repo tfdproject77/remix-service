@@ -20,7 +20,7 @@ Click the <b>!</b> to force download a specific file set.
 <ul>
 <table border=1 cellspacing=3 cellpadding=8>
 <tr>
-<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo&amp;group=DealerDemo">WebTV Simulator</a></td>
+<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo&amp;group=DealerDemo">WebTV Simulator/Demo</a></td>
 <td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo&amp;group=DealerDemo&force=true">!</a></td>
 <td><a href="file://Disk/Demo/sim/index.html">View Demo</a></td>
 </tr>
