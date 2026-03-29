@@ -1,6 +1,6 @@
 {
 	"DealerDemo": {
-		"display": "Getting old retail demo",
+		"display": "Getting WTVS demo...",
 		"base": "file://Disk/Demo/",
 		"location": "content/DealerDemo/",
 		"partition_size": 55574528,
