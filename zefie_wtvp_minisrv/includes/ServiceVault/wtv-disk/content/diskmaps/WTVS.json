@@ -1,788 +1,788 @@
 {
 	"WTVS": {
-		"display": "Getting WTVS demo...",
+		"display": "Getting WTVS...",
 		"base": "file://Disk/WTVS/",
 		"location": "content/WTVS/",
 		"partition_size": 55574528,
 		"files": [
 			{
 				"display": "Getting WTVS content...",
-				"file": "file://Disk/WTVS/sim/aroundtown/images/00.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/00.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/02.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/02.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/03.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/03.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/AccuWeatherLogo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/AccuWeatherLogo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/AT_YahooLogo2.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/AT_YahooLogo2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/AT_Zip2Logo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/AT_Zip2Logo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/CitySearchLogo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/CitySearchLogo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/Classifieds2000Logo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/Classifieds2000Logo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/Four11Logo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/Four11Logo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/MovieLinkLogo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/MovieLinkLogo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/ZagatLogo.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/ZagatLogo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/index.html"
+				"file": "file://Disk/WTVS/aroundtown/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/ROMCache/AT_BannerGradient.gif"
+				"file": "file://Disk/WTVS/aroundtown/ROMCache/AT_BannerGradient.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/ROMCache/AT_BannerIcon.gif"
+				"file": "file://Disk/WTVS/aroundtown/ROMCache/AT_BannerIcon.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/ROMCache/AT_BottomShadow.gif"
+				"file": "file://Disk/WTVS/aroundtown/ROMCache/AT_BottomShadow.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/ROMCache/AT_Shadow.gif"
+				"file": "file://Disk/WTVS/aroundtown/ROMCache/AT_Shadow.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/aroundtown/images/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/aroundtown/images/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/index.html"
+				"file": "file://Disk/WTVS/community/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/ROMCache/AroundTownIcon2.gif"
+				"file": "file://Disk/WTVS/community/ROMCache/AroundTownIcon2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/ROMCache/Chat.gif"
+				"file": "file://Disk/WTVS/community/ROMCache/Chat.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/ROMCache/CommunityBanner.gif"
+				"file": "file://Disk/WTVS/community/ROMCache/CommunityBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/ROMCache/ExploreTitle.gif"
+				"file": "file://Disk/WTVS/community/ROMCache/ExploreTitle.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/ROMCache/news_icon.gif"
+				"file": "file://Disk/WTVS/community/ROMCache/news_icon.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/ROMCache/SiteShowcase.gif"
+				"file": "file://Disk/WTVS/community/ROMCache/SiteShowcase.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/community/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/community/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/art-n-sciences.html"
+				"file": "file://Disk/WTVS/explore/art-n-sciences.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/art__science.gif"
+				"file": "file://Disk/WTVS/explore/banners/art__science.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/entertainment.gif"
+				"file": "file://Disk/WTVS/explore/banners/entertainment.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/fun__games.gif"
+				"file": "file://Disk/sim/explore/banners/fun__games.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/health.gif"
+				"file": "file://Disk/WTVS/explore/banners/health.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/home_life.gif"
+				"file": "file://Disk/WTVS/explore/banners/home_life.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/kids.gif"
+				"file": "file://Disk/WTVS/explore/banners/kids.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/main_menu.gif"
+				"file": "file://Disk/WTVS/explore/banners/main_menu.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/marketplace.gif"
+				"file": "file://Disk/WTVS/explore/banners/marketplace.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/money.gif"
+				"file": "file://Disk/WTVS/explore/banners/money.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/net_reference.gif"
+				"file": "file://Disk/WTVS/explore/banners/net_reference.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/news.gif"
+				"file": "file://Disk/WTVS/explore/banners/news.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/sports.gif"
+				"file": "file://Disk/WTVS/explore/banners/sports.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/travel.gif"
+				"file": "file://Disk/WTVS/explore/banners/travel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/banners/tv.gif"
+				"file": "file://Disk/WTVS/explore/banners/tv.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/entertainment-tile.html"
+				"file": "file://Disk/WTVS/explore/entertainment-tile.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/entertainment.html"
+				"file": "file://Disk/WTVS/explore/entertainment.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/fun-n-games-tile.html"
+				"file": "file://Disk/WTVS/explore/fun-n-games-tile.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/fun-n-games.html"
+				"file": "file://Disk/WTVS/explore/fun-n-games.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/health-tile.html"
+				"file": "file://Disk/WTVS/explore/health-tile.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/health.html"
+				"file": "file://Disk/WTVS/explore/health.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/home-life.html"
+				"file": "file://Disk/WTVS/explore/home-life.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/60rule.gif"
+				"file": "file://Disk/WTVS/explore/images/60rule.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/S20TH1.gif"
+				"file": "file://Disk/WTVS/explore/images/S20TH1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/S20TV1.gif"
+				"file": "file://Disk/WTVS/explore/images/S20TV1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/SAdH1.gif"
+				"file": "file://Disk/WTVS/explore/images/SAdH1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/SAdH2.gif"
+				"file": "file://Disk/WTVS/explore/images/SAdH2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/ShadowCorner.gif"
+				"file": "file://Disk/WTVS/explore/images/ShadowCorner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/ShadowHCap.gif"
+				"file": "file://Disk/WTVS/explore/images/ShadowHCap.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/ShadowHStart.gif"
+				"file": "file://Disk/WTVS/explore/images/ShadowHStart.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/SportsMoreBottom.gif"
+				"file": "file://Disk/WTVS/explore/images/SportsMoreBottom.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/SportsMoreLeft.gif"
+				"file": "file://Disk/WTVS/explore/images/SportsMoreLeft.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/st_junior.jpg"
+				"file": "file://Disk/WTVS/explore/images/st_junior.jpg"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/top.outsiders.jpg"
+				"file": "file://Disk/WTVS/explore/images/top.outsiders.jpg"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/index.html"
+				"file": "file://Disk/WTVS/explore/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/kids.html"
+				"file": "file://Disk/WTVS/explore/kids.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/marketplace.html"
+				"file": "file://Disk/WTVS/explore/marketplace.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/money.html"
+				"file": "file://Disk/WTVS/explore/money.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/net-reference.html"
+				"file": "file://Disk/WTVS/explore/net-reference.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/news.html"
+				"file": "file://Disk/WTVS/explore/news.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/programm.ing/images/day7_0819_andie_bill.jpg"
+				"file": "file://Disk/WTVS/explore/programm.ing/images/day7_0819_andie_bill.jpg"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/programm.ing/images/ends_odds.gif"
+				"file": "file://Disk/WTVS/explore/programm.ing/images/ends_odds.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/programm.ing/kids/sm_teaser_2.gif"
+				"file": "file://Disk/WTVS/explore/programm.ing/kids/sm_teaser_2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/programm.ing/tiles/Day3_0829_40.html"
+				"file": "file://Disk/WTVS/explore/programm.ing/tiles/Day3_0829_40.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/programm.ing/tiles/Day3_0829_60.html"
+				"file": "file://Disk/WTVS/explore/programm.ing/tiles/Day3_0829_60.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S20BV1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S20BV1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S20BV2.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S20BV2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S20TH1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S20TH1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S20TV1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S20TV1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S20TV2.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S20TV2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S40H1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S40H1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S40V1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S40V1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S40V2.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S40V2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S60HS1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S60HS1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S60HS2.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S60HS2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S60HS3.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S60HS3.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S60HS4.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S60HS4.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/S60HS5.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/S60HS5.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/SAdH1.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/SAdH1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/SAdH2.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/SAdH2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/SAdH3.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/SAdH3.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/ShadowCorner.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/ShadowCorner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/ShadowH.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/ShadowH.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/ShadowHCap.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/ShadowHCap.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/ROMCache/ShadowHStart.gif"
+				"file": "file://Disk/WTVS/explore/ROMCache/ShadowHStart.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/images/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/explore/images/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/sports.html"
+				"file": "file://Disk/WTVS/explore/sports.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/best_of_health.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/best_of_health.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/BingoZone_40.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/BingoZone_40.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/buttons/Discovery_Online.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/buttons/Discovery_Online.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/buttons/Girl_Tech.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/buttons/Girl_Tech.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/buttons/PBS_Online.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/buttons/PBS_Online.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/Fitness.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/Fitness.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/LookItUp.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/LookItUp.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/NewsBriefs.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/NewsBriefs.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/NewsScores.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/NewsScores.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/NewsStocks.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/NewsStocks.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/Nutrition.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/Nutrition.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/Smoking.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/Smoking.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/Stress.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/Stress.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/button_2.0s/Weightloss.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/button_2.0s/Weightloss.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/DidYouKnow_Ad_home_life.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/DidYouKnow_Ad_home_life.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Discuss_Ad.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Discuss_Ad.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/EOnline1.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/EOnline1.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/EOnline2.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/EOnline2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/ESPN.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/ESPN.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/ExtraExtra.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/ExtraExtra.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/GameTime_40_kids.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/GameTime_40_kids.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/GameTime_Ad_fun__games.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/GameTime_Ad_fun__games.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/GameTime_Ad_tv.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/GameTime_Ad_tv.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/HaHaHa.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/HaHaHa.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/health_top_stories.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/health_top_stories.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/logos136.x50/HollywoodOnline.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/logos136.x50/HollywoodOnline.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/logos242x110/TrivialPursuit.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/logos242x110/TrivialPursuit.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/logos70x.35/USNews.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/logos70x.35/USNews.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/logos70x.50/ABC.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/logos70x.50/ABC.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/logos70x.50/NBC.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/logos70x.50/NBC.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/logos70x.50/USAToday.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/logos70x.50/USAToday.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/GreenThumb.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/GreenThumb.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/MoneyMatters.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/MoneyMatters.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/MusicBlvd.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/MusicBlvd.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/PCFlowers.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/PCFlowers.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/PickoftheLit.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/PickoftheLit.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/ReferencePreference.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/ReferencePreference.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/TicketToRide.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/TicketToRide.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/TriviaTime.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/TriviaTime.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/Update.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/Update.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/MiniMastheads/WatchThis.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/MiniMastheads/WatchThis.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/OnePixel/entertainment.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/OnePixel/entertainment.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/OnePixel/health.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/OnePixel/health.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/OnePixel/kids.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/OnePixel/kids.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/OnePixel/sports.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/OnePixel/sports.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/planet_health.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/planet_health.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/RagsToRiches_40.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/RagsToRiches_40.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/RandomRemark_Ad.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/RandomRemark_Ad.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Riddler_40.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Riddler_40.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/SaysWho_Ad_sports.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/SaysWho_Ad_sports.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/ShopTalk_40.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/ShopTalk_40.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Showbiz_40.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Showbiz_40.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_art__science.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_art__science.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_entertainment.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_entertainment.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_fun__games.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_fun__games.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_home_life.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_home_life.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_kids.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_kids.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_main_menu.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_main_menu.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_marketplace.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_marketplace.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_money.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_money.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_net_reference.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_net_reference.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_news.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_news.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_sports.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_sports.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_travel.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_travel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/Spotlight_40_tv.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/Spotlight_40_tv.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/ThatsAFact_Ad_health.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/ThatsAFact_Ad_health.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/ThatsAFact_Ad_money.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/ThatsAFact_Ad_money.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tidbits/ThatsAFact_Ad_travel.gif"
+				"file": "file://Disk/WTVS/explore/tidbits/ThatsAFact_Ad_travel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/travel.html"
+				"file": "file://Disk/WTVS/explore/travel.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/explore/tv.html"
+				"file": "file://Disk/WTVS/explore/tv.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/favorites/canned/discovery.gif"
+				"file": "file://Disk/WTVS/favorites/canned/discovery.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/favorites/canned/usatoday.gif"
+				"file": "file://Disk/WTVS/favorites/canned/usatoday.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/favorites/img/FavoritesBanner.gif"
+				"file": "file://Disk/WTVS/favorites/img/FavoritesBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/favorites/img/folder-tab.gif"
+				"file": "file://Disk/WTVS/favorites/img/folder-tab.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/favorites/img/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/favorites/img/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/favorites/index.html"
+				"file": "file://Disk/WTVS/favorites/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/images/AWebSiteWithBite.gif"
+				"file": "file://Disk/WTVS/images/AWebSiteWithBite.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/images/DiscoveryChannelOnline.gif"
+				"file": "file://Disk/WTVS/images/DiscoveryChannelOnline.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/images/EntertainmentsHomePage.gif"
+				"file": "file://Disk/WTVS/images/EntertainmentsHomePage.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/images/EOnline2.gif"
+				"file": "file://Disk/WTVS/images/EOnline2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/images/TopRowGradient.gif"
+				"file": "file://Disk/WTVS/images/TopRowGradient.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/images/TopSidebarShadow.gif"
+				"file": "file://Disk/WTVS/images/TopSidebarShadow.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/index.html"
+				"file": "file://Disk/WTVS/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/content/images/BannerMail.gif"
+				"file": "file://Disk/WTVS/mail/content/images/BannerMail.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/content/images/DottedLine.gif"
+				"file": "file://Disk/WTVS/mail/content/images/DottedLine.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/content/images/PaperBase.gif"
+				"file": "file://Disk/WTVS/mail/content/images/PaperBase.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/content/images/PaperTop.gif"
+				"file": "file://Disk/WTVS/mail/content/images/PaperTop.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/content/images/Shadow.gif"
+				"file": "file://Disk/WTVS/mail/content/images/Shadow.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/content/images/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/mail/content/images/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/index.html"
+				"file": "file://Disk/WTVS/mail/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/send.html"
+				"file": "file://Disk/WTVS/mail/send.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/colton-mail.html"
+				"file": "file://Disk/WTVS/mail/colton-mail.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/mail/steve-mail.html"
+				"file": "file://Disk/WTVS/mail/steve-mail.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/AroundTownIcon2.gif"
+				"file": "file://Disk/WTVS/sROMCache/AroundTownIcon2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/Chat.gif"
+				"file": "file://Disk/WTVS/ROMCache/Chat.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/CommunityBanner.gif"
+				"file": "file://Disk/WTVS/ROMCache/CommunityBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/ExploreTitle.gif"
+				"file": "file://Disk/WTVS/ROMCache/ExploreTitle.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/HomeBanner.gif"
+				"file": "file://Disk/WTVS/ROMCache/HomeBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/news_icon.gif"
+				"file": "file://Disk/WTVS/ROMCache/news_icon.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/PromotionLeftEdge.gif"
+				"file": "file://Disk/WTVS/ROMCache/PromotionLeftEdge.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/ROMCache/SiteShowcase.gif"
+				"file": "file://Disk/WTVS/ROMCache/SiteShowcase.gif"
 			},
 			{
-			     "file": "file://Disk/WTVS/sim/images/WebTVLogoJewel.gif"	
+			     "file": "file://Disk/WTVS/images/WebTVLogoJewel.gif"	
 			},
 			{
-				"file": "file://Disk/WTVS/sim/search/img/ads/19997_excite0827_shopping.gif"
+				"file": "file://Disk/WTVS/search/img/ads/19997_excite0827_shopping.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/search/img/webtv/ExciteLogo.gif"
+				"file": "file://Disk/WTVS/search/img/webtv/ExciteLogo.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/search/img/webtv/SearchBanner.gif"
+				"file": "file://Disk/WTVS/search/img/webtv/SearchBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/search/img/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/search/img/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/search/index.html"
+				"file": "file://Disk/WTVS/search/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/setup/images/SetupBanner.gif"
+				"file": "file://Disk/WTVS/setup/images/SetupBanner.gif"
 			},
 		    {
-				"file": "file://Disk/WTVS/sim/setup/images/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/setup/images/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/setup/index.html"
+				"file": "file://Disk/WTVS/setup/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ArtAndScience.html"
+				"file": "file://Disk/WTVS/templates/ArtAndScience.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/DiscoveryChannel.html"
+				"file": "file://Disk/WTVS/templates/DiscoveryChannel.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Entertainment.html"
+				"file": "file://Disk/WTVS/templates/Entertainment.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/EOnline.html"
+				"file": "file://Disk/WTVS/templates/EOnline.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/FunAndGames.html"
+				"file": "file://Disk/WTVS/templates/FunAndGames.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Health.html"
+				"file": "file://Disk/WTVS/templates/Health.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/HomeLife.html"
+				"file": "file://Disk/WTVS/templates/HomeLife.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/AWebSiteWithBite.gif"
+				"file": "file://Disk/WTVS/templates/images/AWebSiteWithBite.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/DiscoveryChannelOnline.gif"
+				"file": "file://Disk/WTVS/templates/images/DiscoveryChannelOnline.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Apples.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Apples.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/ArtAndScienceHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/ArtAndScienceHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Chesspiece.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Chesspiece.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/CompassRose.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/CompassRose.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/EntertainmentHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/EntertainmentHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Flower.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Flower.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/FunAndGamesHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/FunAndGamesHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Globe.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Globe.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/HealthHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/HealthHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/HomeLifeHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/HomeLifeHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/KidsHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/KidsHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/MarketplaceHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/MarketplaceHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/MoneyHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/MoneyHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Mountain.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Mountain.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/NetReferenceHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/NetReferenceHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/NewsHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/NewsHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/PiggyBank.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/PiggyBank.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Robot.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Robot.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/ShoppingBag.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/ShoppingBag.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/SportsHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/SportsHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Star.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Star.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Television.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Television.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/TravelHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/TravelHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Trophy.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Trophy.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/TVHeading.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/TVHeading.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/dynamic/Window.gif"
+				"file": "file://Disk/WTVS/templates/images/dynamic/Window.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/EntertainmentsHomePage.gif"
+				"file": "file://Disk/WTVS/templates/images/EntertainmentsHomePage.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/EOnline2.gif"
+				"file": "file://Disk/WTVS/templates/images/EOnline2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/images/TopSidebarShadow.gif"
+				"file": "file://Disk/WTVS/templates/images/TopSidebarShadow.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Kids.html"
+				"file": "file://Disk/WTVS/templates/Kids.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Marketplace.html"
+				"file": "file://Disk/WTVS/templates/Marketplace.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Money.html"
+				"file": "file://Disk/WTVS/templates/Money.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/NetReference.html"
+				"file": "file://Disk/WTVS/templates/NetReference.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/News.html"
+				"file": "file://Disk/WTVS/templates/News.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ROMCache/AroundTownIcon2.gif"
+				"file": "file://Disk/WTVS/templates/ROMCache/AroundTownIcon2.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ROMCache/Chat.gif"
+				"file": "file://Disk/WTVS/templates/ROMCache/Chat.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ROMCache/CommunityBanner.gif"
+				"file": "file://Disk/WTVS/templates/ROMCache/CommunityBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ROMCache/ExploreTitle.gif"
+				"file": "file://Disk/WTVS/templates/ROMCache/ExploreTitle.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ROMCache/news_icon.gif"
+				"file": "file://Disk/WTVS/templates/ROMCache/news_icon.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/ROMCache/SiteShowcase.gif"
+				"file": "file://Disk/WTVS/templates/ROMCache/SiteShowcase.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Sports.html"
+				"file": "file://Disk/WTVS/templates/Sports.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/Travel.html"
+				"file": "file://Disk/WTVS/templates/Travel.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/templates/TV.html"
+				"file": "file://Disk/WTVS/templates/TV.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/using_webtv/index.html"
+				"file": "file://Disk/WTVS/using_webtv/index.html"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/using_webtv/ROMCache/UsingWebTVBanner.gif"
+				"file": "file://Disk/WTVS/using_webtv/ROMCache/UsingWebTVBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/using_webtv/WebTVLogoJewel.gif"
+				"file": "file://Disk/WTVS/using_webtv/WebTVLogoJewel.gif"
 			},
 			{
-				"file": "file://Disk/WTVS/sim/weather-buffer.html"
+				"file": "file://Disk/WTVS/weather-buffer.html"
 			},
 			{
 				"display": "Almost done!",
-				"file": "file://Disk/WTVS/sim/weather.html"
+				"file": "file://Disk/WTVS/weather.html"
 			}
 		]
 	}
