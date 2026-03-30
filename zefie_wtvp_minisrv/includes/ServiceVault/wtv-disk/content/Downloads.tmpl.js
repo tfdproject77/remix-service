@@ -16,7 +16,7 @@ Welcome to Download-O-Rama.
 <p>
 Download any of our fine file sets.<br>
 Click the <b>!</b> to force download a specific file set.
-</p><h2>Demos</h2>
+</p><h2>WebTV Tools</h2>
 <ul>
 <table border=1 cellspacing=3 cellpadding=8>
 <tr>
