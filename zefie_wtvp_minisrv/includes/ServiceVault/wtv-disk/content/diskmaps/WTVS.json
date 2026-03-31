@@ -1,6 +1,6 @@
 {
 	"WTVS": {
-		"display": "Getting WTVS...",
+		"display": "Getting WTVS content...",
 		"base": "file://Disk/WTVS/",
 		"location": "content/WTVS/",
 		"partition_size": 55574528,
