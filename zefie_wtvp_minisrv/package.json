@@ -1,9 +1,9 @@
 {
   "name": "coltonsr77_wtvp_minisrv",
-  "version": "0.9.67-dev",
+  "version": "0.9.70",
   "description": "WebTV Service (WTVP) Emulation Server",
   "main": "app.js",
-  "homepage": "https://github.com/coltonsr77/WebTV-Remix-Beta",
+  "homepage": "https://github.com/DevTools77/remix-service",
   "license": "GPL3",
   "scripts": {
     "start": "node app.js",
@@ -18,7 +18,7 @@
     "url": "https://coltonsr77.net"
   },
   "bugs": {
-    "url": "https://github.com/coltonsr77/WebTV-Remix-Beta/issues"
+    "url": "https://github.com/DevTools77/remix-service/issues"
   },
   "funding": {
     "type": "patreon",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coltonsr77/WebTV-Remix-Beta.git"
+    "url": "https://github.com/DevTools77/remix-service.git"
   },
   "dependencies": {
     "@serialport/parser-readline": "^13.0.0",
