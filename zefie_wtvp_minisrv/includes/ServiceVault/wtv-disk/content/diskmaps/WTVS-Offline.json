@@ -136,7 +136,7 @@
 			"file": "file://Disk/WTVS-Offline/htv.html"
 		},
 		{
-			"display": "Getting Media...",
+			"display": "Getting HTV Media...",
 			"file": "file://Disk/WTVS-Offline/blank.gif"
 		},
 		{
@@ -846,6 +846,7 @@
 			"file": "file://Disk/WTVS-Offline/Music/index.html.bak"
 		},
 		{
+			"display": "Getting Mod Music...",
 			"file": "file://Disk/WTVS-Offline/Music/mod/mattman.xm"
 		},
 		{
