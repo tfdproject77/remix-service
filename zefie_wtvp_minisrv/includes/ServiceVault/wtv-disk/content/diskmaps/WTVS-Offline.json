@@ -3,7 +3,7 @@
 		"base": "file://Disk/WTVS-Offline/",
 		"location": "content/WTVS-Offline",
 		"service_owned": true,
-		"display": "Getting HTML Files...",
+		"display": "Getting HTV Files...",
 		"partition_size": 55584639,
 		"files": [
 		{ 
@@ -134,7 +134,7 @@
 			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/gopanel.html"
 		},
 		{
-			"display": "Getting Images...",
+			"display": "Getting Media...",
 			"file": "file://Disk/WTVS-Offline/blank.gif"
 		},
 		{
@@ -382,6 +382,9 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/Favorites_bg.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/port-com-port-connection.jpg"
 		},
 		{
 			"display": "Getting Game Files...",
