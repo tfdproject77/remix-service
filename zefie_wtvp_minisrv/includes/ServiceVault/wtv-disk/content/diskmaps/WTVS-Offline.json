@@ -703,6 +703,10 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/psychophants/open.html.bak"
+		},
+		{
+			"display":"Almost Done!",
+			"file": "file://Disk/WTVS-Offline/info.jpg"
 		}
 	]
   }
