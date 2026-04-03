@@ -333,6 +333,36 @@
 			"file": "file://Disk/WTVS-Offline/cSetupShadowLogo.gif"
 		},
 		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo2.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo3.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo3.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesShadowLogo4.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/cSetup.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/cSetup.jpg"
+		},
+		{
 			"display": "Getting Game Files...",
 			"file": "file://Disk/WTVS-Offline/tictac/blank.jpg"
 		},
