@@ -4,7 +4,7 @@
 		"location": "content/WTVS-Offline",
 		"service_owned": true,
 		"display": "Getting HTML Files...",
-		"partition_size": 4194304,
+		"partition_size": 55574528,
 		"files": [
 		{ 
 			"display": "Getting HTML Files...",
