@@ -813,6 +813,32 @@
 			"file": "file://Disk/WTVS-Offline/Jack/Pattern_Games.gif"
 		},
 		{
+			"display": "Getting Doom Music...",
+			"file": "file://Disk/WTVS-Offline/Music/Doom/DoomLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Doom/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Doom/index3833.html"
+		},
+		{
+			"display": "Getting Music Images...",
+			"file": "file://Disk/WTVS-Offline/Music/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/home-logo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/clogo.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/MusicBanner.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/MusicBanner.gif"
+		},
+		{
 			"display":"Almost Done!",
 			"file": "file://Disk/WTVS-Offline/GameCode.js"
 		}
