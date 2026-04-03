@@ -218,7 +218,7 @@
 			"file": "file://Disk/WTVS-Offline/HomeBanner.jpg"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/progess.gif"
+			"file": "file://Disk/WTVS-Offline/progress.gif"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/GamesBanner.gif"
@@ -922,7 +922,7 @@
 			"file": "file://Disk/WTVS-Offline/Music/Rock/Zion.mp3"
 		},
 		{
-			"display": "Getting Karaoke Files...",
+			"display": "Getting Karaoke...",
 			"file": "file://Disk/WTVS-Offline/music/karaoke/index.html"
 		},
 		{
