@@ -824,19 +824,163 @@
 		},
 		{
 			"display": "Getting Music Images...",
-			"file": "file://Disk/WTVS-Offline/Music/hacktv4.gif"
+			"file": "file://Disk/WTVS-Offline/Music/images/hacktv4.gif"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/Music/home-logo.gif"
+			"file": "file://Disk/WTVS-Offline/Music/images/home-logo.gif"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/Music/clogo.png"
+			"file": "file://Disk/WTVS-Offline/Music/images/clogo.png"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/Music/MusicBanner.jpg"
+			"file": "file://Disk/WTVS-Offline/Music/images/MusicBanner.jpg"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/Music/MusicBanner.gif"
+			"file": "file://Disk/WTVS-Offline/Music/images/MusicBanner.gif"
+		},
+		{
+			"display": "Getting WTV Music...",
+			"file": "file://Disk/WTVS-Offline/Music/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/index.html.bak"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/mod/mattman.xm"
+		},
+		{
+			"display": "Getting Rock Music...",
+			"file": "file://Disk/WTVS-Offline/Music/Rock/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/index0.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/1.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/2.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/3.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/4.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/5.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/6.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/7.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/8.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/9.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/black-sabbath-wicked-world.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/home-logo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/jbmh_ministry.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/JohnnyCash-Hurt.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/KMFDM_MEGALOMANIAC.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/Led-Zepplin-Ramble-On.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/MetallicaOne.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/music.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/Ramstein-DuHaust.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/TheRamones-BlitzkreigBop.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/tripout-yo.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/Zion.mp3"
+		},
+		{
+			"display": "Getting Karaoke Files...",
+			"file": "file://Disk/WTVS-Offline/music/karaoke/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/4-Non-Blondes-Whats-up.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/ACDC-HighwaytoHell.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/BeeGees-StayingAlive.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/BlackSabbath-Paranoid.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/CrashTestDummies-Mmm.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/GunsNRoses-SweetChildOfMine.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/IronMaiden-FearOfTheDark.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/IronMaiden-TheTrooper.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/Metallica-NothingElseMatters.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/Metallica-SeekAndDestory.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/MichaelJackson-Smoothcriminal.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/Nirvana-Rapeme.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/Nirvana-Smellsliketeenspirit.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/SteveiNicks-Gypsy.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/ThePolice-MessageInABottle.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/TracyChapman-FastCar.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/U2-Withorwitoutyou.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/weird.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/karaoke/WeirdAlYankovic-Fat.mid"
 		},
 		{
 			"display":"Almost Done!",
