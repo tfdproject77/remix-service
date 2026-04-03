@@ -705,6 +705,76 @@
 			"file": "file://Disk/WTVS-Offline/psychophants/open.html.bak"
 		},
 		{
+			"display": "Getting Doom TOC Files...",
+			"file": "file://Disk/WTVS-Offline/docs2/DoomTOC.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/AboutDoom.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/Arrow_TOC.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomCharts.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomCharts2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomCharts3.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomCharts4.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomHints.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomHints2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomInstructions.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomInstructions2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomInstructions3.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomRating.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomRooms.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomRooms2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomRooms3.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomRooms4.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/DoomRooms5.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/GamesBanner.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/GamesShadowLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/docs2/Pattern_Games.gif"
+		},
+		{
 			"display":"Almost Done!",
 			"file": "file://Disk/WTVS-Offline/GameCode.js"
 		}
