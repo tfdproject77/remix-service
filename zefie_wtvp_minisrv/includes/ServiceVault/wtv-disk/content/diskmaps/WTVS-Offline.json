@@ -368,13 +368,13 @@
 			"file": "file://Disk/WTVS-Offline/RatingESRB_M.gif"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/RatingERSB_M_LG.gif"
+			"file": "file://Disk/WTVS-Offline/RatingESRB_M_LG.gif"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/RatingERSB_T.gif"
+			"file": "file://Disk/WTVS-Offline/RatingESRB_T.gif"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/RatingERSB_T_LG.gif"
+			"file": "file://Disk/WTVS-Offline/RatingESRB_T_LG.gif"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/MattMan/html/HtmlBanner.jpg"
@@ -773,6 +773,34 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/docs2/Pattern_Games.gif"
+		},
+		{
+			"display": "Getting HTV Theme Files...",
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/blue.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/light.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/dark.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/light.css"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/dark.css"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/blue.css"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/BlankBanner.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/GamesShadowLogo4.jpg"
 		},
 		{
 			"display":"Almost Done!",
