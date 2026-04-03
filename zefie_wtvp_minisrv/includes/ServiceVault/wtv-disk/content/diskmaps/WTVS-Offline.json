@@ -2,7 +2,6 @@
 	"WTVS-Offline": {
 		"base": "file://Disk/WTVS-Offline/",
 		"location": "content/WTVS-Offline",
-		"service_owned": true,
 		"display": "Getting HTV Files...",
 		"partition_size": 55585639,
 		"files": [
