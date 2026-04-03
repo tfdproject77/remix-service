@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Loading...</title>
+<display noscroll nooptions notvaudio>
+
+<script>
+
+function fuckinglaunch() {
+
+	if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playDoom") {
+    document.bgmstat.title.value='Loading Doom Original...';
+} 
+    else if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playDoomC") {
+    document.bgmstat.title.value='Loading Doom Custom...';
+}
+    else if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playDoomF") {
+    document.bgmstat.title.value='Loading FreeDoom...';
+}
+    else if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playChex") {
+    document.bgmstat.title.value='Loading Chex Quest...';
+}
+
+function launch() {
+	if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playDoom") {
+    playDoom();
+} 
+    else if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playDoomC") {
+    playDoomC();
+}
+    else if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playDoomF") {
+    playDoomF();
+}
+    else if (document.location == "file://disk/WTVS-Offline/StartDoomGame.html?launch=playChex") {
+    playChex();
+}
+}
+
+    setTimeout('launch()',5250);
+}
+
+function playDoom() {
+  if ( navigator.isDebugBuild == true ) {
+    document.location = "client:boota?partition=DoomROMD";
+  }
+  else {
+    document.location = "client:boota?partition=DoomROMD";
+  }
+}
+
+function playDoomC() {
+  if ( navigator.isDebugBuild == true ) {
+    document.location = "client:boota?partition=DoomCUS";
+  }
+  else {
+    document.location = "client:boota?partition=DoomCUS";
+  }
+}
+
+function playDoomF() {
+  if ( navigator.isDebugBuild == true ) {
+    document.location = "client:boota?partition=DoomROM";
+  }
+  else {
+    document.location = "client:boota?partition=DoomROM";
+  }
+}
+
+function playChex() {
+  if ( navigator.isDebugBuild == true ) {
+    window.location = "client:boota?partition=ChexROM";
+  }
+  else {
+    window.location = "client:boota?partition=ChexROM";
+  }
+}
+
+function playJack() {
+  if ( navigator.isDebugBuild == true ) {
+    document.location = "client:boota?partition=JackROM";
+  }
+  else {
+    document.location = "client:boota?partition=JackROM";
+  }
+}
+
+function playMame() {
+  if ( navigator.isDebugBuild == true ) {
+    document.location = "client:boota?partition=MAMEROM";
+  }
+  else {
+    document.location = "client:boota?partition=MAMEROM";
+  }
+}
+
+function playSolitaire() {
+  if ( navigator.isDebugBuild == true ) {
+    document.location = "client:boota?args=-solitaire&partition=DoomROMD&size=5242880&source=file://disk/Doom/appromESD.o&onfail=file://Disk/WTVS-Offline/bootfail.html";
+  }
+  else {
+    document.location = "client:boota?args=-solitaire&partition=DoomROM&size=5242880&source=file://disk/Doom/appromES.o&onfail=file://Disk/WTVS-Offline/bootfail.html";
+  }
+}
+</script>
+</head>
+
+<body background="doomBG.jpg" bgcolor="BLACK" text="WHITE" onload="fuckinglaunch()">
+
+<br>
+
+<table align=left>
+<tr>
+<td absheight="750">
+
+<form name="bgmstat">
+<font size="1" color="DDDDDD">
+<input type="text" name="title" border="0" disabled usestyle bgcolor="#000000" text="#DDDDDD" size="25"><br>
+<img src="progress.gif" height=18 width=253>
+</font>
+</form>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

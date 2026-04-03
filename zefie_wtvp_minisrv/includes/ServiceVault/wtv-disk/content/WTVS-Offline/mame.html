@@ -1,0 +1,194 @@
+<html>
+
+<head>
+<title>M.A.M.E.</title>
+<DISPLAY noscroll nooptions notvaudio>
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    //window.location="client:showalert?message=%3Cfont%20size%3D%22small%22%3ESelect%20a%20theme!%3Cbr%3E%3Cbr%3EIf%20this%20is%20your%20first%20time%20booting%20up%20the%20HTV%20build%20please%20select%20the%20theme%20you%20would%20like%20to%20use%20now.%3Cbr%3E%3Cbr%3E&buttonlabel2=Set%20Theme&buttonaction2=file://disk/WTVS-Offline/MattMan/theme/theme.html&buttonlabel1=Close&buttonaction1=client%3Adonothing";
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+<script>
+
+function timer() {
+    setTimeout('launch()',4750);
+}
+
+function launch() {
+	if (document.launchtext.text.value == "MAME") {
+    window.location="StartGame.html?launch=playMame";
+} 
+
+}
+
+function MAMEtimer() {
+    setTimeout('MAME()',100);
+}
+
+  function MAME() {
+  document.launchtext.text.value='MAME'
+  document.bgmstat.title.value='Loading M.A.M.E...'
+}
+
+</script>
+
+</head>
+
+<body bgcolor="#4c5a67" background="Pattern_Games.gif" text="#cbcbcb" alink="#dddddd" vlink="#dddddd" link="#dddddd" hspace="0" vspace="0" fontsize="large">
+
+<table cellspacing="0" cellpadding="0" cellborder="0">
+  <tr>
+    <td class=t1 width="104" height="80" valign="top" align="left"><spacer type="block" WIDTH="11" HEIGHT="11"><br>
+<spacer type="block" WIDTH="10" HEIGHT="1">    <a href="file://disk/WTVS-Offline/games.html"><img src="hacktv4.gif" width="90"
+    height="69"></a> </td>
+    <td width="456" height="80" valign="top" align="center"><img src="GamesBanner.jpg"
+    width="456" height="50"><br>
+    <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6"> </td>
+  </tr>
+</table>
+
+
+  <table cellspacing="0" cellpadding="0">
+    <tr>
+      <td absheight="420" abswidth="555" valign="top" align="left">
+	    <table cellspacing="0" cellpadding="0">
+          <tr>
+            <td absheight="6"></td>
+          </tr>
+          <tr>
+            <td abswidth="20"></td>
+            <td valign=top>
+		      <table cellspacing="0" cellpadding="0">
+                <tr>
+                  <td valign="top" absheight="36"><font size="+2" color="#cbcbcb"><shadow>M.A.M.E.</shadow></font> </td>
+                </tr>
+				<tr>
+			<td width="520" valign="top" align="left">
+<font size="1">
+Once you start MAME you will stay in MAME, meaning everytime you turn on your WebTV MAME will start up. If you want to get back to HackTV Home you have 3 options.
+</font>
+                <ul>
+                  <li><font size="1" color="#bbbbbb"><shadow> Click the Exit Mame link on Mame Home.</shadow></font>
+                  <li><font size="1" color="#bbbbbb"><shadow> Unplug for 10 seconds, plug it back in.</shadow></font>
+                  <li> <font size="1" color="#bbbbbb"><shadow>Use poweroff code 8673094 after you poweroff.</shadow></font>
+                </ul>
+<font  color="#cbcbcb" size="1">
+M.A.M.E. (an acronym of Multiple Arcade Machine Emulator) is an emulator application designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. It was ported to WebTV unknown to subscribers in 1997 and provided arcade classics from the '80s. It was only ever intended for demonstration purposes.
+</shadow></font>
+           </td>
+		  <td width=20></td>
+
+  <table cellspacing="0" cellpadding="0">
+    <tr>
+      <td valign="top" align="right">
+	  <form name="bgmstat">
+        <font size="1" color="D6DFD0">
+
+<script>
+
+var htvtheme=document.theme.name.value;
+
+if (htvtheme == "light") {
+	//light theme
+    light();
+} else if (htvtheme == "dark") {
+	//dark theme
+    dark();
+} else if (htvtheme == "blue") {
+	//blue theme
+    blue();
+} else if (htvtheme == "") {
+    //no theme
+    themeAlert()
+}
+
+function light() {
+document.write("<input type='text' name='title' border='0' bgcolor='#4c5a67' text='#82A9D9' size='44' disabled usestyle>");
+}
+function dark() {
+document.write("<input type='text' name='title' border='0' bgcolor='#191919' text='#82A9D9' size='44' disabled usestyle>");
+}
+function blue() {
+document.write("<input type='text' name='title' border='0' bgcolor='#003355' text='#82A9D9' size='44' disabled usestyle>");
+}
+function themeAlert() {
+document.write("<input type='text' name='title' border='0' bgcolor='#4c5a67' text='#82A9D9' size='44' disabled usestyle>");
+}
+
+</script>
+		  <br>
+           <img src="blank.gif" height=16 width=250 name="progress">&nbsp;
+         </font>
+        </form>
+	  </td>
+      <spacer H=16 type=vertical>
+      
+      <td valign="top" align="right">
+	  
+      <FORM>
+      <FONT COLOR="#bbbbbb" SIZE=-1>
+      <SHADOW>
+      <INPUT TYPE=button BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="Start MAME" USESTYLE WIDTH=137 onclick="timer();MAMEtimer();document.images.progress.src='progress.gif'">
+      </SHADOW>
+      </FONT>&nbsp;
+      </FORM>
+
+	  <td valign="top" align="right"><font size="-1" color="#bbbbbb">
+	  
+	  <shadow>
+	  <form> 
+	  <input selected type=submit BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" Value="Done" name="Done" usestyle onclick="history.back();" width="122">
+      </shadow>
+	  </font>
+	  </form>
+
+	  <td width=10></td>
+	  </td>
+    </tr>
+  </table>
+
+		      </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+<form name="launchtext">
+<input type="hidden" name="text" border="0" size="5">
+</form>
+</body>
+</html>

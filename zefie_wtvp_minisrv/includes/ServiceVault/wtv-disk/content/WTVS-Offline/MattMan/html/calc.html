@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <title>HTML Viewer</title>
+    <DISPLAY noscroll  nooptions  notvaudio>
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+  </head>
+   <body bgcolor="#281f26" background="file://disk/WTVS-Offline/Pattern_Games.gif" text="#cbcbcb" link="#4489a8" alink="#4489a8" vlink="#4489a8" hspace="0" vspace="0" fontsize="3">
+    <table cellspacing="0" cellpadding="0" cellborder="0">
+      <tr>
+        <td class=t1 width="104" height="80" valign="top" align="left">
+          <spacer type="block" WIDTH="11" HEIGHT="11"><br>
+            <spacer type="block" WIDTH="10" HEIGHT="1"> <a href="file://disk/WTVS-Offline/games.html"><img src="hacktv4.gif" width="90" height="69"></a>
+        </td>
+        <td width="456" height="80" valign="top" align="center"><img src="calcBanner.jpg" width="456" height="50"><br>
+          <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6">
+        </td>
+      </tr>
+    </table>
+
+    <table cellspacing="0" cellpadding="0" cellborder="0">
+      <tr>
+        <td>
+
+    <table cellspacing="0" cellpadding="0" cellborder="0" width=220>
+      <tr>
+<td width=20>
+<td>
+
+<font size=2>Holy shit now you can do<br>
+math on your WebTV!!<p><br>
+This calculator can be<br> 
+used to perform simple<br>
+mathematical operations<br>
+like addition, subtraction,<br>
+multiplication and division. <p>
+
+
+
+      </td>
+      </tr>
+      </table>
+<td valign="top">
+<form name="Calculator">
+<table border="2" align="center" cellpadding="10" cellspacing="10">
+<tr>
+<td>
+<input type="text" text="#ff0000" name="Input" Size="26" bgcolor=#212121 nohighlight noselect>
+<br>
+</td>
+</tr>
+<tr>
+<td>
+<input type="button" name="one"   style="font-size:25px"  value="  1  " OnClick="Calculator.Input.value += '1'">
+<input type="button" name="two"   style="font-size:25px"  value="  2  " OnCLick="Calculator.Input.value += '2'">
+<input type="button" name="three" style="font-size:25px"  value="  3  " OnClick="Calculator.Input.value += '3'">
+<input type="button" width="60" name="add"  style="font-size:25px"   value="  +  " OnClick="Calculator.Input.value += ' + '">
+<br>
+<input type="button" name="four" style="font-size:25px"   value="  4  " OnClick="Calculator.Input.value += '4'">
+<input type="button" name="five" style="font-size:25px"   value="  5  " OnCLick="Calculator.Input.value += '5'">
+<input type="button" name="six"  style="font-size:25px"   value="  6  " OnClick="Calculator.Input.value += '6'">
+<input type="button" width="60" name="minus" style="font-size:25px"  value="  -  " OnClick="Calculator.Input.value += ' - '">
+<br>
+<input type="button" name="seven"  style="font-size:25px" value="  7  " OnClick="Calculator.Input.value += '7'">
+<input type="button" name="eight"  style="font-size:25px" value="  8  " OnCLick="Calculator.Input.value += '8'">
+<input type="button" name="nine"  style="font-size:25px"  value="  9  " OnClick="Calculator.Input.value += '9'">
+<input type="button" width="60" name="mul" style="font-size:25px"    value="  *  " OnClick="Calculator.Input.value += ' * '">
+<br>
+<input type="button" name="clear" style="font-size:25px"  value="  c  " OnClick="Calculator.Input.value = ''">
+<input type="button" name="zero" style="font-size:25px"   value="  0  " OnClick="Calculator.Input.value += '0'">
+<input type="button" name="DoIt"  style="font-size:25px"  value="  =  " OnClick="Calculator.Input.value = eval(Calculator.Input.value)">
+<input type="button" width="60" name="div"  style="font-size:25px"   value="  /  " OnClick="Calculator.Input.value += ' / '">
+<br>
+
+</form>
+      </td>
+      </tr>
+      </table>
+                         
+
+      </td>
+      </tr>
+      </table>
+    <spacer Height=40 type=vertical>
+<FORM>
+
+<table cellspacing=0 cellpadding=0 width=520>
+<td align=right>
+<FORM
+action="client:goback">
+<FONT COLOR="#4489a8" SIZE=-1><SHADOW>
+&nbsp;<INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" Value=Done NAME="Done" USESTYLE WIDTH=103>
+</SHADOW></FONT></FORM>  
+</td>
+</table>
+
+  </body>
+</html>

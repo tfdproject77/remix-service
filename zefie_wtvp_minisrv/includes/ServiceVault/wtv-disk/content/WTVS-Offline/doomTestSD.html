@@ -1,0 +1,180 @@
+<!-- Test for Doom Loader on a SD card.-->
+<html>
+<head>
+<title>Doom</title>
+<DISPLAY notvaudio allowoffline nooptions noscroll>
+
+<script>
+
+function playmidi() {
+    document.bgmusic.play();
+}
+
+function timer() {
+    setTimeout('launch()',9000);
+}
+
+function launch() {
+	if (document.launchtext.text.value == "doom") {
+    window.location="StartGame.html?launch=playDoom";
+} 
+    else if (document.launchtext.text.value == "doomc") {
+    window.location="StartGame.html?launch=playDoomC";
+}
+    else if (document.launchtext.text.value == "doomf") {
+    window.location="StartGame.html?launch=playDoomF";
+}
+    else if (document.launchtext.text.value == "chex") {
+    window.location="StartGame.html?launch=playChex";
+}
+
+}
+
+function doomtimer() {
+    setTimeout('doom()',4000);
+}
+function doomctimer() {
+    setTimeout('doomc()',4000);
+}
+function doomftimer() {
+    setTimeout('doomf()',4000);
+}
+function chextimer() {
+    setTimeout('chex()',4000);
+}
+  function doom() {
+  document.launchtext.text.value='doom'
+  document.bgmstat.title.value='Loading Doom Original...'
+}
+  function doomc() {
+  document.launchtext.text.value='doomc'
+  document.bgmstat.title.value='Loading Doom Custom...'
+}
+  function doomf() {
+  document.launchtext.text.value='doomf'
+  document.bgmstat.title.value='Loading FreeDoom...'
+}
+  function chex() {
+  document.launchtext.text.value='chex'
+  document.bgmstat.title.value='Loading Chex Quest...';
+}
+</script>
+
+<script>
+
+// script 2006 Zefie
+
+function doWait() {
+	playeron = document.bgmusic.isPlaying();
+	if (playeron == true) {
+		len = document.bgmusic.getPlayLength();
+		cur = document.bgmusic.getPosition();
+		percent = (cur / len) * 100;
+		document.bgmprog.setMessage(" ");
+		document.bgmprog.setPercentDone(percent)
+		document.bgmprog.setAllowReverseProgress(true)
+		waittimer = setTimeout("doWait()",300);
+	}
+	else {
+		document.bgmprog.setMessage("");
+		document.bgmprog.setPercentDone(0)
+		document.bgmstat.time.value = "";
+		waittimer = setTimeout("doWait()",300);
+	}
+}
+
+</script>
+
+<script>
+	  
+if (document.images) {
+   pic1 = new Image();
+   pic1.src = 'doomgame.jpg';
+   pic2 = new Image();
+   pic2.src = 'freedoom.jpg';
+   pic3 = new Image();
+   pic3.src = 'chexquest.jpg';
+   pic4 = new Image();
+   pic4.src = 'doomwtv.jpg';
+   pic5 = new Image();
+   pic5.src = 'doomtips.jpg';
+   pic6 = new Image();
+   pic6.src = 'doommusic.jpg';
+   pic7 = new Image();
+   pic7.src = 'doomcus.jpg'
+} else {
+   pic1 = pic2 = pic3 = pic4 = pic5 = pic6 = pic7 = document.r1 = "";
+}
+
+</script>
+
+</head>
+<body bgcolor="#4c5a67" background="Pattern_Games.gif" text="#cbcbcb" alink="#dddddd" vlink="#dddddd" link="#dddddd" hspace="0" vspace="0" fontsize="large" onload="doWait()">
+
+<embed id="bgmusic" name="bgmusic" src="blank.mid" autostart="false" hidden="true">
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td background="GamesShadowLogo3.jpg" width="104" height="80" valign="top" align="left"><spacer type="block" WIDTH="11" HEIGHT="11"><br>
+<spacer type="block" WIDTH="5" HEIGHT="1">    <a href="file://disk/WTVS-Offline/games.html" onmouseover="document.r1.src=pic4.src;"><img src="DoomLogo.gif" width="106" height="69"></a></td>
+<td width="456" height="80" valign="top" align="center"><img src="GamesBanner.jpg" width="456" height="50"><br>
+<img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6"></td></tr></table>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="3"></td>
+</tr>
+<tr>
+<td abswidth="30">&nbsp;</td>
+<td>
+<table>
+<br>
+<td abswidth="210"><font size="1" color="#bbbbbb"><shadow>Select Game</shadow></font><br><br></td>
+
+<tr>
+<td width="240" valign="top" align="left"><font size="1" color="#989898">
+<li><a href="#" onmouseover="document.r1.src=pic1.src;" onclick="timer();playmidi();doomtimer();">Doom Original</a><br><br>
+<li><a href="#" onmouseover="document.r1.src=pic7.src;" onclick="timer();playmidi();doomctimer();">Doom Custom</a><br><br>
+<li><a href="#" onmouseover="document.r1.src=pic2.src;" onclick="timer();playmidi();doomftimer();">FreeDoom</a><br><br>
+<li><a href="#" onmouseover="document.r1.src=pic3.src;" onclick="timer();playmidi();chextimer()">Chex Quest</a><br><br>
+
+<tr>
+<td><font size="1" color="#bbbbbb"><shadow>Tips & Music</shadow></font><br><br></td>
+
+<tr>
+<td width="210" height="35" valign="top" align="left"><font size="1" color="#989898">
+<li><a href="file://disk/Doom/docs2/DoomTOC.html" onmouseover="document.r1.src=pic5.src;">Doom Tips</a><br><br>
+<li><a href="file://disk/Music/Doom/index.html" onmouseover="document.r1.src=pic6.src;" onmouseout="document.r1.src=pic4.src;">Doom Music</a><br><br>
+
+<tr>
+<td width="150" valign="top" align="left"><spacer H=14 type=vertical>
+<FORM action="client:goback">
+<FONT COLOR="#bbbbbb" SIZE=-1><SHADOW>
+<INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="Done" USESTYLE WIDTH=128>
+</SHADOW></FONT>
+
+</td></tr>
+</table>
+</td>
+
+<td valign="top">
+<table>
+<td valign="top">
+
+<form name="bgmstat">
+<font size="1" color="D6DFD0">
+<input type="text" name="title" border="0" disabled usestyle bgcolor="#4c5a67" text="#82A9D9" size="21">
+<img src="doomwtv.jpg" width="232" height="285" border="2" name="r1" alt="wtv">
+<progressindicator name="bgmprog" height=20 width=235>
+</font>
+</form>
+
+</td>
+</tr>
+</table>
+
+<form name="launchtext">
+<input type="hidden" name="text" border="0" size="5">
+</form>
+
+</body>
+</html>

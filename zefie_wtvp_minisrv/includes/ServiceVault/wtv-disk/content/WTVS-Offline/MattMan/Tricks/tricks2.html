@@ -1,0 +1,112 @@
+<html>
+<head>
+<display notvaudio nosave nosend noscroll>
+<title>WebTV Tricks</title>
+<SCRIPT language="JavaScript">
+
+function checkWord(e) {
+   //looking at the source code is cheating!
+   var readersEntry = document.pform.pword.value;
+
+   if (readersEntry.toLowerCase() == "qwad4x4") {
+		window.location.href="tricks3.html" ;
+   } else {
+	  document.pform.pword.value="";
+      alert ("Bad password, access denied!!!");
+   }
+   
+   return false;
+
+}
+
+</SCRIPT>
+</head>
+
+<sidebar width=20%>
+<img 
+src="Favorites_bg.jpg">
+</sidebar>
+<body bgcolor="#191919" text="#44cc55" link="36d5ff" vlink="36d5ff" vspace=0>
+
+
+
+<br>
+<h1>WebTV Tricks</h1>
+<br>
+
+
+<table width=100%>
+
+<tr>
+<td colspan=3 height=6>
+<tr>
+<td><a href="info.html">HackTV Info</a>
+<td width = 20>
+<td><a href="client:showalert?message=The%20Client%20Version%20only%20works%20on%20Newer%20builds.&buttonlabel2=Newer%20Build&buttonaction2=file://rom/InternalOnly/ClientVersion.html&buttonlabel1=Cancel&buttonaction1=client:donothing">Client Version</a>
+
+<tr>
+<td colspan=3 height=6>
+<tr>
+<td><a href="client:donothing">Removed</a><br>
+<td width = 20>
+<td><a href="client:showalert?message=The%20Client%20Control%20only%20works%20on%20newer%20debug%20builds.&buttonlabel2=Newer%20Debug%20Build&buttonaction2=file://rom/DebugOnly/ClientControl.html&buttonlabel1=Cancel&buttonaction1=client:donothing">Client Control</a>
+
+<tr>
+<td colspan=3 height=6>
+<tr>
+<td><a href="gopanel.html">GoTo Panel</a>
+<td width = 20>
+<td><a href="file://rom/InternalOnly/VFatHax.html">VFatHax</a><br>
+
+<tr>
+<td colspan=3 height=6>
+<tr>
+<td><a href="plus-com-port-connection.jpg">Debugger</a><a href="client:showalert?message=The%20Debugger%20Setup%20only%20works%20on%20newer%20debug%20builds.&buttonlabel2=Newer%20Debug%20Build&buttonaction2=file://rom/DebugOnly/DebugTermSetup.html&buttonlabel1=Cancel&buttonaction1=client:donothing"> Setup</a>
+<td width = 20>
+<td><a href="file://rom/InternalOnly/DiskHax.html">DiskHax</a>
+
+<tr>
+<td colspan=3 height=6>
+<tr>
+<td><a href="Client:ResetNVandPowerOff">Blast NVRAM</a><br>
+<td width = 20>
+<td><a href="client:showalert?message=The%20Upload%20File%20only%20works%20on%20debug%20builds.&buttonlabel2=Debug%20Build&buttonaction2=file://ROM/DebugOnly/UploadFile.html&buttonlabel1=Cancel&buttonaction1=client:donothing">Upload File</a>
+
+<tr>
+<td colspan=3 height=6>
+<tr>
+<td><a href="client:showservices">Show Services</a>
+<td width = 20>
+<td><a href="client:showalert?message=The%20Download%20File%20only%20works%20on%20debug%20builds.&buttonlabel2=Debug%20Build&buttonaction2=file://ROM/DebugOnly/DownloadFile.html&buttonlabel1=Cancel&buttonaction1=client:donothing">Download File</a>
+
+</TR>
+</td>
+</table>
+
+<spacer type=block height=34>
+
+<table width=100%>
+<TD VALIGN=top ALIGN=left>
+<font size=1>Enter a password for greater access:</font>
+<tr>
+<TD ALIGN=left>
+<img src="/ROMCache/Spacer.gif" height=12>
+<FORM name="pform" onsubmit="checkWord(e);">
+<input name="pword" id="password" bgcolor=#444444 text=#ffdd33 cursor=#cc9933  type="password" size="16">
+
+<TD VALIGN=top ALIGN=right>
+<img src="/ROMCache/Spacer.gif" height=12>
+
+<FORM
+action="file://disk/WTVS-Offline/games.html">
+<FONT COLOR="#E7CE4A" SIZE=-1><SHADOW>
+<INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/Borders/ButtonBorder2.bif" Value=Home NAME="Home" USESTYLE WIDTH=103>
+</SHADOW></FONT></FORM>
+
+</table>
+<spacer type=block height=22>
+<font color=red size=2>
+Your in TV Mode! TV Mode Fucks Shit Up!
+</font>
+</body>
+</html>

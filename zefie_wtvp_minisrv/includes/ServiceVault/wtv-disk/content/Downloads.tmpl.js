@@ -25,9 +25,9 @@ Click the <b>!</b> to force download a specific file set.
 <td><a href="file://Disk/WTVS/index.html">Start Simulator</a></td>
 </tr>
 <tr>
-<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo-BPS&amp;group=DealerDemo-BPS">Dealer Demo BPS</a></td>
-<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=DealerDemo-BPS&amp;group=DealerDemo-BPS&force=true">!</a></td>
-<td><a href="file://Disk/Demo-BPS/index.html">View Demo</a></td>
+<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS-Offline&amp;group=WTVS-Offline">WTVS-Offline</a></td>
+<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS-Offline&amp;group=WTVS-Offline&force=true">!</a></td>
+<td><a href="file://Disk/WTVS-Offline/Games.html">Start Offline Dashboard</a></td>
 </tr>
 </table>
 </ul>

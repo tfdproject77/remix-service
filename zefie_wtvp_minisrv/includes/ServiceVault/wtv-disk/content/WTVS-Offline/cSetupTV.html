@@ -1,0 +1,165 @@
+<html>
+<head>
+<title>Connect Setup v2.3</title>
+<DISPLAY noscroll allowoffline nooptions notvaudio>
+</head>
+<body bgcolor="#281f26" background="Pattern_Games.gif" text="#ffcf69" link="#4489a8"
+hspace="0" vspace="0" fontsize="large" noscroll nooptions>
+
+<table cellspacing="0" cellpadding="0" cellborder="0">
+  <tr>
+    <td background="cSetupShadowLogo.gif" width="104" height="80" valign="top" align="left"><spacer type="block" WIDTH="11" HEIGHT="11"><br>
+<spacer type="block" WIDTH="10" HEIGHT="1">    <a href="file://disk/WTVS-Offline/Games.html"><img src="hacktv4.gif" width="87"
+    height="67"></a> </td>
+    <td width="456" height="80" valign="top" align="center"><img src="cSetup.GIF"
+    width="456" height="50"><br>
+    <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6"> </td>
+  </tr>
+</table>
+
+
+       <h2>
+         &nbsp;Connection Setup v2.3
+         <hr>
+      </h2>
+	  <script>
+	  
+	  function doConnect() {
+		document.connect.submit();
+		location.href = "file://ROM/HTMLs/Connecting.html";
+	  }
+	  function updateService() {
+		srv = document.connect.preset[document.connect.preset.selectedIndex].value;
+		switch (srv) {
+				case "hacktvlan1":
+					document.connect.machine.value="127.0.0.1"
+					document.connect.port.value="1615"
+                    document.message.msg.value='Connect to your server via localhost. Localhost refers to the computer that you are on that is running your server.'
+					break;
+				case "hacktvupd":
+					document.connect.machine.value="71.244.121.234"
+                    document.connect.port.value="1615"
+                    document.message.msg.value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!'
+					break;
+				case "hacktvwin":
+					document.connect.machine.value="71.244.121.234"
+                    document.connect.port.value="1415"
+                    document.message.msg.value='This is the public HackTV minisrv backup, only available when the main HackTV server is down.'
+					break;
+				case "zefie":
+					document.connect.machine.value="24.105.201.236"
+					document.connect.port.value="1615"
+                    document.message.msg.value='This is Zefie\'s public minisrv, for those who want the vanilla minisrv experience.'
+					break;
+				case "mattman":
+					document.connect.machine.value="71.244.121.234"
+					document.connect.port.value="1515"
+                    document.message.msg.value='This is MattMan\'s normally private WebTV server. It\'s the real deal, not minisrv! May be up from time to time.'
+					break;
+				case "jarhead":
+					document.connect.machine.value="31.97.100.150"
+					document.connect.port.value="1615"
+                    document.message.msg.value='This is Jarhead\'s public minisrv, for those who want a more original WebTV experience.'
+					//alert("Coming soon!")
+					//document.connect.preset.selectedIndex = document.connect.preset.selectedIndex - 1;
+					//setTimeout(updateService,10);
+					break;
+				case "other":
+					document.connect.machine.value=""
+					document.connect.port.value=""
+					document.message.msg.value="Your custom service."
+		}
+	  }
+	  </script>
+      <form name="connect" onsubmit="doConnect()" action="client:ConfirmConnectSetup">
+         <table width=100% cellspacing=1 cellpadding=0>
+		    <tr>
+				<td colspan=3>
+					&nbsp;<font color=#4489a8>Presets:</font>
+				</td>
+				<td><spacer W=24 type=block>	
+					<select width="440" name="preset" onchange="updateService()" selected>
+                    <option value="hacktvupd">MattMan's (HTV) MiniSrv - Public</option>
+                    <option value="hacktvwin">MattMan's (HTV) MiniSrv - Bakup</option>
+					<option value="mattman">MattMan's Revival Srv.</option>
+					<option value="zefie">Zefie's MiniSrv - Public</option>
+					<option value="jarhead">Jarhead's MiniSrv - Public</option>
+					<option value="hacktvlan1">Localhost - Your Server</option>
+					<option value="other">Other</option>
+
+					</select>
+            </table>
+          <table width=100% cellspacing=1 cellpadding=0>
+            <tr>
+               <td height=18>
+            <tr>
+               <td colspan=3>		 
+                  &nbsp;<font color=#4489a8>Service:</font>
+            <tr>			   
+               <td width=15></td>
+               <td height=2>
+            <tr>
+               <td height=2>	
+            <tr>
+               <td>
+               <td>
+                  <input name=serviceType type=radio bgcolor=#444444 value=custom checked>
+               <td>
+                  &nbsp;Custom:&nbsp;&nbsp;&nbsp;
+               <td>
+                  Address:
+                  <input size=16 ASCIIONLY name=machine bgcolor=#b5b5b5 text=#191919 cursor=#cc9933 value="71.244.121.234">
+                  &nbsp;&nbsp;&nbsp;Port:
+                  <input size=5 ASCIIONLY NUMBERS name=port bgcolor=#b5b5b5 text=#191919 cursor=#cc9933 value="1615">
+         </table>
+
+                <spacer type=block height="8">
+        <hr>
+		 
+		 <table cellspacing=1 cellpadding=0>
+            <tr>
+               <td height=8>
+            <tr>
+               <td colspan=3>
+                  &nbsp;<font color=#4489a8>Description:</font><br><br>
+            <tr>
+               <td width=20>
+               <td width=390 align=left valign=top>
+                  <form name=message>
+
+                   <textarea rows=4 size=46 text=#ffcf69 id=msg name=msg border="0" bgcolor=#281f26 value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect>
+                   </textarea>
+                  </form>
+               <td>
+			   <td width=100% align=right valign=top>
+			   <form action="file://disk/browser/DiskFlash/tvhtmls/p-PhoneSetupIntro.html">
+					<font color="#E7CE4A" size=-2><shadow>&nbsp;
+					<input 
+						type=submit 
+						borderimage="file://ROM/tvimages/TVButtonBorder.bif" 
+						value="Phone Settings" 
+						name="Phone Settings" 
+						usestyle 
+						width=170> &nbsp;
+					</shadow></font>
+					</form>
+                <spacer type=block height="60">
+					<font color="#E7CE4A" size=-2><shadow>&nbsp;
+                    <input type=hidden name=useEncryption value=true checked>
+					<input 
+						type=submit 
+						borderimage="file://ROM/tvimages/TVButtonBorder.bif" 
+						value="Connect" 
+						name="Connect" 
+						usestyle 
+						width=170> &nbsp;
+					</shadow></font>	
+
+
+         </table>
+         
+
+      </form>
+
+</body>
+</html>

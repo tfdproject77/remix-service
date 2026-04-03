@@ -1,0 +1,16 @@
+body {background-color: #4c5a67;}
+
+body {
+  color: #cbcbcb;
+}
+
+a {
+  color: #dddddd;
+}
+
+td.t1 { 
+ background-image:url("file://disk/Browser/Games/GamesShadowLogo3.jpg"); 
+ }
+td.t2 { 
+ background-image:url("file://disk/Browser/Games/cSetupShadowLogo.jpg"); 
+ }

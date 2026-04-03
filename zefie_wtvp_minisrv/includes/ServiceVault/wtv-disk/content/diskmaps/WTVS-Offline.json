@@ -1,0 +1,626 @@
+{
+	"WTVS-Offline": {
+		"base": "file://Disk/WTVS-Offline/",
+		"location": "content/WTVS-Offline",
+		"service_owned": true,
+		"display": "Getting HTML Files...",
+		"partition_size": 4194304,
+		"files": [
+		{ 
+			"display": "Getting HTML Files...",
+		    "file": "file://Disk/WTVS-Offline/Games.html"
+		},
+		{
+		    "file": "file://Disk/WTVS-Offline/AboutDoom.html"
+		},
+		{
+		    "file": "file://Disk/WTVS-Offline/AboutJack.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/bootfail.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/cSetup.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/cSetupTV.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doom.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomGifTest.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomOLD.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomTestHDD.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomTestSD.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/embed.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Games0.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesTest.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesVWR.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/JackCover.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/JackCoverOLD.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mame.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mame2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mameBAK.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mameOLD.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mameORIG.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/PlayDoom.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/PlayJack.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Psycho.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/StartDoomCUS.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/StartDoomGame.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/StartGame.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/test.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvembed.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvhacktv.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvhacktv3.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvsettings.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/TechInfo.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/theme.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/html/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/tricks.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/tricks2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/tricks3.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/info.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/gopanel.html"
+		},
+		{
+			"display": "Getting Images...",
+			"file": "file://Disk/WTVS-Offline/blank.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doom.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomcus.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomgame.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/JackLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/JackLogo_LG.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvh.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mame.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/mame.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/html.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/hacktv.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/info.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/htvUpdate.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/wtvcity.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/wtvcity2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/ydkj.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/DoomLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomwtv.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomx.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/freedoom.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doommusic.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/doomtips.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tic.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Pattern_Games.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/HomeBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/progess.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesBanner.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GamesBanner2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/JackSpotArt.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/BlankkBanner.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/BlankBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/chexquest.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/videoBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/TechBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/TVhomeBanner.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/TVhomeBanner2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/cSetup.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/cross.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/checkers.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvhtv.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tvhtv2.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/hacktv.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/TechBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/tricksside.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/blue.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/light.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/dark.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/light.css"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/dark.css"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/blue.css"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/BlankBanner.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/GamesShadowLogo4.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/html/hacktv4.gif"
+		},
+		{
+			"display": "Getting Game Files...",
+			"file": "file://Disk/WTVS-Offline/tictac/blank.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/indexBAK.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/index.html.bak"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/lose.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/win.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/tie.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/o.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/tictac/x.jpeg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/GameCode.js"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/index.html.bak"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/black.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/you1.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/gray.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/you2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/you1k.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/you2k.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/beep.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/beep2.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/win.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/lose.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/me1.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/me2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/me1k.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/gr/me2k.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/0.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/1.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/2.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/3.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/5.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/6.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/7.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/8.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/9.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/10.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/11.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/12.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/13.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/14.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/15.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/16.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/17.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/18.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/19.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/20.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/21.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/22.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/23.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/24.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/25.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/26.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/27.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/28.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/29.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/30.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/31.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/32.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/33.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/34.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/35.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/36.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/37.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/38.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/39.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/40.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/41.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/42.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/43.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/44.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/45.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/46.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/47.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/48.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/49.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/50.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/51.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/52.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/53.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/54.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/55.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/56.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/57.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/58.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/59.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/60.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/61.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/62.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/63.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/boom.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/boom.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/d4.gif"
+		},
+		{			
+			"file": "file://Disk/WTVS-Offline/psychophants/dead.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/index.html.bak"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/open.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/off.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/sear.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/win.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/tick.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/psychophants/open.html.bak"
+		}
+	]
+  }
+}
