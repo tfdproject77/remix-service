@@ -4,7 +4,7 @@
 		"location": "content/WTVS-Offline",
 		"service_owned": true,
 		"display": "Getting HTV Files...",
-		"partition_size": 55584639,
+		"partition_size": 55585639,
 		"files": [
 		{ 
 			"display": "Getting HTML Files...",
@@ -379,6 +379,9 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/MattMan/html/HtmlBanner2.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/HtmlBanner.jpg"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/Favorites_bg.jpg"
