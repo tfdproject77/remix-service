@@ -29,9 +29,9 @@
   }
 
 function jackRatingClickDone() {
-  go(getProp("JackRatingTarget", "games.html"));
+  go(getProp("JackRatingTarget", "Games.html"));
 }
 
 function doomRatingClickDone() {
-  go(getProp("DoomRatingTarget", "games.html"));
+  go(getProp("DoomRatingTarget", "Games.html"));
 }
