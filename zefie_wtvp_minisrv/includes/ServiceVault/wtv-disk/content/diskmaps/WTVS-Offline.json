@@ -776,6 +776,43 @@
 			"file": "file://Disk/WTVS-Offline/MattMan/theme/GamesShadowLogo4.jpg"
 		},
 		{
+			"display": "Getting Jack TOC Files...",
+			"file": "file://Disk/WTVS-Offline/Jack/AboutESRB.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/AboutJack.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/Arrow_TOC.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/GamesBanner.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/GamesShadowLogo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/JackHints.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/JackInstructions.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/JackRatings.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/JackLogo_LG.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/JackSpotArt.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/JackTOC.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/Pattern_Games.gif"
+		},
+		{
 			"display":"Almost Done!",
 			"file": "file://Disk/WTVS-Offline/GameCode.js"
 		}
