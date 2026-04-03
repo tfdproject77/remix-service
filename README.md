@@ -69,12 +69,3 @@ This open source server is in beta status. Use at your own risk.
 ### How to Support the Project
 - [Report Bugs](https://github.com/DevTools77/remix-service/issues)
 - [Add a Feature and send a Pull Request](https://github.com/DevTools77/remix-service/pulls)
-- Write and submit better documentation than I created (see Pull Request above)
-- **Content Creators**: Shout out this project, and Zefie`s YouTube Channel (https://www.youtube.com/zefievideo)
-- Financially Support:
-   - **Companies**: Reach out to biz@zefie.net to sponsor this project
-   - [Subscribe on Patreon](https://www.patreon.com/zefie)
-   - One-Time Support: 
-      - [CashApp $altimit](https://cash.app/$altimit)
-      - Chime: $zefie
-      - [Credit Card or PayPal (powered by StreamElements)](https://zef.pw/ttv-tip)
