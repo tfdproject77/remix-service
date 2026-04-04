@@ -1002,6 +1002,112 @@
 			"file": "file://Disk/WTVS-Offline/music/karaoke/WeirdAlYankovic-Fat.mid"
 		},
 		{
+			"display": "Getting OG Classic...",
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/index.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/afterWork.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/airloop.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/airloop.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/aliveatdawn.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/boogie.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/Boggie.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/connecting.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/daybreak.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/Dialing.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/ghosttown.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/ghostown.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/home-logo.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/kartv.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/KarTV.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/majesty.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/mjstyWTV.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/plingA.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/plingB.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/seqJ.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/seqJ.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/snowy1.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/snowy1.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/splash.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/snowy2.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/swelping.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/tymplingA.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/tymplingB.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/webtv_logo.png"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/world1.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/world1.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/world2.mid"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/world2.mp3"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/wtv-chirp-chirp-ORIG.rmf"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/WTVa.mp3"
+		},
+		{
 			"display":"Almost Done!",
 			"file": "file://Disk/WTVS-Offline/GameCode.js"
 		}
