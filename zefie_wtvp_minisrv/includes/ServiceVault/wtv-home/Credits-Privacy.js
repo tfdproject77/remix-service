@@ -50,7 +50,7 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <font size="+2" color="E7CE4A"><blackface><shadow>
 <font size="+1">
 <CENTER><B>${minisrv_config.config.service_name} Service Privacy Statement</B></font><br>
-<B><font size="-1">(Release date March 27, 2026)</B></CENTER></font>
+<B><font size="-1">(Release date April 04, 2026)</B></CENTER></font>
 <td abswidth=20>
 <tr>
 <td>
@@ -70,7 +70,7 @@ ${minisrv_config.config.service_name} Service Privacy Statement
 <p>The ZIP Code you enter to set weather info will be stored on our servers, and will only be sent to The Weather Channel to get current data. You are not required to enter a ZIP code, however it is required to fully utilize weather forecasting.</p>
   <p><b>Pages you access</b><br>
 <p>All pages you visit and images you download will be temporarily logged for security reasons. This includes WebTV Network pages and Internet Web sites. This information can not be traced back to you, and will only be viewable to server operators for a short time. IRC Chat messages will <b><i>not</i></b> be logged, however server operators can see what servers you are connecting to.</p>
-<p><b>How We Help Protect Children's Privacy</b><br>
+   <p><b>How We Help Protect Children's Privacy</b><br>
 <p>We do not knowingly collect information from children under the age of 13 to comply with COPPA. If it becomes known that an account was created by someone under 13, the main user and all secondary accounts will be terminated immediately. All secondary users under 13 must be accompanied by a parent or guardian while using this service.</p>`;
 /*
  * //todo: decide if we should add a coppa config var to deal with this
