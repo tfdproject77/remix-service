@@ -356,6 +356,9 @@
 			"file": "file://Disk/WTVS-Offline/MattMan/html/HtmlBanner2.jpg"
 		},
 		{
+			"file": "file://Disk/WTVS-Offline/MattMan/html/minisrv.gif"
+		},
+		{
 			"file": "file://Disk/WTVS-Offline/HtmlBanner.jpg"
 		},
 		{
@@ -364,7 +367,13 @@
 		{
 			"file": "file://Disk/WTVS-Offline/MattMan/Tricks/port-com-port-connection.jpg"
 		},
-			{
+		{
+			"file": "file://Disk/WTVS-Offline/MattMan/theme/minisrv.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/minisrv.gif"
+		},
+		{
 			"display": "Getting Game Files...",
 			"file": "file://Disk/WTVS-Offline/tictac/blank.jpg"
 		},
@@ -396,6 +405,9 @@
 			"file": "file://Disk/WTVS-Offline/tictac/x.jpg"
 		},
 		{
+			"file": "file://Disk/WTVS-Offline/tictac/minisrv.gif"
+		},
+		{
 			"file": "file://Disk/WTVS-Offline/Checkers/index.html"
 		},
 		{
@@ -409,6 +421,9 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Checkers/hacktv4.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Checkers/minisrv.gif"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Checkers/gr/gray.gif"
@@ -827,6 +842,9 @@
 			"file": "file://Disk/WTVS-Offline/Music/images/hacktv4.gif"
 		},
 		{
+			"file": "file://Disk/WTVS-Offline/Music/images/minisrv.gif"
+		},
+		{
 			"file": "file://Disk/WTVS-Offline/Music/images/home-logo.gif"
 		},
 		{
@@ -909,6 +927,9 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/Rock/music.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/Rock/minisrv.gif"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/Rock/Ramstein-DuHaust.mp3"
