@@ -24,19 +24,19 @@
     }
     
     function logolight() {
-    document.write("<link rel='stylesheet' type='text/css' href='file://disk/Browser/MattMan/theme/light.css'>");
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
     }
     
     function logodark() {
-    document.write("<link rel='stylesheet' type='text/css' href='file://disk/Browser/MattMan/theme/dark.css'>");
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
     }
     
     function logoblue() {
-    document.write("<link rel='stylesheet' type='text/css' href='file://disk/Browser/MattMan/theme/blue.css'>");
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
     }
 
     function themeAlert() {
-    document.write("<link rel='stylesheet' type='text/css' href='file://disk/Browser/MattMan/theme/light.css'>");
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
 	}
   </script>
  </form>
