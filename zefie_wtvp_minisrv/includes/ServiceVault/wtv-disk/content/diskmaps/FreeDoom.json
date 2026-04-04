@@ -4,7 +4,7 @@
     "location": "content/FreeDoom/",
     "partition_size": 44457280,
 	"service_owned": true,
-	"execute_end": "client:boota?partition=DoomROM&action=create&size=5242880&source=file://disk/FreeDoom/DoomWebTVfree.o",
+	"execute_end": "client:boota?partition=DoomFROM&action=create&size=5242880&source=file://disk/FreeDoom/DoomWebTVfree.o",
     "files": [
       {
 		"display": "FreeDoom Application",
