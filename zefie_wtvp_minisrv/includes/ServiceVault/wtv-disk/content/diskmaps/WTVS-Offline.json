@@ -6,7 +6,7 @@
 		"partition_size": 55585639,
 		"files": [
 		{ 
-			"display": "Getting HTML Files...",
+			"display": "Getting HTV HTML Files...",
 		    "file": "file://Disk/WTVS-Offline/Games.html"
 		},
 		{
@@ -374,7 +374,7 @@
 			"file": "file://Disk/WTVS-Offline/minisrv.gif"
 		},
 		{
-			"display": "Getting Game Files...",
+			"display": "Getting HTV Game Files...",
 			"file": "file://Disk/WTVS-Offline/tictac/blank.jpg"
 		},
 		{
@@ -829,6 +829,9 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Jack/Pattern_Games.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Jack/minisrv.gif"
 		},
 		{
 			"display": "Getting Doom Music...",

@@ -25,9 +25,9 @@ Click the <b>!</b> to force download a specific file set.
 <td><a href="file://Disk/WTVS/index.html">Start Simulator</a></td>
 </tr>
 <tr>
-<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS-Offline&amp;group=WTVS-Offline">WTVS-Offline</a></td>
+<td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS-Offline&amp;group=WTVS-Offline">MiniSrv Dashboard</a></td>
 <td><a href="wtv-disk:/content/DownloadScreen.tmpl?diskmap=WTVS-Offline&amp;group=WTVS-Offline&force=true">!</a></td>
-<td><a href="file://Disk/WTVS-Offline/Games.html">Start Offline Dashboard</a></td>
+<td><a href="file://Disk/WTVS-Offline/Games.html">View MiniSrv Dashboard</a></td>
 </tr>
 </table>
 </ul>
