@@ -757,9 +757,6 @@
 			"file": "file://Disk/WTVS-Offline/Doom/GamesShadowLogo.gif"
 		},
 		{
-			"file": "file://Disk/WTVS-Offline/Doom/hacktv4.gif"
-		},
-		{
 			"file": "file://Disk/WTVS-Offline/Doom/minisrv.gif"
 		},
 		{
@@ -845,9 +842,6 @@
 		},
 		{
 			"display": "Getting Music Images...",
-			"file": "file://Disk/WTVS-Offline/Music/images/hacktv4.gif"
-		},
-		{
 			"file": "file://Disk/WTVS-Offline/Music/images/minisrv.gif"
 		},
 		{
@@ -909,9 +903,6 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/Rock/black-sabbath-wicked-world.mp3"
-		},
-		{
-			"file": "file://Disk/WTVS-Offline/Music/Rock/hacktv4.gif"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/Rock/home-logo.gif"
