@@ -50,7 +50,7 @@ ${minisrv_config.config.service_name} Terms of Service
 <font size="+2" color="E7CE4A"><blackface><shadow>
 <font size="+1">
 <CENTER><B>${minisrv_config.config.service_name} Terms of Service</B></font><br>
-<B><font size="-1">(Release date March 27, 2026)</B></CENTER></font>
+<B><font size="-1">(Release date April 04, 2026)</B></CENTER></font>
 <td abswidth=20>
 <tr>
 <td>
@@ -70,7 +70,7 @@ This server has no affiliation with WebTV Networks, and many original assets and
   </ul> 
   <p>Failure to abide by one or more of these rules may require your access to be terminated.</p>
   <p><b>Service Termination</b><br>
-<p>If you break one or more of the rules listed above, your access to the service may be revoked. Disclosure of your termination reason will be decided on a case-by-case basis. Any attempt for a banned user to regain access to the server will be dealt with immediately. If you know of a banned user who is still on the network, please report it to us by contacting ${minisrv_config.config.service_owner_contact} via ${minisrv_config.config.service_owner_contact_method}. All decisions are final, and will not be reverted.</p>
+  <p>If you break one or more of the rules listed above, your access to the service may be revoked. Disclosure of your termination reason will be decided on a case-by-case basis. Any attempt for a banned user to regain access to the server will be dealt with immediately. If you know of a banned user who is still on the network, please report it to us by contacting ${minisrv_config.config.service_owner_contact} via ${minisrv_config.config.service_owner_contact_method}. All decisions are final, and will not be reverted.</p>
   
 <p>These terms can change at any time, without warning. Your continued usage of the service is an agreement to these Terms of Service. If you do not agree to these terms, please disconnect immediately and contact ${minisrv_config.config.service_owner_contact} via ${minisrv_config.config.service_owner_contact_method} to terminate your account.</p>
 <td>
