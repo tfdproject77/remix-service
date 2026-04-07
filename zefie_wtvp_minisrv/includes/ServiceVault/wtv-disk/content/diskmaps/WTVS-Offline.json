@@ -1096,6 +1096,37 @@
 			"file": "file://Disk/WTVS-Offline/music/OriginalClassicBG/WTVa.mp3"
 		},
 		{
+			"display": "Getting Weblizter...",
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/index_shows.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/index_headspc.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/index_classical1.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/index_classical2.html"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/ROMCache/Spacer.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/ROMCache/JukeboxLeft.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/ROMCache/JukeboxRight.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/ROMCache/JukeboxBars.gif"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/ROMCache/Jukebox.jpg"
+		},
+		{
+			"file": "file://Disk/WTVS-Offline/Music/OldSchool/HOME.mid"
+		},
+		{
 			"display":"Almost Done!",
 			"file": "file://Disk/WTVS-Offline/GameCode.js"
 		}
