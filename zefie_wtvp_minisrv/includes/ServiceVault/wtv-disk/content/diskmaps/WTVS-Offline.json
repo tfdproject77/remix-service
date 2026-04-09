@@ -1187,7 +1187,7 @@
 			"file": "file://Disk/WTVS-Offline/Music/OldSchool/ECHOES1.mid"
 		},
 		{
-            "file": "file://Disk/WTVS-Offline/Music/OldSchool/endgame.mid"
+   "file": "file://Disk/WTVS-Offline/Music/OldSchool/endgame.mid"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/OldSchool/fa_apres.mid"
@@ -1221,9 +1221,6 @@
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/OldSchool/hawaii5o.mid"
-		},
-		{
-			"file": "file://Disk/WTVS-Offline/Music/OldSchool/hell.mid"
 		},
 		{
 			"file": "file://Disk/WTVS-Offline/Music/OldSchool/haydn.mid"
