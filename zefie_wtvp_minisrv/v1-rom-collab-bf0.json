@@ -1,7 +1,7 @@
 {
 	"V1-Rom-htv-coltonsr77-bf0": {
-		"base": "file://Disk/v1-rom-coltonsr77-htv-bf0//",
-		"location": "content/coltonsr77-rom-bf0-v1/",
+		"base": "file://Disk/v1-rom-coltonsr77-htv-bf0/",
+		"location": "content/coltonsr77-rom-bf0-v1",
 		"files": [
 			{
 				"file": "file://Disk/v1-rom-coltonsr77-htv-bf0//HTV/AboutDoom.html"

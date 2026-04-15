@@ -1,13 +1,13 @@
 {
 	"WTVS-Offline": {
-		"base": "file://Disk/WTVS-Offline//",
+		"base": "file://Disk/WTVS-Offline/",
 		"location": "content/WTVS-Offline/",
 		"files": [
 			{
-				"file": "file://Disk/WTVS-Offline//AboutDoom.html"
+				"file": "file://Disk/WTVS-Offline/AboutDoom.html"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//AboutJack.html"
+				"file": "file://Disk/WTVS-Offline/AboutJack.html"
 			},
 			{
 				"file": "file://Disk/WTVS-Offline//blank.gif"
