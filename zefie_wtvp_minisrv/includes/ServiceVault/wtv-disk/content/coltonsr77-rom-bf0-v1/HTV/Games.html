@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>MiniSrv Home</title>
+<DISPLAY notvaudio allowoffline nooptions>
+
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    //window.location="client:showalert?message=%3Cfont%20size%3D%22small%22%3ESelect%20a%20theme!%3Cbr%3E%3Cbr%3EIf%20this%20is%20your%20first%20time%20booting%20up%20the%20HTV%20build%20please%20select%20the%20theme%20you%20would%20like%20to%20use%20now.%3Cbr%3E%3Cbr%3E&buttonlabel2=Set%20Theme&buttonaction2=file://disk/WTVS-Offline/MattMan/theme/theme.html&buttonlabel1=Close&buttonaction1=client%3Adonothing";
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+
+<script>
+	  
+	  function doConnect() {
+		document.connect.submit();
+		location.href = "file://ROM/HTMLs/Connecting.html";
+	  }
+
+if (document.images) {
+   pic1 = new Image();
+   pic1.src = 'mame.png';
+   pic2 = new Image();
+   pic2.src = 'doom.jpg';
+   pic3 = new Image();
+   pic3.src = 'checkers.jpg';
+   pic4 = new Image();
+   pic4.src = 'music.jpg';
+   pic5 = new Image();
+   pic5.src = 'info.png';
+   pic6 = new Image();
+   pic6.src = 'tricks.jpg';
+   pic7 = new Image();
+   pic7.src = 'wtvcity2.gif';
+   pic8 = new Image();
+   pic8.src = 'tic.jpg';
+   pic9 = new Image();
+   pic9.src = 'html.jpg';
+   pic10 = new Image();
+   pic10.src = 'cSetup.jpg';
+   pic11 = new Image();
+   pic11.src = 'ydkj.jpg';
+   pic12 = new Image();
+   pic12.src = 'wtvcity.gif';
+   pic13 = new Image();
+   pic13.src = 'tvh.jpg';
+   pic14 = new Image();
+   pic14.src = 'psychoANI.gif';
+   pic15 = new Image();
+   pic15.src = 'htvUpdate.jpg';
+   pic16 = new Image();
+   pic16.src = 'htvUpdate.jpg';
+} else {
+   pic1 = pic2 = pic3 = pic4 = pic5 = pic6 = pic7 = pic8 = pic9 = pic10 = pic11 = pic12 = pic13 = pic14 = pic15 = pic16 = document.r1 = "";
+}
+</script>
+
+</head>
+<body bgcolor="#4c5a67" background="Pattern_Games.gif" text="#cbcbcb" alink="#dddddd" vlink="#dddddd" link="#dddddd" hspace="0" vspace="0" fontsize="large">
+
+<table cellspacing="0" cellpadding="0" cellborder="0">
+<tr>
+<td class="t1" width="104" height="80" valign="top" align="left"><spacer type="block" WIDTH="11" HEIGHT="11"><br>
+<spacer type="block" WIDTH="10" HEIGHT="1">    <a href="client:showalert?message=%3Cfont%20size%3D%22small%22%3ECredits%3A%3Cbr%3E%3Cbr%3EeMac%3Cbr%3EMattMan69%3Cbr%3EOuta%3Cbr%3EZefie%3Cbr%3Ecoltonsr77%3Cbr%3E%3Cbr%3E&buttonlabel2=Web%20Home&buttonaction2=client%3Agotowebhome&buttonlabel1=Close&buttonaction1=client%3Adonothing" onmouseover="document.r1.src=pic7.src;"><img src="file://disk/WTVS-Offline/minisrv.gif" width="90" height="69"></a></td>
+<td width="456" height="80" valign="top" align="center"><img src="HomeBanner.jpg" width="456" height="50"><br>
+<img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6"></td></tr></table>
+<table cellspacing="0" cellpadding="0">
+
+<tr>
+<td abswidth="30">&nbsp;</td>
+<td>
+<table>
+<td abswidth="210"><font size="1" color="#bbbbbb"><shadow>Play Games</shadow></font></td>
+
+<tr>
+<td width="150" height="40" valign="top" align="left"><font size="1" color="#989898">
+<li><a href="file://disk/WTVS-Offline/mame.html" onmouseover="document.r1.src=pic1.src;">M.A.M.E.</a>
+<li><a href="file://disk/WTVS-Offline/doom.html" onmouseover="document.r1.src=pic2.src;">Doom</a>
+<li><a href="file://disk/WTVS-Offline/JackCover.html" onmouseover="document.r1.src=pic11.src;">Y.D.K.J.</a>
+<li><a href="file://disk/WTVS-Offline/Checkers/index.html" onmouseover="document.r1.src=pic3.src;">Checkers</a>
+<li><a href="file://disk/WTVS-Offline/tictac/index.html" onmouseover="document.r1.src=pic8.src;">TicTacToe</a>
+<li><a href="file://disk/WTVS-Offline/Psycho.html" onmouseover="document.r1.src=pic14.src;">Psychophants</a>
+<tr>
+<td><font size="1" color="#bbbbbb"><shadow>Play Music</shadow></font></td>
+
+<tr>
+<td width="210" height="35" valign="top" align="left"><font size="1" color="#989898">
+<li><a href="file://disk/WTVS-Offline/Music/index.html" onmouseover="document.r1.src=pic4.src;">WebTV Music</a>
+<li><a href="file://disk/WTVS-Offline/Music/Rock/index.html" onmouseover="document.r1.src=pic4.src;">Rock Music</a></td></tr>
+
+<tr>
+<td><font size="1" color="#bbbbbb"><shadow>Tech Area</shadow></font></td>
+
+<tr>
+<td width="150" height="60" valign="top" align="left"><font size="1" color="#989898">
+<li><a href="file://disk/WTVS-Offline/MattMan/TechInfo.html" onmouseover="document.r1.src=pic5.src;">Tech Info</a>
+<li><a href="client:showalert?message=%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Ccenter%3E%3Ch2%3ETools%2FSettings%20%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3Cbr%3E%3CTABLE%3E%3CTR%3E%3CTD%3E%3CFORM%20action%3D%27file%3A%2F%2Fdisk%2FWTVS-Offline%2FMattMan%2Fhtml%2Findex.html%27%3E%3CINPUT%20TYPE%3DSUBMIT%20borderimage%3D%27file%3A%2F%2From%2Fborders%2Fbuttonborder3.bif%27%20text%3Dffdd33%20VALUE%3D%27HTML%27%3E%3C%2FFORM%3E%3C%2FTD%3E%3CTD%3E%3CFORM%20action%3D%27file%3A%2F%2Fdisk%2FWTVS-Offline%2FMattMan%2Fhtml%2Fcalc.html%27%3E%3CINPUT%20TYPE%3DSUBMIT%20borderimage%3D%27file%3A%2F%2From%2Fborders%2Fbuttonborder3.bif%27%20text%3Dffdd33%20VALUE%3D%27Calc.%27%3E%3C%2FFORM%3E%3CTD%3E%3CFORM%20action%3D%27file%3A%2F%2Fdisk%2FWTVS-Offline%2FMattMan%2Ftheme%2Ftheme.html%27%3E%3CINPUT%20TYPE%3DSUBMIT%20borderimage%3D%27file%3A%2F%2From%2Fborders%2Fbuttonborder3.bif%27%20text%3Dffdd33%20VALUE%3D%27Themes%27%3E%3C%2FFORM%3E%3CTD%3E%3CFORM%20action%3D%27client%3Adonothing%27%3E%3CINPUT%20TYPE%3DSUBMIT%20borderimage%3D%27file%3A%2F%2From%2Fborders%2Fbuttonborder3.bif%27%20text%3DD2042D%20VALUE%3D%27X%27%20selected%3E%3C%2FFORM%3E%3C%2FTD%3E%3CTD%3E%3C%2FTR%3E%3C%2FTABLE%3E%3Cnoembed%3E" onmouseover="document.r1.src=pic9.src;">Tools / Settings</a>
+<li><a href="file://disk/WTVS-Offline/MattMan/Tricks/tricks.html" onmouseover="document.r1.src=pic6.src;">MiniSrv Tricks</a>
+<li><a href="file://disk/WTVS-Offline/cSetup.html" onmouseover="document.r1.src=pic10.src;" onmouseout="document.r1.src=pic13.src;">Connect Setup</a>
+<li><a href="file://disk/WTVS/index.html" onmouseover="document.r1.src=pic15.src;" onmouseout="document.r1.src=pic15.src;">WTV Simulator</a>    
+</td></tr>
+</table>
+</td>
+
+<spacer H=9 type=block>
+<td valign="top">
+<table>
+<td valign="top">
+<center><font size="2" color="#bbbbbb"><shadow>
+<a href="file://rom/InternalOnly/SetClock.html" onmouseover="document.r1.src=pic7.src;">
+					<clock dayofweek allcaps abbreviated>
+					<spacer width=6 type=block>
+					<clock month day allcaps abbreviated>
+					<spacer width=12 type=block>
+					<clock time ampm></a></shadow></font></center>
+					<br>
+<img src="wtvcity2.gif" width="260" height="193" border="2" name="r1" alt="wtv">
+	 
+<table>
+<tr>
+<td align="center" width="246">
+<form name=message>
+<script>
+
+var htvtheme=document.theme.name.value;
+
+if (htvtheme == "light") {
+	//light theme
+    light();
+} else if (htvtheme == "dark") {
+	//dark theme
+    dark();
+} else if (htvtheme == "blue") {
+	//blue theme
+    //window.location="Games.html";
+    //document.message.alert.value='poop'
+    //document.bgColor="191919";
+    blue();
+} else if (htvtheme == "") {
+    //no theme
+    themeAlert()
+}
+
+function light() {
+document.write("<input type=text size=24 text=#dddddd id=alert name=alert border=0 bgcolor=#4c5a67 nohighlight noselect>");
+}
+function dark() {
+document.write("<input type=text size=24 text=#dddddd id=alert name=alert border=0 bgcolor=#191919 nohighlight noselect>");
+}
+function blue() {
+document.write("<input type=text size=24 text=#dddddd id=alert name=alert border=0 bgcolor=#003355 nohighlight noselect>");
+}
+function themeAlert() {
+document.write("<input type=text size=24 text=#dddddd id=alert name=alert border=0 bgcolor=#4c5a67 nohighlight noselect>");
+}
+
+</script>
+</form>
+</td>
+</tr>
+</table>
+
+<br>
+<spacer H=18 type=block>
+<br>
+
+<table>
+<tr>
+<td align="right" width="124">
+<FORM action="client:gototvhome">
+<FONT COLOR="#bbbbbb" SIZE=-1><SHADOW>
+<INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="TV Home" USESTYLE WIDTH=124>
+</SHADOW></FONT>
+
+
+<td abswidth="6">
+<td align="left" width="124">
+</FONT></FORM>
+<FORM action="client:activ">
+<FONT COLOR="#bbbbbb" SIZE=-1><SHADOW>
+<INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="Connect" USESTYLE WIDTH=124>
+</SHADOW></FONT>
+</FORM>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</td>
+</table> 
+
+<form name=oldVWR id=oldVWR>
+<INPUT TYPE="hidden" NAME="VWR1" ID="VWR1" value="&vers;" nohighlight>
+</form>
+<script type="text/javascript">
+
+var viewer=document.oldVWR.VWR1.value
+
+if (viewer == "2.3 debug") {
+	//document.oldVWR.VWR1.value='2.3 debug';
+   location.replace("file://disk/WTVS-Offline/GamesVWR.html");
+} else if (viewer == "2.5 debug") {
+	//document.oldVWR.VWR1.value='2.5 debug';
+   location.replace("client:donothing")
+}
+
+</script>
+<!---End------MattMan-----Old Viewer-----Script-->
+
+
+
+</body>
+</html>

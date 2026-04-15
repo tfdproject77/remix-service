@@ -1,0 +1,241 @@
+<html>
+<head>
+<title>Doom</title>
+<DISPLAY notvaudio allowoffline nooptions noscroll>
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    //window.location="client:showalert?message=%3Cfont%20size%3D%22small%22%3ESelect%20a%20theme!%3Cbr%3E%3Cbr%3EIf%20this%20is%20your%20first%20time%20booting%20up%20the%20HTV%20build%20please%20select%20the%20theme%20you%20would%20like%20to%20use%20now.%3Cbr%3E%3Cbr%3E&buttonlabel2=Set%20Theme&buttonaction2=file://disk/WTVS-Offline/MattMan/theme/theme.html&buttonlabel1=Close&buttonaction1=client%3Adonothing";
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+<script>
+
+function timer() {
+    setTimeout('launch()',4750);
+}
+
+function launch() {
+	if (document.launchtext.text.value == "doom") {
+    window.location="StartGame.html?launch=playDoom";
+} 
+    else if (document.launchtext.text.value == "doomc") {
+    window.location="StartGame.html?launch=playDoomC";
+}
+    else if (document.launchtext.text.value == "doomf") {
+    window.location="StartGame.html?launch=playDoomF";
+}
+    else if (document.launchtext.text.value == "chex") {
+    window.location="StartGame.html?launch=playChex";
+}
+
+}
+
+function doomtimer() {
+    setTimeout('doom()',100);
+}
+function doomctimer() {
+    setTimeout('doomc()',100);
+}
+function doomftimer() {
+    setTimeout('doomf()',100);
+}
+function chextimer() {
+    setTimeout('chex()',100);
+}
+  function doom() {
+  document.launchtext.text.value='doom'
+  document.bgmstat.title.value='Loading Doom Original...'
+}
+  function doomc() {
+  document.launchtext.text.value='doomc'
+  document.bgmstat.title.value='Loading Doom Custom...'
+}
+  function doomf() {
+  document.launchtext.text.value='doomf'
+  document.bgmstat.title.value='Loading FreeDoom...'
+}
+  function chex() {
+  document.launchtext.text.value='chex'
+  document.bgmstat.title.value='Loading Chex Quest...';
+}
+</script>
+
+<script>
+	  
+if (document.images) {
+   pic1 = new Image();
+   pic1.src = 'doomgame.png';
+   pic2 = new Image();
+   pic2.src = 'freedoom.png';
+   pic3 = new Image();
+   pic3.src = 'chexquest.png';
+   pic4 = new Image();
+   pic4.src = 'doomwtv.png';
+   pic5 = new Image();
+   pic5.src = 'doomtips.jpg';
+   pic6 = new Image();
+   pic6.src = 'doommusic.jpg';
+   pic7 = new Image();
+   pic7.src = 'doomcus.png'
+} else {
+   pic1 = pic2 = pic3 = pic4 = pic5 = pic6 = pic7 = document.r1 = "";
+}
+
+</script>
+
+</head>
+<body bgcolor="#4c5a67" background="Pattern_Games.gif" text="#cbcbcb" alink="#dddddd" vlink="#dddddd" link="#dddddd" hspace="0" vspace="0" fontsize="large">
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class=t1 width="104" height="80" valign="top" align="left"><spacer type="block" WIDTH="11" HEIGHT="11"><br>
+<spacer type="block" WIDTH="5" HEIGHT="1"><a href="file://disk/WTVS-Offline/Games.html" onmouseover="document.r1.src=pic4.src;">
+<img src="DoomLogo.gif" width="106" height="58"></a></td>
+<td width="456" valign="top" align="center"><img src="GamesBanner.jpg" width="456" height="50"><br>
+<img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6">
+</td></tr></table>
+
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td>
+
+<table cellspacing="0" cellpadding="0" width=30>
+<tr>
+<td>
+&nbsp;
+</td></tr>
+</table>
+
+<td>
+
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td width=240 align="left">
+<font size="1" color="#bbbbbb"><shadow>Select Game</shadow></font><br><br>
+</td>
+
+<tr>
+<td>
+<font size="1" color="#989898">
+<!--li><a href="client:boota?args=-doom%20-file%20test.wad%20-warp%201%201-skill%202&partition=DoomCUS">Map Test</a><br><br--This Works, but seems to fail on older builds such as 3833, so for the sake of compatibility i just compiled all custom wads into one. Doom Custom has 4 complete levels with a total of 36 new maps.-->
+<li><a href="#" onmouseover="document.r1.src=pic1.src;" onclick="timer();doomtimer();document.images.progress.src='progress.gif'">Doom Original</a><br><br>
+<li><a href="#" onmouseover="document.r1.src=pic7.src;" onclick="timer();;doomctimer();document.images.progress.src='progress.gif'">Doom Custom</a><br><br>
+<li><a href="#" onmouseover="document.r1.src=pic2.src;" onclick="timer();;doomftimer();document.images.progress.src='progress.gif'">FreeDoom</a><br><br>
+<li><a href="#" onmouseover="document.r1.src=pic3.src;" onclick="timer();chextimer();document.images.progress.src='progress.gif'">Chex Quest</a><br><br>
+</td>
+
+<tr>
+<td>
+<font size="1" color="#bbbbbb"><shadow>Tips & Music</shadow></font><br><br>
+</td>
+
+<tr>
+<td>
+<font size="1" color="#989898">
+<li><a href="file://disk/WTVS-Offline/Doom/DoomTOC.html" onmouseover="document.r1.src=pic5.src;">Doom Tips</a><br><br>
+<li><a href="file://disk/WTVS-Offline/Music/Doom/index.html" onmouseover="document.r1.src=pic6.src;" onmouseout="document.r1.src=pic4.src;">Doom Music</a><br><br>
+</td>
+
+<tr>
+<td>
+<spacer H=40 type=vertical>
+<FORM action="client:goback">
+<FONT COLOR="#bbbbbb" SIZE=-1>
+<SHADOW>
+<INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="Done" USESTYLE WIDTH=128>
+</SHADOW></FONT>
+</td></tr>
+</table>
+
+<td>
+
+<table cellspacing="0" cellpadding="0" valign="top" align="right">
+<tr>
+<td>
+
+<form name="bgmstat">
+<font size="1" color="D6DFD0">
+<script>
+
+var htvtheme=document.theme.name.value;
+
+if (htvtheme == "light") {
+	//light theme
+    light();
+} else if (htvtheme == "dark") {
+	//dark theme
+    dark();
+} else if (htvtheme == "blue") {
+	//blue theme
+    blue();
+} else if (htvtheme == "") {
+    //no theme
+    themeAlert()
+}
+
+function light() {
+document.write("<input type=text name=title border=0 disabled usestyle bgcolor=#4c5a67 text=#82A9D9 size=21>");
+}
+function dark() {
+document.write("<input type=text name=title border=0 disabled usestyle bgcolor=#191919 text=#82A9D9 size=21>");
+}
+function blue() {
+document.write("<input type=text name=title border=0 disabled usestyle bgcolor=#003355 text=#82A9D9 size=21>");
+}
+function themeAlert() {
+document.write("<input type=text name=title border=0 disabled usestyle bgcolor=#4c5a67 text=#82A9D9 size=21>");
+}
+
+</script>
+<br>
+<img src="doomwtv.png" width="246" height="287" border="2" name="r1" alt="wtv">
+<img src="blank.gif" height=16 width=250 name="progress">
+
+</font>
+</form>
+
+</td></tr>
+</table>
+
+</td></tr>
+</table>
+
+
+<form name="launchtext">
+<input type="hidden" name="text" border="0" size="5">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<HTML>
+
+	<A HREF="client:ShowTVListingsSetup?main-page=true" selected>
+	<font size=+2 color=#cbcbcb><shadow>Listings setup</shadow></font></A>
+	<font size=-2 color=#6cb18a><br><spacer type=block width=10 height=2><br>
+	Set WebTV to give you<br>TV listings for your area</FONT><BR>
+	<IMG SRC="file://ROM/Images/Spacer.gif" WIDTH=1 HEIGHT=32><BR>
+	<A HREF="client:ConfirmExternalSetup?showPage=IntroPage">
+	<font size=+2 color=#cbcbcb><shadow>Hooking up</shadow></font></A>
+	<font size=-2 color=#6cb18a><br><spacer type=block width=10 height=2><br>
+	Set up to use WebTV with<br>your VCR, cable TV box,<br>or satellite dish</FONT><BR>
+	<IMG SRC="file://ROM/Images/Spacer.gif" WIDTH=1 HEIGHT=32><BR>
+	<A HREF="file://disk/browser/DiskFlash/tvhtmls/p-PhoneSetupIntro.html">
+	<font size=+2 color=#cbcbcb><shadow>Dialing</shadow></font></A>
+	<font size=-2 color=#6cb18a><br><spacer type=block width=10 height=2><br>
+	Settings for connecting<br>to WebTV</FONT><BR>
+
+	<A HREF="client:showchannelsetup">
+	<font size=+2 color=#cbcbcb><shadow>Channels</shadow></font></A>
+	<font size=-2 color=#6cb18a><br><spacer type=block width=10 height=2><br>
+	Select stations to view<br>when changing channels</FONT><BR>
+	<IMG SRC="file://ROM/Images/Spacer.gif" WIDTH=1 HEIGHT=32><BR>
+	<A HREF="file://ROM/tvhtmls/wallet/index.html">
+	<font size=+2 color=#cbcbcb><shadow>Wallet</shadow></font></A>
+	<font size=-2 color=#6cb18a><br><spacer type=block width=10 height=2><br>
+	Enables you to securely<br>purchase items and<br>receive free offers</FONT><BR>
+	<IMG SRC="file://ROM/Images/Spacer.gif" WIDTH=1 HEIGHT=32><BR>
+	<A HREF="file://disk/browser/DiskFlash/tvhtmls/setup-center.html">
+ 	<font size=+2 color=#cbcbcb><shadow>Screen</shadow></font></A>
+ 	<font size=-2 color=#6cb18a><br><spacer type=block width=10 height=2><br>
+	Adjust how WebTV looks<br>on your television</FONT><BR>
+
+
+
+<table align="right" width=100%>
+<tr>
+<td abswidth="6">
+<td align="right">
+		 <form> 
+         <select name="list" width="220" 
+            onclick="if(options[selectedIndex].value) window.location.href=(options[selectedIndex].value)"> <option value="">Other TV Shit</option> 
+         <option value="client:showtvlistings">TV Listings</option>
+         <option value="file://disk/browser/DiskFlash/tvhtmls/TVFavorites.html">TV Favorites</option>
+         <option value="client:tvplanner?showEventList=true">TV Planner</option>
+         <option value="client:VCRController?command=ShowPage">VCR</option>
+         <option value="client:showtvcrossoverrecent">TV Sites</option>
+         <option value="file://disk/browser/Help/toc.html">TV Help</option>
+         </select>
+         </form>
+
+
+<td abswidth="10">
+<td align="left">
+<form action="client:showtvhome">
+<spacer type=horizontal width=80>
+<font color=ffcf69 size=-1><shadow>
+<input type=submit borderimage="file://ROM/tvimages/TVButtonBorder.bif" value="Done" usestyle width=130>
+</shadow></font>
+</form>
+
+</td>
+</tr>
+</table>
+</BODY>
+</HTML>

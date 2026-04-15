@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>WebTV Technical Information</title>
+    <DISPLAY noscroll nooptions notvaudio>
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+  </head>
+  <body bgcolor="#281f26" background="file://disk/WTVS-Offline/Pattern_Games.gif" text="#cbcbcb" alink="#4489a8" vlink="#4489a8" link="#4489a8" hspace="0" vspace="0" fontsize="large">
+    <table cellspacing="0" cellpadding="0" cellborder="0">
+      <tr>
+        <td class=t1 width="104" height="80" valign="top" align="left">
+          <spacer type="block" WIDTH="11" HEIGHT="11"><br>
+            <spacer type="block" WIDTH="10" HEIGHT="1"> <a href="file://disk/WTVS-Offline/Games.html"><img src="file://disk/WTVS-Offline/minisrv.gif" width="90" height="69"></a>
+        </td>
+        <td width="456" height="80" valign="top" align="center"><img src="TechBanner.jpg" width="456" height="50"><br>
+          <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6">
+        </td>
+      </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0">
+      <tr>
+        <td absheight="420" abswidth="555" valign="top" align="left">
+          <table cellspacing="0" cellpadding="0">
+            <tr>
+              <td absheight="6"></td>
+            </tr>
+            <tr>
+              <td abswidth="30"></td>
+              <td valign=top>
+                <table cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td valign="top" absheight="6"> </td>
+                  </tr>
+                  <tr>
+                    <td width="520" valign="top" align="left">
+                      <table border="0" cellspacing="3" cellpadding="3">
+                        <tr>
+                          <td width=230></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td> Client Version </td>
+                          <td> &vers;</td>
+                        </tr>
+                        <tr>
+                          <td>Boot Version</td>
+                          <td> &wtv-bootvers;</td>
+                        </tr>
+                        <tr>
+                          <td>System Configuration</td>
+                          <td>&wtv-syscfg;</td>
+                        </tr>
+                        <tr>
+                          <td>Chip Version</td>
+                          <td>&wtv-chipvers;</td>
+                        </tr>
+                        <tr>
+                          <td> Silicon Serial ID #</td>
+                          <td> &wtv-ssn;</td>
+                        </tr>
+                        <tr>
+                          <td> Modem Speed</td>
+                          <td> &rate;</td>
+                        </tr>
+                        <tr>
+                          <td> Client Build</td>
+                          <td> &wtv-appvers;</td>
+                        </tr>
+                        <tr>
+                          <td> CPU Speed</td>
+                          <td> &cpu;</td>
+                        </tr>
+                      </table>
+                 </td>
+                </tr>
+               </table>
+                   
+  </body>
+</html>

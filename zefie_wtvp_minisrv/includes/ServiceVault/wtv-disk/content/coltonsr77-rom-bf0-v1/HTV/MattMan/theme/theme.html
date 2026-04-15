@@ -1,0 +1,151 @@
+<html>
+  <head>
+    <title>Theme Settings</title>
+    <DISPLAY nooptions notvaudio>
+
+<!--
+
+Theme switcher MattMan69 GraspYonOx@hotmail.com 2023
+
+Super hacky on the backend, dialing options bypass in approm.o BYOISP provider name was
+used to store the theme into memory. Other ways are available but this was the easiest
+option that I could think of.   **There must be a better way!  Why do I do this??**
+
+Special thanks to SKCro for blue theme and providing the motivation to add the feature to
+the HackTV custom build.     
+
+Viewer -- This works best on the latest version of the Hackers Edition Viewer. Other viewers
+will give errors if not connected to the HTV server but will still switch the theme. If connected
+to other servers you may be redirected to another page after selecting theme or get an error.
+
+Box -- This works best on a box when using the latest HTV custom build for the old plus models. Using 
+other builds will result in getting redirected to PhoneSetupIntro page. It will still switch the
+theme but kinda makes for a messy experience.
+
+--->
+
+
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme default to light
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='blue.css'>");
+    }
+
+    function themeAlert() {
+    document.write("<link rel='stylesheet' type='text/css' href='light.css'>");
+	}
+  </script>
+</form>
+
+</head>
+<body bgcolor="#281f26" background="file://disk/WTVS-Offline/Pattern_Games.gif" text="#cbcbcb" link="#4489a8" alink="#4489a8" vlink="#4489a8" hspace="0" vspace="0">
+  <table cellspacing="0" cellpadding="0" cellborder="0">
+    <tr>
+      <td class="t1" width="104" height="80" valign="top" align="left">
+        <spacer type="block" WIDTH="11" HEIGHT="11">
+        <br>
+        <spacer type="block" WIDTH="10" HEIGHT="1">
+        <a href="file://disk/WTVS-Offline/Games.html"><img src="minisrv.gif" width="90" height="69"></a>
+      </td>
+      <td width="456" height="80" valign="top" align="center"><img src="BlankBanner.jpg" width="456" height="50"><br>
+        <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6">
+      </td>
+    </tr>
+  </table>
+  <spacer Width=30 Height=6 type=vertical>
+  <table cellspacing=0 cellpadding=0>
+    <tr>
+      <td abswidth=14>
+      <td colspan=3>
+        <table cellspacing=0 cellpadding=0>
+          <tr>
+            <td valign=center absheight=60>
+              <font size="+2" color="E7CE4A">
+              <blackface>
+              <shadow>
+              Theme Settings
+        </table>
+      <td>
+    <TR>
+      <td>
+      <td WIDTH=250 HEIGHT=230 VALIGN=top ALIGN=left>
+        <table cellspacing=0 cellpadding=0>
+          <tr>
+            <td absheight=250 valign=top>
+              <font size=-1> Please select the theme you would like to use from the drop down on the right. Click done when finished.
+              <p><br>
+              <table cellspacing=0 cellpadding=4>
+                <tr>
+                  <td align=center>
+                    <FONT SIZE=-1>Light<br>
+                    <img src=light.jpg height=60 width=80>
+                  <td align=center>
+                    <FONT SIZE=-1>Dark<br>
+                    <img src=dark.jpg height=60 width=80>
+                  <td align=center>
+                    <FONT SIZE=-1>Blue<br>
+                    <img src=blue.jpg height=60 width=80>
+              </table>
+              <p><br>
+                <FONT SIZE=-1>Your current theme is &pname;.
+          <tr>
+        </table>
+      <TD WIDTH=60>
+      <TD WIDTH=230 VALIGN=top ALIGN=left>
+        <table cellspacing=0 cellpadding=0>
+          <tr>
+            <td absheight=40 valign=top colspan=3>
+              <form>
+                <select name="list" width="160" 
+                  onclick="if(options[selectedIndex].value) window.location.href=(options[selectedIndex].value);location.reload();"><!--Reload so new theme shows up right away.-->
+                  <option value="client:ConfirmBYOISPSetup?BYOISPProviderName=light">Light Theme</option>
+                  <option value="client:ConfirmBYOISPSetup?BYOISPProviderName=dark">Dark Theme</option>
+                  <option value="client:ConfirmBYOISPSetup?BYOISPProviderName=blue">SKCro Blue</option>
+                  <option selected value="">Select Theme</option>
+                </select>
+              </form>
+              <table>
+                <tr>
+                  <td valign=top align=left>
+              </table>
+        </table>
+        <spacer Height=190 type=vertical>
+        <FORM action="client:goback">
+        <FONT COLOR="#bbbbbb" SIZE=-1>
+          <SHADOW>
+            <INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="Done" USESTYLE WIDTH=160>
+          </SHADOW>
+        </FONT>
+      </td>
+    </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+</body>
+</html>

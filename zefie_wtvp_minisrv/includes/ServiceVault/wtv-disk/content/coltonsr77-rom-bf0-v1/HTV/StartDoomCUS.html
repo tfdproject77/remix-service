@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>Loading...</title>
+<display noscroll nooptions notvaudio>
+
+<SCRIPT language="JavaScript"> 
+
+ function getgoing()
+  {
+    window.location="client:boota?partition=DoomCUS";
+   }
+ 
+   if (window.location)
+    {
+     setTimeout('getgoing()',4500);
+     }
+ 
+</SCRIPT>
+
+<script>
+
+// All JavaScript within (C) 2006 Zefie Hosting
+// Do not duplicate without permission ~ rkuchiki@gmail.com
+
+function doWait() {
+	playeron = document.bgmusic.isPlaying();
+	if (playeron == true) {
+		len = document.bgmusic.getPlayLength();
+		cur = document.bgmusic.getPosition();
+		percent = (cur / len) * 100;
+		document.bgmprog.setMessage(" ");
+		document.bgmprog.setPercentDone(percent)
+		document.bgmprog.setAllowReverseProgress(true)
+		document.bgmstat.title.value = "Loading Doom Custom...";
+		//document.bgmstat.time.value = secsToMins(cur/1000);
+		waittimer = setTimeout("doWait()",300);
+	}
+	else {
+		document.bgmprog.setMessage("");
+		document.bgmprog.setPercentDone(0)
+		document.bgmstat.time.value = "";
+		//document.bgmstat.title.value = ""
+		waittimer = setTimeout("doWait()",300);
+	}
+}
+
+function secsToMins(theValue) {
+    var theMin = Math.floor(theValue / 60);
+    var theSec = Math.floor(theValue % 60);
+    if (theSec < 10)
+      theSec = "0" + theSec;
+    return(theSec);
+}
+
+</script>
+
+</head>
+
+<body background="doomBG.jpg" bgcolor="BLACK" text="WHITE" onload="doWait();bow()">
+<bgsound src="blank.mid" autostart="true" hidden="true" name="bgmusic">
+<br>
+
+<table align=left><!---------SPACER---------->
+<tr>
+<td absheight="740">
+
+<form name="bgmstat">
+ &nbsp;
+<font size="-1" color="D6DFD0">
+<input type="text" name="title" border="0" disabled usestyle bgcolor="#000000" text="#82A9D9" size="25">
+<progressindicator name="bgmprog" height=20 width=250>
+<!--input type="text" name="time" border="0" disabled usestyle bgcolor="#000000" text="#82A9D9" size="3" align="right"-->
+</font>
+</form>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

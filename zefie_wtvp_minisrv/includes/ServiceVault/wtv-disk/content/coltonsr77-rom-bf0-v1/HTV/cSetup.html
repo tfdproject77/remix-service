@@ -1,0 +1,235 @@
+<!--- *=* MattMan69 ConnectSetup v2.0-2.6--->
+<html>
+<head>
+<title>Connect Setup v2.6</title>
+<DISPLAY noscroll allowoffline nooptions notvaudio>
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+</head>
+<body bgcolor="#4c5a67" background="file://disk/WTVS-Offline/Pattern_Games.gif"  text="#cbcbcb" alink="#dddddd" vlink="#dddddd" link="#dddddd"
+hspace="0" vspace="0" fontsize="large">
+
+<table cellspacing="0" cellpadding="0" cellborder="0">
+  <tr>
+    <td class=t2 width="104" height="80" valign="top" align="left"><spacer type="block" WIDTH="11" HEIGHT="11"><br>
+<spacer type="block" WIDTH="10" HEIGHT="1">    <a href="file://disk/WTVS-Offline/Games.html"><img src="file://disk/WTVS-Offline/minisrv.gif" width="90"
+    height="69"></a> </td>
+    <td width="456" height="80" valign="top" align="center"><img src="file://disk/WTVS-Offline/cSetup.gif"
+    width="456" height="50"><br>
+    <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6"> </td>
+  </tr>
+</table>
+
+
+       <h2>
+         &nbsp;Connection Setup v2.6
+         <hr>
+      </h2>
+	  <script>
+	  
+	  function doConnect() {
+		document.connect.submit();
+		location.href = "file://ROM/HTMLs/Connecting.html";
+	  }
+	  function updateService() {
+		srv = document.connect.preset[document.connect.preset.selectedIndex].value;
+		switch (srv) {
+				case "hacktvlan1":
+					document.connect.machine.value="127.0.0.1"
+					document.connect.port.value="1615"
+                    document.message.msg.value='Connect to your server via localhost. Localhost refers to the computer that you are on that is running your server.'
+					break;
+				case "hacktvupd":
+					document.connect.machine.value="turdinc.kicks-ass.net"
+                    document.connect.port.value="1615"
+                    document.message.msg.value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!'
+					break;
+				case "hacktvwin":
+					document.connect.machine.value="turdinc.kicks-ass.net"
+                    document.connect.port.value="1415"
+                    document.message.msg.value='This is the public HackTV minisrv backup, only available when the main HackTV server is down.'
+					break;
+				case "zefie":
+					document.connect.machine.value="webtv.zefie.net"
+					document.connect.port.value="1615"
+                    document.message.msg.value='This is Zefie\'s public minisrv, for those who want the vanilla minisrv experience.'
+					break;
+				case "mattman":
+					document.connect.machine.value="turdinc.kicks-ass.net"
+					document.connect.port.value="1515"
+                    document.message.msg.value='This is MattMan\'s normally private WebTV server. It\'s the real deal, not minisrv! May be up from time to time.'
+					break;
+				case "jarhead":
+					document.connect.machine.value="community.webtv.zone"
+					document.connect.port.value="1615"
+                    document.message.msg.value='WebTV Redialed, for those who want a more original WebTV experience.'
+					//alert("Coming soon!")
+					//document.connect.preset.selectedIndex = document.connect.preset.selectedIndex - 1;
+					//setTimeout(updateService,10);
+					break;
+				case "other":
+					document.connect.machine.value=""
+					document.connect.port.value=""
+					document.message.msg.value="Your custom service."
+		}
+	  }
+	  </script>
+      <form name="connect" onsubmit="doConnect()" action="client:ConfirmConnectSetup">
+         <table width=100% cellspacing=1 cellpadding=0>
+		    <tr>
+				<td colspan=3>
+					&nbsp;<font color=#4489a8>Servers:</font>
+				</td>
+				<td><spacer W=24 type=block>	
+					<select width="440" name="preset" onchange="updateService()" selected>
+                    <option value="hacktvupd">MattMan's (HTV) MiniSrv - Public</option>
+                    <option value="hacktvwin">MattMan's (HTV) MiniSrv - Bakup</option>
+					<option value="mattman">MattMan's Revival Srv.</option>
+					<option value="zefie">Zefie's MiniSrv - Public</option>
+					<option value="jarhead">WebTV Redialed - Public</option>
+					<option value="hacktvlan1">Localhost - Your Server</option>
+					<option value="other">Other</option>
+
+					</select>
+            </table>
+          <table width=100% cellspacing=1 cellpadding=0>
+            <tr>
+               <td height=18>
+            <tr>
+               <!--td colspan=3>		 
+                  &nbsp;<font color=#4489a8>Service:</font>
+            <tr>			   
+               <td width=15></td>
+               <td height=2>
+            <tr>
+               <td height=2>	
+            <tr>
+               <td>
+               <td>
+                  <input name=serviceType type=radio bgcolor=#444444 value=custom checked>
+               <td>
+                  &nbsp;Custom:&nbsp;&nbsp;&nbsp;--->
+               <td>
+                  <input name=serviceType type=hidden bgcolor=#444444 value=custom checked>
+                  &nbsp;Address:&nbsp;&nbsp;&nbsp;
+                  <input size=21 ASCIIONLY name=machine bgcolor=#b5b5b5 text=#191919 cursor=#cc9933 value="turdinc.kicks-ass.net">
+                  &nbsp;&nbsp;&nbsp;Port:
+                  <input size=5 ASCIIONLY NUMBERS name=port bgcolor=#b5b5b5 text=#191919 cursor=#cc9933 value="1615">
+         </table>
+
+                <spacer type=block height="8">
+        <hr>
+		 <br>
+		 <table cellspacing=1 cellpadding=0>
+            <tr>
+               <td height=8>
+            <tr>
+               <td colspan=3>
+                  &nbsp;<font color=#4489a8>Description:</font><br><br>
+            <tr>
+               <td width=20>
+               <td width=390 align=left valign=top>
+                  <form name=message>
+
+                   <script>
+
+                    var htvtheme=document.theme.name.value;
+
+                    if (htvtheme == "light") {
+	                //light theme
+                    light();
+                    } else if (htvtheme == "dark") {
+                 	//dark theme
+                    dark();
+                    } else if (htvtheme == "blue") {
+                	//blue theme
+                    blue();
+                    } else if (htvtheme == "") {
+                    //no theme
+                    themeAlert()
+                    }
+
+                     function light() {
+                      document.write("<textarea rows=4 size=46 text=#dddddd id=msg name=msg border=0 bgcolor=#4c5a67 value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect></textarea>");
+                    }
+                     function dark() {
+                      document.write("<textarea rows=4 size=46 text=#dddddd id=msg name=msg border=0 bgcolor=#191919 value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect></textarea>");
+                    }
+                     function blue() {
+                      document.write("<textarea rows=4 size=46 text=#dddddd id=msg name=msg border=0 bgcolor=#003355 value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect></textarea>");
+                    }
+                     function themeAlert() {
+                      document.write("<textarea rows=4 size=46 text=#dddddd id=msg name=msg border=0 bgcolor=#4c5a67 value='This is the public HackTV minisrv, all are welcome to connect and enjoy the wonders of WebTV. Custom experience!' nohighlight noselect></textarea>");
+                    }
+
+                   </script>
+
+
+                  </form>
+               <td>
+			   <td width=100% align=right valign=top>
+
+
+          <table width=100% cellspacing=1 cellpadding=0>
+            <tr>
+               <td width=100% align=center valign=top>
+                         <font size=1>Modem Speed<br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&rate;</font>
+						  
+                           
+			</tr></td></table>
+            <p>
+                <spacer type=block height="30">
+					<font color="#E7CE4A" size=-2><shadow>&nbsp;
+                    <input type=hidden name=useEncryption value=true checked>
+					<input 
+						type=submit 
+						borderimage="file://ROM/tvimages/TVButtonBorder.bif" 
+						value="Connect" 
+						name="Connect" 
+						usestyle 
+						width=160> &nbsp;
+					</shadow></font>	
+
+
+         </table>
+         
+
+      </form>
+
+</body>
+</html>

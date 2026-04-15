@@ -1,0 +1,453 @@
+<html>
+  <head>
+    <title>TicTacToe JavaScript</title>
+    <DISPLAY notvaudio allowoffline options hideoptions noscroll>
+  </head>
+
+<form name="theme" id="theme">
+  <input type="hidden" value="&pname;" id="name">
+  <script>
+    var htvtheme=document.theme.name.value;
+    
+    if (htvtheme == "light") {
+    	//light theme
+        logolight()
+    } else if (htvtheme == "dark") {
+    	//dark theme
+          logodark()
+    } else if (htvtheme == "blue") {
+    	//blue theme
+          logoblue()
+    } else if (htvtheme == "") {
+    	//no theme
+          themeAlert()
+    }
+    
+    function logolight() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+    }
+    
+    function logodark() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/dark.css'>");
+    }
+    
+    function logoblue() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/blue.css'>");
+    }
+
+    function themeAlert() {
+    document.write("<link rel='stylesheet' type='text/css' href='file://disk/WTVS-Offline/MattMan/theme/light.css'>");
+	}
+  </script>
+ </form>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Original:  Maximilian Stocker (maxstocker@reallyusefulcomputing.com) -->
+
+//Begin
+var x = "x.jpg";
+// Location of where you uploaded your site's x.jpg image
+
+var o = "o.jpg";
+// Location of where you uploaded your site's o.jpg image
+
+var blank = "blank.jpg";
+// Location of where you uploaded your site's blank.jpg image
+
+var pause = 0;
+var all = 0;
+var a = 0;
+var b = 0;
+var c = 0;
+var d = 0;
+var e = 0;
+var f = 0;
+var g = 0;
+var h = 0;
+var i = 0;
+var temp="";
+var ok = 0;
+var cf = 0;
+var choice=9;
+var aRandomNumber = 0;
+var comp = 0;
+var t = 0;
+var wn = 0;
+var ls = 0;
+var ts = 0;
+function help() {
+alert("Welcome to Tic-Tac-Toe!  You play as the X's and the computer is the O's.  Select the square you want to put your X into by clicking them.  You cannot occupy a square that is already occupied. The first player to get three squares in a row wins.  Good Luck!!")
+}
+function logicOne() {
+if ((a==1)&&(b==1)&&(c==1)) all=1;
+if ((a==1)&&(d==1)&&(g==1)) all=1;
+if ((a==1)&&(e==1)&&(i==1)) all=1;
+if ((b==1)&&(e==1)&&(h==1)) all=1;
+if ((d==1)&&(e==1)&&(f==1)) all=1;
+if ((g==1)&&(h==1)&&(i==1)) all=1;
+if ((c==1)&&(f==1)&&(i==1)) all=1;
+if ((g==1)&&(e==1)&&(c==1)) all=1;
+if ((a==2)&&(b==2)&&(c==2)) all=2;
+if ((a==2)&&(d==2)&&(g==2)) all=2;
+if ((a==2)&&(e==2)&&(i==2)) all=2;
+if ((b==2)&&(e==2)&&(h==2)) all=2;
+if ((d==2)&&(e==2)&&(f==2)) all=2;
+if ((g==2)&&(h==2)&&(i==2)) all=2;
+if ((c==2)&&(f==2)&&(i==2)) all=2;
+if ((g==2)&&(e==2)&&(c==2)) all=2;
+if ((a != 0)&&(b != 0)&&(c != 0)&&(d != 0)&&(e != 0)&&(f != 0)&&(g != 0)&&(h != 0)&&(i != 0)&&(all == 0)) all = 3;
+}
+function logicTwo() {
+if ((a==2)&&(b==2)&&(c== 0)&&(temp=="")) temp="C";
+if ((a==2)&&(b== 0)&&(c==2)&&(temp=="")) temp="B";
+if ((a== 0)&&(b==2)&&(c==2)&&(temp=="")) temp="A";
+if ((a==2)&&(d==2)&&(g== 0)&&(temp=="")) temp="G";
+if ((a==2)&&(d== 0)&&(g==2)&&(temp=="")) temp="D";
+if ((a== 0)&&(d==2)&&(g==2)&&(temp=="")) temp="A";
+if ((a==2)&&(e==2)&&(i== 0)&&(temp=="")) temp="I";
+if ((a==2)&&(e== 0)&&(i==2)&&(temp=="")) temp="E";
+if ((a== 0)&&(e==2)&&(i==2)&&(temp=="")) temp="A";
+if ((b==2)&&(e==2)&&(h== 0)&&(temp=="")) temp="H";
+if ((b==2)&&(e== 0)&&(h==2)&&(temp=="")) temp="E";
+if ((b== 0)&&(e==2)&&(h==2)&&(temp=="")) temp="B";
+if ((d==2)&&(e==2)&&(f== 0)&&(temp=="")) temp="F";
+if ((d==2)&&(e== 0)&&(f==2)&&(temp=="")) temp="E";
+if ((d== 0)&&(e==2)&&(f==2)&&(temp=="")) temp="D";
+if ((g==2)&&(h==2)&&(i== 0)&&(temp=="")) temp="I";
+if ((g==2)&&(h== 0)&&(i==2)&&(temp=="")) temp="H";
+if ((g== 0)&&(h==2)&&(i==2)&&(temp=="")) temp="G";
+if ((c==2)&&(f==2)&&(i== 0)&&(temp=="")) temp="I";
+if ((c==2)&&(f== 0)&&(i==2)&&(temp=="")) temp="F";
+if ((c== 0)&&(f==2)&&(i==2)&&(temp=="")) temp="C";
+if ((g==2)&&(e==2)&&(c== 0)&&(temp=="")) temp="C";
+if ((g==2)&&(e== 0)&&(c==2)&&(temp=="")) temp="E";
+if ((g== 0)&&(e==2)&&(c==2)&&(temp=="")) temp="G";
+}
+function logicThree() {
+if ((a==1)&&(b==1)&&(c==0)&&(temp=="")) temp="C";
+if ((a==1)&&(b==0)&&(c==1)&&(temp=="")) temp="B";
+if ((a==0)&&(b==1)&&(c==1)&&(temp=="")) temp="A";
+if ((a==1)&&(d==1)&&(g==0)&&(temp=="")) temp="G";
+if ((a==1)&&(d==0)&&(g==1)&&(temp=="")) temp="D";
+if ((a==0)&&(d==1)&&(g==1)&&(temp=="")) temp="A";
+if ((a==1)&&(e==1)&&(i==0)&&(temp=="")) temp="I";
+if ((a==1)&&(e==0)&&(i==1)&&(temp=="")) temp="E";
+if ((a==0)&&(e==1)&&(i==1)&&(temp=="")) temp="A";
+if ((b==1)&&(e==1)&&(h==0)&&(temp=="")) temp="H";
+if ((b==1)&&(e==0)&&(h==1)&&(temp=="")) temp="E";
+if ((b==0)&&(e==1)&&(h==1)&&(temp=="")) temp="B";
+if ((d==1)&&(e==1)&&(f==0)&&(temp=="")) temp="F";
+if ((d==1)&&(e==0)&&(f==1)&&(temp=="")) temp="E";
+if ((d==0)&&(e==1)&&(f==1)&&(temp=="")) temp="D";
+if ((g==1)&&(h==1)&&(i==0)&&(temp=="")) temp="I";
+if ((g==1)&&(h==0)&&(i==1)&&(temp=="")) temp="H";
+if ((g==0)&&(h==1)&&(i==1)&&(temp=="")) temp="G";
+if ((c==1)&&(f==1)&&(i==0)&&(temp=="")) temp="I";
+if ((c==1)&&(f==0)&&(i==1)&&(temp=="")) temp="F";
+if ((c==0)&&(f==1)&&(i==1)&&(temp=="")) temp="C";
+if ((g==1)&&(e==1)&&(c==0)&&(temp=="")) temp="C";
+if ((g==1)&&(e==0)&&(c==1)&&(temp=="")) temp="E";
+if ((g==0)&&(e==1)&&(c==1)&&(temp=="")) temp="G";
+}
+function clearOut() {
+document.game.you.value="0";
+document.game.computer.value="0";
+document.game.ties.value="0";
+}
+function checkSpace() {
+if ((temp=="A")&&(a==0)) {
+ok=1;
+if (cf==0) a=1;
+if (cf==1) a=2;
+}
+if ((temp=="B")&&(b==0)) {
+ok=1;
+if (cf==0) b=1;
+if (cf==1) b=2;
+}
+if ((temp=="C")&&(c==0)) {
+ok=1;
+if (cf==0) c=1;
+if (cf==1) c=2;
+}
+if ((temp=="D")&&(d==0)) {
+ok=1;
+if (cf==0) d=1;
+if (cf==1) d=2;
+}
+if ((temp=="E")&&(e==0)) {
+ok=1;
+if (cf==0) e=1;
+if (cf==1) e=2;
+}
+if ((temp=="F")&&(f==0)) {
+ok=1
+if (cf==0) f=1;
+if (cf==1) f=2;
+}
+if ((temp=="G")&&(g==0)) {
+ok=1
+if (cf==0) g=1;
+if (cf==1) g=2;
+}
+if ((temp=="H")&&(h==0)) {
+ok=1;
+if (cf==0) h=1;
+if (cf==1) h=2;
+}
+if ((temp=="I")&&(i==0)) {
+ok=1;
+if (cf==0) i=1;
+if (cf==1) i=2;
+}
+}
+function yourChoice(chName) {
+pause = 0;
+if (all!=0) ended();
+if (all==0) {
+cf = 0;
+ok = 0;
+temp=chName;
+checkSpace();
+if (ok==1) {
+document.images[chName].src = x;
+}
+if (ok==0)taken();
+process();
+if ((all==0)&&(pause==0)) myChoice();
+   }
+}
+function taken() {
+//alert("That square is already occupied.  Please select another square.")
+window.location="client:showalert?message=That%20square%20is%20already%20occupied.%20%20Please%20select%20another%20square.";
+pause=1;
+}
+function myChoice() {
+temp="";
+ok = 0;
+cf=1;
+logicTwo();
+logicThree();
+checkSpace();
+while(ok==0) {
+aRandomNumber=Math.random()
+comp=Math.round((choice-1)*aRandomNumber)+1;
+if (comp==1) temp="A";
+if (comp==2) temp="B";
+if (comp==3) temp="C";
+if (comp==4) temp="D";
+if (comp==5) temp="E";
+if (comp==6) temp="F";
+if (comp==7) temp="G";
+if (comp==8) temp="H";
+if (comp==9) temp="I";
+checkSpace();
+}
+document.images[temp].src= o;
+process();
+}
+function ended() {
+PlaySound(document.tie); document.message.alert.value="The game has ended."
+//alert("The game has ended.")
+//window.location="client:showalert?message=The%20game%20has%20ended.";
+}
+function PlaySound(sound) {
+if (sound == null) {  
+return;
+} else {
+sound.play(false);
+}
+}
+function process() {
+logicOne();
+if (all==1){ PlaySound(document.win); document.message.alert.value="You won, congratulations!"; wn++; }
+if (all==2){ PlaySound(document.lose); document.message.alert.value="Gotcha!  I win!"; ls++; }
+if (all==3){ PlaySound(document.tie); document.message.alert.value="We Tied"; ts++; }
+//if (all==1){ window.location="client:showalert?message=You%20won%2C%20congratulations!"; wn++; }
+//if (all==2){ PlaySound(document.lose); window.location="client:showalert?message=Loser!"; ls++; }
+//if (all==3){ window.location="client:showalert?message=We%20Tied."; ts++; }
+if (all!=0) {
+document.game.you.value = wn;
+document.game.computer.value = ls;
+document.game.ties.value = ts;
+   }
+}
+function playAgain() {
+if (all==0) {
+if(confirm("This will restart the game and clear all the current scores. OK?")) reset();
+location.reload();
+}
+if (all>0) reset();
+}
+function reset() {
+all = 0;
+a = 0;
+b = 0;
+c = 0;
+d = 0;
+e = 0;
+f = 0;
+g = 0;
+h = 0;
+i = 0;
+temp="";
+ok = 0;
+cf = 0;
+choice=9;
+aRandomNumber = 0;
+comp = 0;
+document.images.A.src= blank;
+document.images.B.src= blank;
+document.images.C.src= blank;
+document.images.D.src= blank;
+document.images.E.src= blank;
+document.images.F.src= blank;
+document.images.G.src= blank;
+document.images.H.src= blank;
+document.images.I.src= blank;
+document.message.alert.value="";
+if (t==0) { t=2; myChoice(); }
+t--;
+}
+
+//  End -->
+</script>
+  <body bgcolor="#4c5a67" background="file://disk/browser/games/Pattern_Games.gif" text="#cbcbcb" alink="#dddddd" vlink="#dddddd" link="#dddddd" hspace="0" vspace="0">
+  <embed src="win.mp3" hidden="TRUE" controls="console" volume="100" loop="FALSE" autostart="FALSE" name="win" mastersound>
+  <embed src="lose.mp3" hidden="TRUE" controls="console" volume="100" loop="FALSE" autostart="FALSE" name="lose" mastersound>
+  <embed src="tie.mp3" hidden="TRUE" controls="console" volume="100" loop="FALSE" autostart="FALSE" name="tie" mastersound>
+    <table cellspacing="0" cellpadding="0" cellborder="0">
+      <tr>
+        <td class=t1 width="104" height="80" valign="top" align="left">
+          <spacer type="block" WIDTH="11" HEIGHT="11"><br>
+            <spacer type="block" WIDTH="10" HEIGHT="1"> <a href="file://disk/browser/games/games.html"><img src="hacktv4.gif" width="90" height="69"></a>
+        </td>
+        <td width="456" height="80" valign="top" align="center"><img src="file://disk/browser/games/GamesBanner.jpg" width="456" height="50"><br>
+          <img src="file://rom/tvimages/Shadow_Horizontal.gif" width="456" height="6">
+        </td>
+      </tr>
+    </table>
+    <table cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="3"></td>
+      </tr>
+      <tr>
+        <td abswidth="30">&nbsp;</td>
+        <td>
+          <table>
+            <br>
+            <td abswidth="130">
+              <font size="1" color="#ffcf69">
+                <shadow>Tic-Tac-Toe</shadow>
+              </font><br><br>
+            </td>
+            <tr>
+              <td width="168" valign="top" align="left">
+                <font size="1" color="#989898">
+                  <li><a href="#" onClick="javascript:playAgain();return false;">New Game</a><br><br>
+                  <li><a href="Client:ShowAlert?message=Welcome%20to%20Tic-Tac-Toe!%20%20You%20play%20as%20the%20X%27s%20and%20the%20computer%20is%20the%20O%27s.%20%20Select%20the%20square%20you%20want%20to%20put%20your%20X%20into%20by%20clicking%20them.%20%20You%20cannot%20occupy%20a%20square%20that%20is%20already%20occupied.%20The%20first%20player%20to%20get%20three%20squares%20in%20a%20row%20wins.%20%20Good%20Luck!!&action=submitform">Game Help</a><br><br>
+            <tr>
+              <td>
+                <font size="1" color="#ffcf69">
+                  <shadow>Score</shadow>
+                </font><br><br>
+              </td>
+              <form name=game>
+            <tr>
+              <td>
+                <font size="1" color="#ffcf69">
+                  <shadow>You: </shadow><input type=text value=0 size=3 text=#191919 name=you border="0" bgcolor=#dddddd nohighlight noselect>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <font size="1" color="#ffcf69">
+                  <shadow>Computer: </shadow><input type=text value=0 size=3 text=#191919 name=computer border="0" bgcolor=#dddddd nohighlight noselect>
+              </td>
+            <tr>
+              <td>
+                <font size="1" color="#ffcf69">
+                  <shadow>Ties: </shadow><input type=text value=0 size=3 text=#191919 name=ties border="0" bgcolor=#dddddd nohighlight noselect>
+              </td>
+            </tr>
+            </form>
+            <spacer Height=36 type=vertical>
+              <tr>
+                <td width="130" valign="top" align="left">
+                  <spacer Height=48 type=vertical>
+                    <FORM action="client:goback">
+                      <FONT COLOR="#E7CE4A" SIZE=-1>
+                        <SHADOW>
+                          <INPUT TYPE=SUBMIT BORDERIMAGE="file://ROM/tvimages/TVButtonBorder.bif" VALUE="Done" USESTYLE WIDTH=128>
+                        </SHADOW>
+                      </FONT>
+                    </FORM>
+                </td>
+              </tr>
+          </table>
+        </td>
+        <td valign="top">
+          <table>
+            <td valign="top">
+              <table border=0>
+                <td>
+                  <table border=1>
+                <font size="1" color="#ffcf69">
+				<form name=message>
+                   <script>
+
+                    var htvtheme=document.theme.name.value;
+
+                    if (htvtheme == "light") {
+	                //light theme
+                    light();
+                    } else if (htvtheme == "dark") {
+                 	//dark theme
+                    dark();
+                    } else if (htvtheme == "blue") {
+                	//blue theme
+                    blue();
+                    } else if (htvtheme == "") {
+                    //no theme
+                    themeAlert()
+                    }
+
+                     function light() {
+                      document.write("<input type=text size=26 text=#dddddd id=alert name=alert border=0 bgcolor=#4c5a67 nohighlight noselect>");
+                    }
+                     function dark() {
+                      document.write("<input type=text size=26 text=#dddddd id=alert name=alert border=0 bgcolor=#191919 nohighlight noselect>");
+                    }
+                     function blue() {
+                      document.write("<input type=text size=26 text=#dddddd id=alert name=alert border=0 bgcolor=#003355 nohighlight noselect>");
+                    }
+                     function themeAlert() {
+                      document.write("<input type=text size=26 text=#dddddd id=alert name=alert border=0 bgcolor=#4c5a67 nohighlight noselect>");
+                    }
+
+                   </script>
+				   </form>
+                    <tr>
+                      <td><a href="javascript:yourChoice('A')"><img src="blank.jpg" border=0 height=92 width=92 name=A alt="Top-Left"></a></td>
+                      <td><a href="javascript:yourChoice('B')"><img src="blank.jpg" border=0 height=92 width=92 name=B alt="Top-Center"></a></td>
+                      <td><a href="javascript:yourChoice('C')"><img src="blank.jpg" border=0 height=92 width=92 name=C alt="Top-Right"></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="javascript:yourChoice('D')"><img src="blank.jpg" border=0 height=92 width=92 name=D alt="Middle-Left"></a></td>
+                      <td><a href="javascript:yourChoice('E')"><img src="blank.jpg" border=0 height=92 width=92 name=E alt="Middle-Center"></a></td>
+                      <td><a href="javascript:yourChoice('F')"><img src="blank.jpg" border=0 height=92 width=92 name=F alt="Middle-Right"></a></td>
+                    </tr>
+                    <tr>
+                      <td><a href="javascript:yourChoice('G')"><img src="blank.jpg" border=0 height=92 width=92 name=G alt="Bottom-Left"></a></td>
+                      <td><a href="javascript:yourChoice('H')"><img src="blank.jpg" border=0 height=92 width=92 name=H alt="Bottom-Center"></a></td>
+                      <td><a href="javascript:yourChoice('I')"><img src="blank.jpg" border=0 height=92 width=92 name=I alt="Bottom-Right"></a></td>
+                    </tr>
+                    <tr>
+                      <td>
+                  </table>
+                </td>
+              </table>
+            </td>
+      </tr>
+    </table>
+  </body>
+</html>
