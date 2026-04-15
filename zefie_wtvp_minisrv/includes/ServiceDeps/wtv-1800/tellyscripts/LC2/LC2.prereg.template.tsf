@@ -222,7 +222,7 @@ main()
     char username[32];
     char password[32];
     
-    printf("TellyScript: 800 Registration Script 4.1-zefie");
+    printf("TellyScript: 800 Registration Script 4.1");
     setprogressmode(1);
     setprogresstext("Preparing to call");
     setprogresspercentage(16);

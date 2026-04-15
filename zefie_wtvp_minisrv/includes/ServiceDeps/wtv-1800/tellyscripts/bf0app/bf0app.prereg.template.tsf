@@ -271,7 +271,7 @@ main()
     char username[32];
     char password[32];
     
-    printf("TellyScript: 800 Registration Script 3.1-zefie");
+    printf("TellyScript: 800 Registration Script 3.1");
     
     
     
