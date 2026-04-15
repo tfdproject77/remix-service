@@ -2,6 +2,7 @@
 	"rom-collab-bf": {
 		"base": "file://Disk/rom-collab-bf/",
 		"location": "content/rom-collab-bf/",
+		"partition_size": 55574528,
 		"files": [
 			{
 		       "display": "Getting HackTV Files...",

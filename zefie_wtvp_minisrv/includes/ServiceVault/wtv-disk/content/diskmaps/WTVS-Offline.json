@@ -1,7 +1,8 @@
 {
 	"WTVS-Offline": {
 		"base": "file://Disk/WTVS-Offline/",
-		"location": "content/WTVS-Offline/",
+		"location": "content/WTVS-Offline/",		
+		"partition_size": 55574528,
 		"files": [
 			{
 				"file": "file://Disk/WTVS-Offline/AboutDoom.html"
@@ -10,31 +11,31 @@
 				"file": "file://Disk/WTVS-Offline/AboutJack.html"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//blank.gif"
+				"file": "file://Disk/WTVS-Offline/blank.gif"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//blank.mid"
+				"file": "file://Disk/WTVS-Offline/blank.mid"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//BlankBanner.gif"
+				"file": "file://Disk/WTVS-Offline/BlankBanner.gif"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//BlankBanner.jpg"
+				"file": "file://Disk/WTVS-Offline/BlankBanner.jpg"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//bootfail.html"
+				"file": "file://Disk/WTVS-Offline/bootfail.html"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//Checkers/beep.mp3"
+				"file": "file://Disk/WTVS-Offline/Checkers/beep.mp3"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//Checkers/beep2.mp3"
+				"file": "file://Disk/WTVS-Offline/Checkers/beep2.mp3"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//Checkers/gr/black.gif"
+				"file": "file://Disk/WTVS-Offline/Checkers/gr/black.gif"
 			},
 			{
-				"file": "file://Disk/WTVS-Offline//Checkers/gr/gray.gif"
+				"file": "file://Disk/WTVS-Offline/Checkers/gr/gray.gif"
 			},
 			{
 				"file": "file://Disk/WTVS-Offline//Checkers/gr/me1.gif"
