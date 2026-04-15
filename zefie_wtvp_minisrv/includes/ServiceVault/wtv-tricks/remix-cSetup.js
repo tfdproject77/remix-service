@@ -79,13 +79,13 @@ Content-Type: text/html`
 		switch (srv) {
 				case "WTVR-Public":
                     document.runBy.runByName.value=" coltonsr77"
-					document.connect.machine.value="127.0.0.1"
+					document.connect.machine.value="wtv.coltonsr77.net"
                     document.connect.port.value="1615"
                     document.message.msg.value="This is the Public WebTV Remix server, all are welcome to connect and enjoy the wonders of WebTV. Offers a custom experience."
 					break;
 				case "WTVR-Beta":
                     document.runBy.runByName.value=" coltonsr77"
-					document.connect.machine.value="71.244.121.234"
+					document.connect.machine.value="wtvbeta.coltonsr77.net"
                     document.connect.port.value="1615"
                     document.message.msg.value="This is the beta WebTV Remix server."
 

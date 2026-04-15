@@ -263,8 +263,8 @@ data += `
 <td valign="top" colspan=4 absheight=80 >
 &#149;&nbsp; Updated remix-cSetup to v1.1.<br>
 &#149;&nbsp; Updated Credits.<br>
-&#149;&nbsp; Updated Source to show the WTVR website.<br>
-&#149;&nbsp; Added a new WTV trick.<br>
+&#149;&nbsp; Fixed some bugs<br>
+&#149;&nbsp; Added some tools for WebTV.<br>
 </table>
 </table>
 

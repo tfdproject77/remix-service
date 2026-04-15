@@ -20,7 +20,7 @@ function uS(){
 		break
 		case "mm69":uI("71.244.121.234","1515","MattMan's megasrv. It's the real deal, not minisrv! May be up from time to time.",true, "MattMan69")
 		break
-		case "red":uI("31.97.129.116","1615","WThe WebTV Redialed minisrv, for those who want an original WebTV experience. Simulates the WebTV Network as it was in 1999.",true, "HIDEN")
+		case "red":uI("31.97.129.116","1615","The WebTV Redialed minisrv, for those who want an original WebTV experience. Simulates the WebTV Network as it was in 1999.",true, "HIDEN")
 		break
 		case "local":uI("127.0.0.1","1615","Connects to a server running on your local machine. Doesn't do anything if a server isn't running.",true, "You")
 		break
