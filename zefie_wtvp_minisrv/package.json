@@ -1,5 +1,5 @@
 {
-  "name": "coltonsr77_wtvp_minisrv",
+  "name": "remix-service",
   "version": "0.9.70",
   "description": "WebTV Service (WTVP) Emulation Server",
   "main": "app.js",
@@ -14,15 +14,11 @@
   },
   "author": {
     "name": "coltonsr77",
-    "email": "coltonsr77@gmail.com",
+    "email": "coltonsr77@coltonsr77.net",
     "url": "https://coltonsr77.net"
   },
   "bugs": {
     "url": "https://github.com/DevTools77/remix-service/issues"
-  },
-  "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/zefie"
   },
   "repository": {
     "type": "git",
