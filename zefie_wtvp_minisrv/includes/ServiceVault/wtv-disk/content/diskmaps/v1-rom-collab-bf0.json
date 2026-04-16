@@ -1,7 +1,7 @@
 {
 	"v1-rom-collab-bf0": {
 		"base": "file://Disk/v1-rom-collab-bf0/",
-		"location": "content/v1-rom-collab-bf0/",
+		"location": "content/rom-collab-bf/",
 		"partition_size": 55574528,
 		"files": [
 			{
