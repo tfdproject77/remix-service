@@ -261,7 +261,7 @@ data += `
 <td absheight="6">
 <tr>
 <td valign="top" colspan=4 absheight=80 >
-&#149;&nbsp; Updated remix-cSetup to v1.1.<br>
+&#149;&nbsp; Updated remix-cSetup to v1.2.<br>
 &#149;&nbsp; Updated Big Willie.<br>
 &#149;&nbsp; Fixed some bugs<br>
 &#149;&nbsp; Added some tools for WebTV.<br>
