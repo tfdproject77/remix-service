@@ -9,8 +9,8 @@ a {
 }
 
 td.t1 { 
- background-image:url("file://disk/WTVS-Offline/GamesShadowLogo3.jpg"); 
+ background-image:url("../../GamesShadowLogo3.jpg"); 
  }
 td.t2 { 
- background-image:url("file://disk/WTVS-Offline/cSetupShadowLogo.jpg"); 
+ background-image:url("../../cSetupShadowLogo.jpg"); 
  }
