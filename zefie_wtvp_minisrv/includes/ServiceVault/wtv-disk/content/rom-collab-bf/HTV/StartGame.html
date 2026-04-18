@@ -86,10 +86,10 @@ function playMame() {
 
 function playSolitaire() {
   if ( navigator.isDebugBuild == true ) {
-    document.location = "client:boota?args=-solitaire&partition=DoomROM&size=5242880&source=file://disk/Doom/DoomWebTVPlus.o&onfail=file://Disk/WTVS-Offline/bootfail.html";
+    document.location = "client:boota?args=-solitaire&partition=DoomROM&size=5242880&source=file://disk/Doom/DoomWebTVPlus.o&onfail=bootfail.html";
   }
   else {
-    document.location = "client:boota?args=-solitaire&partition=DoomFROM&size=5242880&source=file://disk/Doom/DoomWebTVFree.o&onfail=file://Disk/WTVS-Offline/bootfail.html";
+    document.location = "client:boota?args=-solitaire&partition=DoomFROM&size=5242880&source=file://disk/Doom/DoomWebTVFree.o&onfail=bootfail.html";
   }
 }
 </script>
