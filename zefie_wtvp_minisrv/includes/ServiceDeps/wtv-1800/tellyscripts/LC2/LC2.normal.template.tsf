@@ -1,6 +1,6 @@
 InitGeneratedValues()
 {
-		printf("TS: %ServiceName% Artemis TellyScript");
+		printf("TS: WebTV Remix Artemis TellyScript");
 		setani("");
 		setlocalpopcount(1);
 		gNVRAMMayBeInvalid = 0;

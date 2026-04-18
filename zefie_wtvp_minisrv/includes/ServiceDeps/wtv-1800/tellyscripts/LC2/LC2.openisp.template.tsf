@@ -99,7 +99,7 @@ OpenISPDial(char* staticConfig, char* dynamicConfig)
 
 InitGeneratedValues()
 {
-		printf("TS: %ServiceName% OpenISP TellyScript");
+		printf("TS: WebTV Remix OpenISP TellyScript");
 		setani("");
 		setlocalpopcount(1);
 		gNVRAMMayBeInvalid = 0;

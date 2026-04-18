@@ -448,7 +448,7 @@ main()
         return 11;
     }
     
-    setprogresstext("Connected to %ServiceName%");
+    setprogresstext("Connected to WebTV");
     setprogresspercentage(100);
     setprogressdirty(1);
     
