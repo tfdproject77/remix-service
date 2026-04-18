@@ -38,9 +38,11 @@ const ownMinisrv = new clientShowAlert({
 
 const supportZefieAlert = new clientShowAlert({
 	'image': minisrv_config.config.service_logo,
-	'message': "If you would like to visit the WebTV Remix website, please visit the following link on your PC:<br><br><font size=-1><strong>http://webtv.coltonsr77.net/</strong></font>",
-	'buttonlabel1': "Okay",
-	'buttonaction1': "client:donothing",
+	'message': "If you downloaded the custom rom from Big Willies, You can click the Go to MS Home button to access the MiniSrv Dashboard that was made by coltonsr77, and other users.",
+	'buttonlabel1': "Go to MS Home",
+	'buttonaction1': "file://Disk/v1-rom-collab-bf0/HTV/Games.html",
+	'buttonlabel2': "Close",
+	'buttonaction2': "client:donothing",
 	'noback': true,
 }).getURL();
 
@@ -333,7 +335,7 @@ data += `
 <td absheight="4">
 <tr>
 <td abswidth="6">
-<td href="${supportZefieAlert}" height="21" valign="middle" bgcolor="#BBAEC8"><font color="#454C73">&#128;&nbsp;</font><font color="#000000">Source</font>
+<td href="${supportZefieAlert}" height="21" valign="middle" bgcolor="#BBAEC8"><font color="#454C73">&#128;&nbsp;</font><font color="#000000">MS Home</font>
 <td abswidth="15">
 <tr>
 <td absheight="3">
