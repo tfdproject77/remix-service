@@ -1,6 +1,6 @@
 InitGeneratedValues()
 {
-		printf("TS: %ServiceName% minisrv Generated Artemis TellyScript");
+		printf("TS: %ServiceName% Artemis TellyScript");
 		setani("");
 		setlocalpopcount(1);
 		gNVRAMMayBeInvalid = 0;
